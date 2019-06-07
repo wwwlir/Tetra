@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Здесь набор основных команд для работы с git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Что такое Git, как установить Git и основы работы с Git смотрите здесь: <a href="https://www.fandroid.info/git-osnovy-raboty-s-sistemoj-kontrolya-versij-instrumenty-android-razrabotchika/"><span style=" text-decoration: underline; color:#0000ff;">Git — основы работы с системой контроля версий | Инструменты android разработчика</span></a></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="post-body-7183751848040210593"></a><span style=" font-weight:600;">С</span><span style=" font-weight:600;">оздание локального репозитория</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Создание репозитория в папке где выполняется команда<br /><span style=" font-weight:600;">$ git init</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Создание репозитория в указанном каталоге<br /><span style=" font-weight:600;">$ git init &lt;directory&gt;</span><br /><span style=" font-weight:600;"><br />Создание репозитория Git для совместной работы</span><br /><span style=" font-weight:600;"><br />$ git init —bare —share sharedproject.git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Данная команда создает каталог с именем sharedproject.git c правами на запись в него. Подробнее <a href="http://pr0git.blogspot.ru/2015/02/git-git-windows-1.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Клонирование удаленного репозитория в локальный</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Клонирование удаленного репозитория в локальный каталог с именем по умолчанию<br /><span style=" font-weight:600;">$ git clone https://github.com/n0tb0dy/RemoreBranches.git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Клонирование удаленного репозитория в локальный каталог с указанным именем<br /><span style=" font-weight:600;">$ git clone https://github.com/n0tb0dy/RemoreBranches.git LocalBranches</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Клонирование локального репозитория на удаленный</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если у вас уже есть локальный репозиторий Git и вы хотите его выложить в общий доступ, то сперва вам надо создать удаленный репозиторий (например на GitHub), а затем дать команды представленные ниже, изменив соотвественно часть с названием вашего репозитория.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1. Связываем локальный репозиторий с удаленным<br /><span style=" font-weight:600;">$ git remote add origin https://github.com/n0tb0dy/UpRemote.git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2. Верифицируем что удаленный репозиторий связан с нашим<br /><span style=" font-weight:600;">$ git remote -v</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3. Публикуем ветку master на удаленном репозитории<br /><span style=" font-weight:600;">$ git push -u origin master</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Более подробно можно почитать <a href="http://pr0git.blogspot.ru/2015/02/git-1_20.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Задаем имя пользователя и электронную почту</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Глобально для всех проектов текущего пользователья<br /><span style=" font-weight:600;">$ git config —global user.name «John Doe»</span><br /><span style=" font-weight:600;">$ git config —global user.email johndoe@example.com</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Для конкретного проекта (эти настройки переопределят глобальные)<br /><span style=" font-weight:600;">$ git config —local user.name «John Doe»</span><br /><span style=" font-weight:600;">$ git config —local user.email johndoe@example.com</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Просмотр настроек Git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Всех</span> (глобальных, системных и локальных). Некоторые параметры могут появится в списке несколько раз, так как читаются из трех файлов настроек. Подробнее <a href="http://pr0git.blogspot.ru/2015/02/git_64.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.<br /><span style=" font-weight:600;">$ git config —list</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Локальных</span> для определенного проекта<br /><span style=" font-weight:600;">$ git config —local —list</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Системных</span><br /><span style=" font-weight:600;">$ git config —system —list</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Получение справки (помощи) по команде Git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">$ git help &lt;verb&gt;</span><br /><span style=" font-weight:600;">$ git &lt;verb&gt; —help</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Например выведем справку по команде config (откроется браузер со справкой)<br /><span style=" font-weight:600;">$ git help config</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Настройка русских шрифтов (cp1251) в Git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Настраиваем правильное отображение файлов с русскими названиями в командах Git<br /><span style=" font-weight:600;">$ git config —local core.quotepath false</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Настраиваем <span style=" text-decoration: underline;">кодировку</span> <span style=" font-weight:600;">Windows cp1251</span> <span style=" text-decoration: underline;">для коммитов</span> в Git<br /><span style=" font-weight:600;">$ git config —local core.pager «iconv.exe -f cp1251 -t utf-8 | less»</span><br /><span style=" font-weight:600;">$ git config —local i18n.commitEncoding utf8</span><br /><span style=" font-weight:600;">$ git config —local i18n.logoutputencoding cp1251</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Эти команды замечательно работают в <span style=" font-weight:600;">msysgit 1.9.5</span>. Как будет в других версия не знаю. Но надеюсь, что в более новых тоже будет работать. Более подробно про настройку русского языка в Git можно почитать <a href="http://pr0git.blogspot.ru/2015/02/git_4.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>. Так же они правильно работают  при установке Git из пакетов Cygwin, подробнее можно почитать <a href="http://pr0git.blogspot.ru/2015/03/git-windows-cygwin.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Так же можно задать кодовую страницу для файлов проекта командой<br /><span style=" font-weight:600;">$ git config —local i18n.filesEncoding windows-1251</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ну или просто строкой в разделе [i18n]<br />filesEncoding = windows-1251</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">А вообще лучше вести проекты в кодировке UTF-8, если это возможно конечно.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Просмотр информации о состоянии файлов в Git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Основной инструмент, используемый для определения, какие файлы в каком состоянии находятся — это команда:<br /><span style=" font-weight:600;">$ git status</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">И ее более краткий вывод:<br /><span style=" font-weight:600;">$ git status -s</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Просмотр разницы (что конкретно было изменено в файлах) между рабочим каталогом и индексом (staged area)<br /><span style=" font-weight:600;">$ git diff</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Просмотр разницы между последним коммитом и индексом<br /><span style=" font-weight:600;">$ git diff —staged</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Более подробно смотрим <a href="http://pr0git.blogspot.ru/2015/02/git_13.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Фиксация изменений (коммит)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если дать команду <span style=" font-weight:600;">git commit</span> без дополнительных параметров, то сперва будет вызван редактор для ввода комментария к коммиту и после сохранения комментария будет произведен коммит (фиксация изменений)<br /><span style=" font-weight:600;">$ git commit</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Чтобы включить в комментарий к коммиту информацию о том какие именно были сделаны изменения в каких файлах надо дать команду<br /><span style=" font-weight:600;">$ git commit -v</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">По существу по данной команде в комментарий будет также помещена дельта diff изменений, таким образом вы сможете точно увидеть всё, что сделано.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Чтобы редактор не вызывался, можно написать комментарий прямо в командной строке в ключе <span style=" font-weight:600;">-m</span><br /><span style=" font-weight:600;">$ git commit -m «Commit Comment»</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Автоматически добавить все измененные файлы в коммит<br /><span style=" font-weight:600;">$ git commit -a</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Удаление файлов из Git</span><br />По существу это удаление файла из отслеживаемых. Если файл уже был до этого закоммичен в Git, то из старых коммитов его по прежнему можно будет достать.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Удаление файла из отслеживаемых Git, а так же его физическое удаление из рабочего каталога<br /><span style=" font-weight:600;">$ git rm &lt;file_name&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Удаление проиндексированного измененного файла<br /><span style=" font-weight:600;">$ git rm -f &lt;file_name&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Удаление файла из индекса, но сохранение его в рабочем каталоге<br /><span style=" font-weight:600;">$ git rm —cached &lt;file_name&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Более подробно смотрим <a href="http://pr0git.blogspot.ru/2015/02/git_13.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Переименование файла</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">$ git mv &lt;old_file_name&gt; &lt;new_file_name&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Просмотр истории коммитов</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Самый простой вариант это <span style=" font-weight:600;">git log</span> с разными ключами (смотрим help). Тут приведу просто примеры. А подробнее<a href="http://pr0git.blogspot.ru/2015/02/git_11.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a> или в мануале.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вывод простой истории коммитов<br /><span style=" font-weight:600;">$ git log</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вывод последних n записей, в примере вывод двух последних записей<br /><span style=" font-weight:600;">$ git log -2</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вывод дельты (diff) разницы между последними двумя изменениями (на уровне строк)<br /><span style=" font-weight:600;">$ git log -p -2</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вывод изменений между двумя последними коммитами на уровне слов<br /><span style=" font-weight:600;">$ git log -p -2 —word-diff</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вывод краткой статистики по 2 последним коммитам<br /><span style=" font-weight:600;">$ git log -2 —stat</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">И очень полезный ключ —pretty (позволяет изменить формат вывода лога)<br /><span style=" font-weight:600;">$ git log —pretty=oneline</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">$ git log —pretty=format:»%h — %an, %ar : %s»</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Параметры ключа <span style=" font-weight:600;">format</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Параметр</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Описание выводимых данных</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%H</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Хеш коммита</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%h</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Сокращённый хеш коммита</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%T</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Хеш дерева</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%t</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Сокращённый хеш дерева</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%P</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Хеши родительских коммитов</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%p</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Сокращённые хеши родительских коммитов</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%an</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Имя автора</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%ae</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Электронная почта автора</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%ad</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Дата автора (формат соответствует параметру <span style=" font-family:'monospace';">--date=</span>)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%ar</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Дата автора, относительная (пр. «2 мес. назад»)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%cn</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Имя коммитера</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%ce</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Электронная почта коммитера</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%cd</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Дата коммитера</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%cr</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Дата коммитера, относительная</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">%s</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Комментарий</p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Можно так же посмотреть ASCII граф веток коммитов по ключу —graph<br /><span style=" font-weight:600;">$ git log —pretty=format:»%h  %s» —graph</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Есть параметры, ограничивающие по времени, такие как <span style=" font-weight:600;">—since</span> и <span style=" font-weight:600;">—until</span>, весьма полезны. Например, следующая команда выдаёт список коммитов, сделанных за последние две недели:<br /><span style=" font-weight:600;">$ git log —since=2.weeks</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Другой полезный фильтр это опция –S, которая как параметр принимает строку и показывает только те коммиты где эта строка была изменена, добавлена или удалена.<br /><span style=" font-weight:600;">$ git log -S&lt;stirng&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Пример будет искать строку MyStringForSearch<br /><span style=" font-weight:600;">$ git log -SMyStringForSearch</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Список коммитов с хэшем (короткое число)<br /><span style=" font-weight:600;">$ git log —oneline</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Отмена изменений</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Изменение комментария к последнему комииту, но только в том случае, если после последнего коммита не было ни каких изменений в рабочем каталоге<br /><span style=" font-weight:600;">$ git commit —amend</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отмена индексации файла (исключение из индекса)<br /><span style=" font-weight:600;">$ git reset HEAD &lt;file&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отмена изменений файла (до внесения файла в коммит)<br /><span style=" font-weight:600;">$ git checkout — &lt;file&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">С этой командой надо быть особо осторожным, подробнее <a href="http://pr0git.blogspot.ru/2015/02/git_72.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Удаление раз и навсегда последнего коммита. Его больше ни кто ни когда не увидит. И вы в том числе :). Произойдет откат на предыдущий коммит. Все изменения которые были в последнем коммите будут утеряны. Хорошо подумайте прежде чем это делать.<br /><span style=" font-weight:600;">$ git reset —hard HEAD~1</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Работа с удаленными репозиториями</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Просмотр удаленных репозиториев<br /><span style=" font-weight:600;">$ git remote</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Более подробный вывод о них<br /><span style=" font-weight:600;">$ git remote -v</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Добавление удаленного репозитория (вместо origin можно задать любое слово)<br /><span style=" font-weight:600;">$ git remote add origin https://github.com/n0tb0dy/UpRemote.git</span><br /><span style=" font-weight:600;">$ git remote add tr https://github.com/n0tb0dy/UpRemote.git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Получение изменений с удаленного репозитория под именем tr в локальную ветку tr<br /><span style=" font-weight:600;">$ git fetch tr</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отправка данных на удаленный репозиторий. Формат <span style=" font-weight:600;">git push [удал. сервер] [локальная ветка]</span><br /><span style=" font-weight:600;">$ git push origin master</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Инспекция удаленного репозитория <span style=" font-weight:600;">git remote show [удал. сервер]</span><br /><span style=" font-weight:600;">$ git remote show origin</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Переименование удаленных репозиториев (по существу переименование локальной ссылки на удаленный репозиторий)<br /><span style=" font-weight:600;">$ git remote rename &lt;old_name&gt; &lt;new_name&gt;</span><br /><span style=" font-weight:600;">$ git remote rename tr newtr</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Удаление удаленного репозитория :) (попросту отключение от него — в примере от origin)<br /><span style=" font-weight:600;">$ git remote rm origin</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Подробней о работе с удаленными репозиториями <a href="http://pr0git.blogspot.ru/2015/02/git_16.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если у вас свой собственный репозиторий Git на сервере с само подписанным сертификатом, то перед любыми командами работы у удаленным репозиторием (clone, fetch, push, pull и т.п.), Git будет ругаться на само подписанный сертификат. Решить проблему можно изменив чуток конфиг<br /><span style=" font-weight:600;">$ git config —local http.sslVerify false</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Или же перед каждой операцией работы с удаленным репозиторием вставлять доп команду<br /><span style=" font-weight:600;">$ git -c http.sslVerify=false push origin newbranch</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">А вообще настройка своего сервера Git это отдельная тема. Частично рассмотрена <a href="http://pr0git.blogspot.ru/2015/03/git-windows-server-20xx.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Работа с ветками</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Посмотреть локальные ветки<br /><span style=" font-weight:600;">$ git branch</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Посмотреть последний коммит на каждой из локальных веток<br /><span style=" font-weight:600;">$ git branch –v</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Чтобы посмотреть все существующие локальные и удаленные ветки можно дать команду<br /><span style=" font-weight:600;">$ git branch –a</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Посмотреть последние коммиты на всех ветках (локальных и удаленных)<br /><span style=" font-weight:600;">$ git branch –a -v</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Посмотреть отслеживаемые ветки<br /><span style=" font-weight:600;">$ git branch –vv</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Сделать ветку локальную ветку serverfix отслеживаемой<br /><span style=" font-weight:600;">$ git branch -u origin/serverfix</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Создать ветку<br /><span style=" font-weight:600;">$ git branch &lt;имя_ветки&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Создать ветку на определенном коммите<br /><span style=" font-weight:600;">$git branch new_branch 5a0eb04</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Переименовать ветку<br /><span style=" font-weight:600;">git branch -m &lt;oldname&gt; &lt;newname&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Переименовать текущую ветку<br /><span style=" font-weight:600;">git branch -m &lt;newname&gt;</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Переключится на ветку<br /><span style=" font-weight:600;">$ git checkout &lt;имя_ветки&gt;</span><br /><span style=" font-weight:600;"><br /></span>Создать ветку и сразу же переключится на нее<br /><span style=" font-weight:600;">$ git checkout -b &lt;имя_ветки&gt;</span><br /><span style=" font-weight:600;"><br /></span>Слияние веток (в примере находимся на ветке master и сливаем с ней ветку hotfix)<br /><span style=" font-weight:600;">$ git checkout master</span><br /><span style=" font-weight:600;">$ git merge hotfix</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Удалить ветку<br /><span style=" font-weight:600;">$ git branch -d &lt;имя_ветки&gt;</span><br /><span style=" font-weight:600;"><br /></span>Удалить ветку serverfix на удаленном сервере<br /><span style=" font-weight:600;">$ git push origin —delete serverfix</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Работа с метками</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Посмотреть все (перечисляет в алфавитном порядке, а не по времени их создания)<br /><span style=" font-weight:600;">$ git tag</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Посмотреть попадающие под маску<br /><span style=" font-weight:600;">$ git tag -l ‘v1.4.2.*’</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Создать метку на <span style=" text-decoration: underline;">текущем коммите</span> (ключ <span style=" font-weight:600;">-а</span>) с меточным сообщением (ключ <span style=" font-weight:600;">-m</span>)<br /><span style=" font-weight:600;">$ git tag -a v1.4 -m ‘my version 1.4’</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если ключ <span style=" font-weight:600;">-m</span> не указывать то откроется окно редактора чтобы ввести сообщение</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Создание легковесной метки на <span style=" text-decoration: underline;">текущем коммите</span><br /><span style=" font-weight:600;">$ git tag &lt;имя_метки&gt;</span><br /><span style=" font-weight:600;">$ git tag MyTAG</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Посмотреть метки вместе с комментариями к коммитам, а так же с именами поставивших метки<br /><span style=" font-weight:600;">$ git show &lt;tag&gt;</span><br /><span style=" font-weight:600;">$ git show MyTAG</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Так же можно выставлять метки и на уже пройденные коммиты. Подробнее о метках <a href="http://pr0git.blogspot.ru/2015/02/git_17.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Задание псевдонимов для команд Git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Псевдонимы можно создать как в конфигурационных файлах Git, так и в конфиге Bash, но важно понимать в чем разница.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Задание псевдонимов в конфигах Git</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">$ git config —global alias.co checkout</span><br /><span style=" font-weight:600;">$ git config —global alias.br branch</span><br /><span style=" font-weight:600;">$ git config —global alias.ci commit</span><br /><span style=" font-weight:600;">$ git config —global alias.st status</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Теперь достаточно давать команды<br /><span style=" font-weight:600;">$ git co</span><br /><span style=" font-weight:600;">$ git br</span><br /><span style=" font-weight:600;">$ git ci</span><br /><span style=" font-weight:600;">$ git st</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">То есть через задание алиасов в конфиге Git мы не избавляемся от необходимости писать команду <span style=" font-weight:600;">git</span>, но все же это короче.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Кроме того в эти команды так же можно подставлять параметры<br /><span style=" font-weight:600;">$ git config —global alias.unstage ‘reset HEAD —‘</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Это делает эквивалентными следующие две команды:<br /><span style=" font-weight:600;">$ git unstage fileA</span><br /><span style=" font-weight:600;">$ git reset HEAD fileA</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Более подробно по алисы в конфигах Git читаем <a href="http://pr0git.blogspot.ru/2015/02/git-git_17.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Об алиасах заданных через Bash читаем <a href="http://pr0git.blogspot.ru/2015/02/git-bash.html"><span style=" text-decoration: underline; color:#0000ff;">тут</span></a>.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Сравнение файла в разных коммитах</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">$ git diff ffd6b37 c258082 —cc test.txt</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">С помощью внешних утилит ExamDiffPro и P4Merge</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Смотрим изменения файла test.txt между двумя коммитами<br /><span style=" font-weight:600;">$ git difftool 9491cc8 02c1df6 —tool=edp —cc test.txt</span><br /><span style=" font-weight:600;">$ git difftool 9491cc8 02c1df6 —tool=p4m —cc test.txt</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Слияние (merge)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отмена слияния<br /><span style=" font-weight:600;">$ git merge —abort</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Разное</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Просмотр истории перемещения указателя HEAD<br /><span style=" font-weight:600;">$ git reflog</span></p></body></html>
