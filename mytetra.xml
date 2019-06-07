@@ -25,6 +25,11 @@
       <record id="1559920308sh5p2oq1pe" name="Как в MyTetra настроить синхронизацию через интернет" author="" url="" tags="" ctime="20190607181148" dir="1559920308h5j9yxg3al" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="15599241473y33894oxm" name="Spring">
+     <recordtable>
+      <record id="15599241909nqcn3hdg1" name="Как писать на Spring в 2017" author="" url="" tags="" ctime="20190607191630" dir="1559924190hskf1s7xzr" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
     <node crypt="" id="1559917112fgfu2v8bwt" name="Linux">
