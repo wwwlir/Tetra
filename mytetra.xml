@@ -41,7 +41,13 @@
       <record id="1559830896lrq4lg7qqn" name="Start a x11vnc view-only screen at 1080p for use over ssh " author="" url="" tags="" ctime="20190607171832" dir="1559830896ese0vwztur" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1560944081n1uyln28gi" name="MyTetra">
+     <recordtable>
+      <record id="1560944274bxv3jqiuyp" name="Быстрое добавление новой записи в MyTetra по глобальной горячей клавише " author="" url="https://webhamster.ru/site/page/index/articles/projectcode/502" tags="" ctime="20190619193754" dir="1560944274gd4abqdde9" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
+  <node crypt="" id="1560944049pdn9ooxbna" name="INPUT"/>
  </content>
 </root>
