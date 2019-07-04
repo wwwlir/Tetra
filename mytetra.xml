@@ -50,6 +50,10 @@
     </node>
    </node>
   </node>
-  <node crypt="" id="1560944049pdn9ooxbna" name="INPUT"/>
+  <node crypt="" id="1560944049pdn9ooxbna" name="INPUT">
+   <recordtable>
+    <record id="1561172508wxpa70kp9k" name="Мой FirstVds" author="" url="" tags="" ctime="20190622110148" dir="15611725082laq2bkjnl" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
