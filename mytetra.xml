@@ -14,7 +14,17 @@
      <recordtable>
       <record id="1559395830am62m29jjr" name="temp" author="" url="" tags="" ctime="20190607171443" dir="1559395830i5vhrqfa9l" file="text.html"/>
       <record id="1559408997d2h1ek5kpp" name="Request" author="" url="" tags="" ctime="20190607171443" dir="1559408997aialh64dwu" file="text.html"/>
+      <record id="1568179145i36th5k8jr" name="update.sh" author="" url="" tags="" ctime="20190911131905" dir="1568179145z888lxve7i" file="text.html"/>
+      <record id="1568179255nhjff3mdmn" name="Logger" author="" url="" tags="" ctime="20190911132055" dir="15681792552n1owitg6d" file="text.html"/>
+      <record id="1568179325xislxhzigx" name="ViewRepository" author="" url="" tags="" ctime="20190911132205" dir="1568179325rszr7eu98g" file="text.html"/>
+      <record id="1568179381ajcnxuy9qq" name="DataManager" author="" url="" tags="" ctime="20190911132301" dir="1568179381267o3mxuwg" file="text.html"/>
      </recordtable>
+     <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m">
+      <recordtable>
+       <record id="1568179476eus44c282s" name="UkM1U0lNUAMvetzriumAbNunzd56FsoaIi1s+xesZMLHwYJMVMUtsywvFdwRlQ1ijw2+8ecRdGA=" author="" url="" tags="" ctime="20190911132513" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block=""/>
+       <record id="1568179418xjw42jupr9" name="UkM1U0lNUAOeR4QUlih0cLnrj0R/45Smed7HjTfKuPsO+zohwBYKwI+20BahCmZBYVkeYhHLrj4=" author="" url="" tags="" ctime="20190911132518" dir="1568179418z5gbtd572w" file="text.html" crypt="1"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="15599168979q3i1uqzne" name="git">
      <recordtable>
@@ -25,6 +35,7 @@
       <record id="1559920308sh5p2oq1pe" name="Как в MyTetra настроить синхронизацию через интернет" author="" url="" tags="" ctime="20190607181148" dir="1559920308h5j9yxg3al" file="text.html"/>
       <record id="1562248586r69ll7ptp0" name="19 советов по повседневной работе с Git" author="" url="https://habr.com/ru/company/mailru/blog/267595/" tags="" ctime="20190704215626" dir="1562248586px9d1e6xip" file="text.html"/>
       <record id="1562298593r1x9f43afi" name="Удачная модель ветвления для Git" author="" url="https://habr.com/ru/post/106912/" tags="" ctime="20190705114953" dir="1562298593acarch1hqj" file="text.html"/>
+      <record id="15681796851bit2df9o5" name="Заготовки" author="" url="" tags="" ctime="20190911132805" dir="1568179685karn4kklul" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="15599241473y33894oxm" name="Spring">
@@ -51,11 +62,19 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="15681797177qgydlix6s" name="JOB">
+    <node crypt="" id="1568179726hws79qe9bk" name="rtneo">
+     <recordtable>
+      <record id="1568179736ic3so0vlbb" name="Горячая линия росреестра" author="" url="" tags="" ctime="20190911132856" dir="1568179736fhx747xiwp" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
   </node>
   <node crypt="" id="1560944049pdn9ooxbna" name="INPUT">
    <recordtable>
     <record id="1561172508wxpa70kp9k" name="Мой FirstVds" author="" url="" tags="" ctime="20190622110148" dir="15611725082laq2bkjnl" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="1" icon="" id="1568179775dbvbifiwyu" name="UkM1U0lNUAPofsOpV9kwFSE2kBjhdvmCjHgFWnaZL+uidAB/iVjem9BdBRjSZLKx"/>
  </content>
 </root>
