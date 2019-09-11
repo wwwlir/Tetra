@@ -44,6 +44,11 @@
       <record id="15599241909nqcn3hdg1" name="Как писать на Spring в 2017" author="" url="" tags="" ctime="20190607191630" dir="1559924190hskf1s7xzr" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1568185248l1d02h9h4i" name="grudle">
+     <recordtable>
+      <record id="1568185294gl7fk8wm2f" name="gradle upload" author="" url="" tags="" ctime="20190911150134" dir="1568185294r9f49x2yf6" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
     <node crypt="" id="1559917112fgfu2v8bwt" name="Linux">
@@ -70,10 +75,20 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="1568182077sbzj5m0j42" name="Russian">
+    <recordtable>
+     <record id="1568182099fbiapu42mz" name="всё-таки" author="" url="" tags="" ctime="20190911140819" dir="1568182099ydlxcq0cpk" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1560944049pdn9ooxbna" name="INPUT">
    <recordtable>
     <record id="1561172508wxpa70kp9k" name="Мой FirstVds" author="" url="" tags="" ctime="20190622110148" dir="15611725082laq2bkjnl" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" icon="/Swift/color_swift_Tamburine.svg" id="1568182986512qevxu72" name="LINKS">
+   <recordtable>
+    <record id="1568183049sop16r4j7m" name="temp" author="" url="" tags="" ctime="20190911142409" dir="1568183049m6v4uiik9t" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="1568179775dbvbifiwyu" name="UkM1U0lNUAPofsOpV9kwFSE2kBjhdvmCjHgFWnaZL+uidAB/iVjem9BdBRjSZLKx"/>
