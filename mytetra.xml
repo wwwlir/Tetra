@@ -12,16 +12,11 @@
     </node>
     <node crypt="" id="15599168834pxcb7g7d6" name="CUBA">
      <recordtable>
-      <record id="1559395830am62m29jjr" name="temp" author="" url="" tags="" ctime="20190607171443" dir="1559395830i5vhrqfa9l" file="text.html"/>
-      <record id="1559408997d2h1ek5kpp" name="Request" author="" url="" tags="" ctime="20190607171443" dir="1559408997aialh64dwu" file="text.html"/>
       <record id="1568179145i36th5k8jr" name="update.sh" author="" url="" tags="" ctime="20190911131905" dir="1568179145z888lxve7i" file="text.html"/>
       <record id="1568179255nhjff3mdmn" name="Logger" author="" url="" tags="" ctime="20190911132055" dir="15681792552n1owitg6d" file="text.html"/>
       <record id="1568179325xislxhzigx" name="ViewRepository" author="" url="" tags="" ctime="20190911132205" dir="1568179325rszr7eu98g" file="text.html"/>
       <record id="1568179381ajcnxuy9qq" name="DataManager" author="" url="" tags="" ctime="20190911132301" dir="1568179381267o3mxuwg" file="text.html"/>
-      <record id="1568180980xmrun1d226" name="createSupplementaryAggrements" author="" url="" tags="" ctime="20190911134940" dir="1568180980i150bcy6wb" file="text.html"/>
-      <record id="15682587125dqryw0lsf" name="Recalculate accruals" author="" url="" tags="" ctime="20190912112512" dir="1568258712zfaoneyje8" file="text.html"/>
       <record id="1568355099ppcsphfotr" name="AppBeans" author="" url="" tags="" ctime="20190913141139" dir="15683550991cuk6onbfg" file="text.html"/>
-      <record id="1568701114zcb7e3kzkb" name="CreateAccruals" author="" url="" tags="" ctime="20190917141834" dir="1568701114foco3wzpfc" file="text.html"/>
       <record id="1568703787vgbmxks141" name="Платформа CUBA. Руководство по разработке приложений&#10;Версия 6.10" author="" url="" tags="" ctime="20190917150307" dir="15687037871gi0exccqi" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m">
@@ -41,6 +36,7 @@
       <record id="1562248586r69ll7ptp0" name="19 советов по повседневной работе с Git" author="" url="https://habr.com/ru/company/mailru/blog/267595/" tags="" ctime="20190704215626" dir="1562248586px9d1e6xip" file="text.html"/>
       <record id="1562298593r1x9f43afi" name="Удачная модель ветвления для Git" author="" url="https://habr.com/ru/post/106912/" tags="" ctime="20190705114953" dir="1562298593acarch1hqj" file="text.html"/>
       <record id="15681796851bit2df9o5" name="Заготовки" author="" url="" tags="" ctime="20190911132805" dir="1568179685karn4kklul" file="text.html"/>
+      <record id="1568943607bhwyfppb7u" name="Удалить все локальные ветки git" author="" url="" tags="" ctime="20190920094007" dir="1568943607bdvq2q6jpm" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="15599241473y33894oxm" name="Spring">
@@ -52,6 +48,13 @@
      <recordtable>
       <record id="1568185294gl7fk8wm2f" name="gradle upload" author="" url="" tags="" ctime="20190911150134" dir="1568185294r9f49x2yf6" file="text.html"/>
      </recordtable>
+    </node>
+    <node crypt="" id="1568948808wrb92gsn22" name="DATABASE">
+     <node crypt="" id="15689488177q528og42m" name="JPQL">
+      <recordtable>
+       <record id="1568948871eib7ef3rc2" name="JPQL (Java Persistence Query Language)" author="" url="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)" tags="" ctime="20190920110751" dir="1568948871nt59cexsyg" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
@@ -77,6 +80,23 @@
      <recordtable>
       <record id="1568179736ic3so0vlbb" name="Горячая линия росреестра" author="" url="" tags="" ctime="20190911132856" dir="1568179736fhx747xiwp" file="text.html"/>
      </recordtable>
+    </node>
+    <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
+     <recordtable>
+      <record id="15689492234pwt6l9i7i" name="gradle.build" author="" url="" tags="" ctime="20190920111343" dir="1568949223szrg10h9xd" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1568942511gfdx2ilxe6" name="GroovyScripts">
+      <recordtable>
+       <record id="1568180980xmrun1d226" name="createSupplementaryAggrements" author="" url="" tags="" ctime="20190920092213" dir="1568180980i150bcy6wb" file="text.html"/>
+       <record id="1568701114zcb7e3kzkb" name="CreateAccruals" author="" url="" tags="" ctime="20190920092224" dir="1568701114foco3wzpfc" file="text.html"/>
+       <record id="15682587125dqryw0lsf" name="Recalculate accruals" author="" url="" tags="" ctime="20190920092228" dir="1568258712zfaoneyje8" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
+      <recordtable>
+       <record id="1568942636v9fof0hzgc" name="Кол-во уникальных входов по контрагентам" author="" url="" tags="" ctime="20190920092356" dir="1568942636ftkzivefj1" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="" id="1568182077sbzj5m0j42" name="Russian">

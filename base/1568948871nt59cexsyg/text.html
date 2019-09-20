@@ -1,0 +1,512 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="header"></a><a href="https://ru.bmstu.wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"><span style=" font-size:xx-large; font-weight:600; text-decoration: underline; color:#0000ff;">Н</span></a><span style=" font-size:xx-large; font-weight:600; text-decoration: underline; color:#0000ff;">ациональная библиотека им. Н. Э. Баумана </span><a href="https://ru.bmstu.wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"><span style=" font-size:xx-large; font-weight:600; text-decoration: underline; color:#0000ff;"><br />Bauman National Library </span></a></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="searchInput"></a><a href="https://ru.bmstu.wiki/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D1%85%D0%BE%D0%B4&amp;returnto=JPQL+%28Java+Persistence+Query+Language%29"><span style=" text-decoration: underline; color:#0000ff;">В</span></a><span style=" text-decoration: underline; color:#0000ff;">ойти</span> </li></ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="nav"></a><a href="https://ru.bmstu.wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"><span style=" text-decoration: underline; color:#0000ff;">Г</span></a><span style=" text-decoration: underline; color:#0000ff;">лавная</span> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="n-.D0.A0.D1.83.D0.B1.D1.80.D0.B8.D0.BA.D0.B0.D1.86.D0.B8.D1.8F"></a><a href="https://ru.bmstu.wiki/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0:%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%BF%D0%BE_%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F%D0%BC"><span style=" text-decoration: underline; color:#0000ff;">Р</span></a><span style=" text-decoration: underline; color:#0000ff;">убрикация</span> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="n-.D0.A3.D0.BA.D0.B0.D0.B7.D0.B0.D1.82.D0.B5.D0.BB.D1.8C-.D0.90.E2.80.89-.E2.80.89.D0.AF"></a><a href="https://ru.bmstu.wiki/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0:%D0%90%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D0%BD%D1%8B%D0%B9_%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"><span style=" text-decoration: underline; color:#0000ff;">У</span></a><span style=" text-decoration: underline; color:#0000ff;">казатель А - Я</span> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="n-.D0.9F.D0.BE.D1.80.D1.82.D0.B0.D0.BB.D1.8B"></a><a href="https://ru.bmstu.wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%92%D1%81%D0%B5_%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D0%BB%D1%8B"><span style=" text-decoration: underline; color:#0000ff;">П</span></a><span style=" text-decoration: underline; color:#0000ff;">орталы</span> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="n-.D0.9F.D1.80.D0.BE.D0.B8.D0.B7.D0.B2.D0.BE.D0.BB.D1.8C.D0.BD.D0.BE"></a><a href="https://ru.bmstu.wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"><span style=" text-decoration: underline; color:#0000ff;">П</span></a><span style=" text-decoration: underline; color:#0000ff;">роизвольно</span> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="n-.D0.96.D1.83.D1.80.D0.BD.D0.B0.D0.BB"></a><a href="https://ru.bmstu.wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8"><span style=" text-decoration: underline; color:#0000ff;">Ж</span></a><span style=" text-decoration: underline; color:#0000ff;">урнал</span> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="n-.D0.A0.D0.B5.D0.B4.D0.B0.D0.BA.D1.82.D0.BE.D1.80.D0.B0.D0.BC"></a><a href="https://ru.bmstu.wiki/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0:%D0%A0%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%D0%BC"><span style=" text-decoration: underline; color:#0000ff;">Р</span></a><span style=" text-decoration: underline; color:#0000ff;">едакторам</span> </li>
+<li style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">На других языках </li></ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://en.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)"><span style=" text-decoration: underline; color:#0000ff;">English</span></a> </li></ul>
+<p style=" margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="content"></a><span style=" font-size:xx-large; font-weight:600;">J</span><span style=" font-size:xx-large; font-weight:600;">PQL (Java Persistence Query Language)</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="siteSub"></a>Материал из Национальной библиотеки им. Н. Э. Баумана<br />Последнее изменение этой страницы: 02:43, 22 мая 2016. </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">JPQL</p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%B3%D0%BC%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F"><span style=" font-weight:600; text-decoration: underline; color:#0000ff;">Парадигма</span></a></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">язык запросов</p></td></tr>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Первый   появившийся</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2009 (JPA 2.0)</p></td></tr>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/Operating_system"><span style=" font-weight:600; text-decoration: underline; color:#0000ff;">OS</span></a></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">платформонезависимый</p></td></tr>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%D1%84%D0%B0%D0%B9%D0%BB%D0%B0"><span style=" font-weight:600; text-decoration: underline; color:#0000ff;">Расширение файла</span></a></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">.jpql</p></td></tr>
+<tr>
+<td colspan="2" bgcolor="#eeeeee">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#eeeeee;">Под влиянием</span></p></td></tr>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SQL, Hibernate</p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Java Persistence Query Language</span> (<span style=" font-weight:600;">JPQL</span>) - язык запросов, определенный JPA. JPQL подобен SQL, но воздействует на объекты, атрибуты и отношения вместо таблиц и столбцов. JPQL может использоваться для чтения (SELECT), а также массовых обновлений (UPDATE) и удалений (DELETE). JPQL может использоваться в NamedQuery (через аннотации или XML) или в динамических запросах, используя EntityManager createQuery() API. </p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="toc"></a><span style=" font-size:x-large; font-weight:600;">С</span><span style=" font-size:x-large; font-weight:600;">одержание</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_Select"><span style=" text-decoration: underline; color:#0000ff;">1 Запросы Select</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_Select_2"><span style=" text-decoration: underline; color:#0000ff;">1.1 </span></a><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_Select_2"><span style=" font-style:italic; text-decoration: underline; color:#0000ff;">Запросы Select</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#SELECT"><span style=" text-decoration: underline; color:#0000ff;">1.2 SELECT</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8_.D0.B0.D0.B3.D1.80.D0.B5.D0.B3.D0.B0.D1.86.D0.B8.D0.B8"><span style=" text-decoration: underline; color:#0000ff;">1.2.1 Функции агрегации</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9A.D0.BE.D0.BD.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.82.D0.BE.D1.80.D1.8B"><span style=" text-decoration: underline; color:#0000ff;">1.2.2 Конструкторы</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#FROM"><span style=" text-decoration: underline; color:#0000ff;">1.3 FROM</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#JOIN"><span style=" text-decoration: underline; color:#0000ff;">1.3.1 JOIN</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#JOIN_FETCH"><span style=" text-decoration: underline; color:#0000ff;">1.3.2 JOIN FETCH</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#LEFT_JOIN"><span style=" text-decoration: underline; color:#0000ff;">1.3.3 LEFT JOIN</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#ON_.28JPA_2.1.29"><span style=" text-decoration: underline; color:#0000ff;">1.3.4 ON (JPA 2.1)</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#ORDER_BY"><span style=" text-decoration: underline; color:#0000ff;">1.4 ORDER BY</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#GROUP_BY"><span style=" text-decoration: underline; color:#0000ff;">1.5 GROUP BY</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#HAVING"><span style=" text-decoration: underline; color:#0000ff;">1.6 HAVING</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#UNION"><span style=" text-decoration: underline; color:#0000ff;">1.7 UNION</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#WHERE"><span style=" text-decoration: underline; color:#0000ff;">2 WHERE</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.86.D0.B8.D0.B8_.D1.81.D1.80.D0.B0.D0.B2.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F"><span style=" text-decoration: underline; color:#0000ff;">2.1 Операции сравнения</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_.D0.BD.D0.B0_.D0.BE.D0.B1.D0.BD.D0.BE.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"><span style=" text-decoration: underline; color:#0000ff;">3 Запросы на обновление</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BD.D0.B0_.D0.BE.D0.B1.D0.BD.D0.BE.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"><span style=" text-decoration: underline; color:#0000ff;">3.1 Пример запроса на обновление</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_.D0.BD.D0.B0_.D1.83.D0.B4.D0.B0.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"><span style=" text-decoration: underline; color:#0000ff;">4 Запросы на удаление</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BD.D0.B0_.D1.83.D0.B4.D0.B0.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"><span style=" text-decoration: underline; color:#0000ff;">4.1 Пример запроса на удаление</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B"><span style=" text-decoration: underline; color:#0000ff;">5 Параметры</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BD.D0.B0.D0.B7.D0.B2.D0.B0.D0.BD.D0.BD.D0.BE.D0.B3.D0.BE_.D0.BF.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D0.B0"><span style=" text-decoration: underline; color:#0000ff;">5.1 </span></a><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BD.D0.B0.D0.B7.D0.B2.D0.B0.D0.BD.D0.BD.D0.BE.D0.B3.D0.BE_.D0.BF.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D0.B0"><span style=" font-style:italic; text-decoration: underline; color:#0000ff;">Пример запроса названного параметра</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BF.D0.BE.D0.B7.D0.B8.D1.86.D0.B8.D0.BE.D0.BD.D0.BD.D0.BE.D0.B3.D0.BE_.D0.BF.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D0.B0"><span style=" text-decoration: underline; color:#0000ff;">5.2 </span></a><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BF.D0.BE.D0.B7.D0.B8.D1.86.D0.B8.D0.BE.D0.BD.D0.BD.D0.BE.D0.B3.D0.BE_.D0.BF.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D0.B0"><span style=" font-style:italic; text-decoration: underline; color:#0000ff;">пример запроса позиционного параметра</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9B.D0.B8.D1.82.D0.B5.D1.80.D0.B0.D0.BB.D1.8B"><span style=" text-decoration: underline; color:#0000ff;">6 Литералы</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8"><span style=" text-decoration: underline; color:#0000ff;">7 Функции</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.9F.D0.BE.D0.B4.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.B2.D0.B0.D0.B5.D0.BC.D1.8B.D0.B5_JPQL_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8"><span style=" text-decoration: underline; color:#0000ff;">7.1 Поддерживаемые JPQL функции</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.A1.D0.BF.D0.B5.D1.86.D0.B8.D0.B0.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5_.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B"><span style=" text-decoration: underline; color:#0000ff;">8 Специальные операторы</span></a> </li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#JPQL_.D1.81.D0.BF.D0.B5.D1.86.D0.B8.D0.B0.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5_.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B"><span style=" text-decoration: underline; color:#0000ff;">8.1 JPQL специальные операторы</span></a></li></ul>
+<li style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)#.D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"><span style=" text-decoration: underline; color:#0000ff;">9 Ссылки</span></a> </li></ul>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_Select"></a><span style=" font-size:x-large; font-weight:600;">З</span><span style=" font-size:x-large; font-weight:600;">апросы Select</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы Select могут использоваться, чтобы считать объекты из базы данных. Запросы Select могут возвратить единственный объектный или элемент данных, список объектов или элементов данных или объектного массива многократных объектов и данных. </p>
+<p style=" margin-top:12px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_Select_2"></a><span style=" font-size:small; font-weight:600; font-style:italic;">З</span><span style=" font-size:small; font-weight:600; font-style:italic;">апросы Select</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">// Запрос для Списка объектов.</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;Select e FROM Employee e WHERE e.salary &gt; 100000&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">List&lt;Employee&gt; result = query.getResultList();</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">// Запрос для единственного объекта.</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;Select e FROM Employee e WHERE e.id = :id&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">query.setParameter(&quot;id&quot;, id);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Employee result2 = (Employee)query.getSingleResult();</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">// Запрос для единственного элемента данных.</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;Select MAX(e.salary) FROM Employee e&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">BigDecimal result3 = (BigDecimal)query.getSingleResult();</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">// Запрос для Списка элементов данных.</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;Select e.firstName FROM Employee e&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">List&lt;String&gt; result4 = query.getResultList();</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'monospace';"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">// Запрос для Списка массивов элемента.</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;Select e.firstName, e.lastName FROM Employee e&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">List&lt;Object[]&gt; result5 = query.getResultList();</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="SELECT"></a><span style=" font-size:large; font-weight:600;">S</span><span style=" font-size:large; font-weight:600;">ELECT</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SELECT пункт может содержать объектные выражения, выражения атрибута, функции, выборки, конструкторы и функции агрегации. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8_.D0.B0.D0.B3.D1.80.D0.B5.D0.B3.D0.B0.D1.86.D0.B8.D0.B8"></a><span style=" font-size:medium; font-weight:600;">Ф</span><span style=" font-size:medium; font-weight:600;">ункции агрегации</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Функции агрегации могут включать итоговую информацию о ряде объектов. Они включают MIN, MAX, AVG, SUM, GRAPH. Эти функции могут использоваться, чтобы возвратить единственный результат или могут использоваться с GROUP BY, чтобы возвратить многократные результаты. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT COUNT(e) FROM Employee e</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT MAX(e.salary) FROM Employee e</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9A.D0.BE.D0.BD.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.82.D0.BE.D1.80.D1.8B"></a><span style=" font-size:medium; font-weight:600;">К</span><span style=" font-size:medium; font-weight:600;">онструкторы</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Оператор NEW может использоваться с полностью определенным именем класса, чтобы возвратить объекты данных из запроса JPQL. Они не будут управляемыми объектами, и класс должен определить конструктор, который соответствует параметрам конструктора и их типов. Запросы конструктора могут использоваться, чтобы выбрать частичные данные или создать отчеты о данных по объектам, и возвратить экземпляр класса вместо объектного массива. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT NEW com.acme.reports.EmpReport(e.firstName, e.lastName, e.salary) FROM Employee e</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="FROM"></a><span style=" font-size:large; font-weight:600;">F</span><span style=" font-size:large; font-weight:600;">ROM</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">FROM определяет то, что запрашивается. Типичное FROM будет содержать запрашиваемое имя объекта и присваивать его псевдоним. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">JPQL допускает многократные корневые объекты уровня, которые будут запрошены. Предостережение: должно использоваться при выполнении этого, поскольку оно может привести к Декартовым произведениям двух таблиц. Оператор Where должен гарантировать, что два объекта присоединяются в некотором роде. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e, a FROM Employee e, MailingAddress a WHERE e.address = a.address</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Название объекта, используемое в JPQL, происходит от атрибута имени @Entity аннотации или XML. Оно принимает значение по умолчанию к простому имени класса объекта. Некоторые провайдеры JPA также допускают полное имя класса. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="JOIN"></a><span style=" font-size:medium; font-weight:600;">J</span><span style=" font-size:medium; font-weight:600;">OIN</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Пункт JOIN может также использоваться в FROM. Пункт JOIN позволяет любому из отношений объекта быть присоединенным в запрос, таким образом, они могут использоваться в операторе Where. JOIN не означает, что отношения будут выбраны, если опция FETCH не будет включена. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e JOIN e.address a WHERE a.city = :city</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">JOIN может использоваться с OneToOne, ManyToOne, OneToMany, ManyToMany и отображениями ElementCollection. Когда используется с отношением набора Вы можете обратиться к тому же отношению многократно, чтобы запросить многократные независимые значения. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e JOIN e.projects p JOIN e.projects p2 WHERE p.name = :p1 and p2.name = :p2</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="JOIN_FETCH"></a><span style=" font-size:medium; font-weight:600;">J</span><span style=" font-size:medium; font-weight:600;">OIN FETCH</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Опция FETCH может использоваться в JOIN, чтобы выбрать связанные объекты в единственном запросе. Это избегает дополнительных запросов для каждого из отношений объекта и гарантирует, что отношения были выбраны, если они были LAZY. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e JOIN FETCH e.address</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">не позволяет псевдоним в спецификации JPA, но некоторые провайдеры JPA могут позволить его. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="LEFT_JOIN"></a><span style=" font-size:medium; font-weight:600;">L</span><span style=" font-size:medium; font-weight:600;">EFT JOIN</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">По умолчанию все внутренние объединения участвует в JPQL. Это означает, что выборки, у которых нет отношении, будут фильтроваться от результатов запроса. Чтобы избежать этого, соединение может быть определено как OUTER объединение, используя LEFT опции. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e LEFT JOIN e.address a ORDER BY a.city</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="ON_.28JPA_2.1.29"></a><span style=" font-size:medium; font-weight:600;">O</span><span style=" font-size:medium; font-weight:600;">N (JPA 2.1)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Условие объединения, используемое для соединения, прибывает из объединяющих столбцов отображения. Это означает, что пользователь JPQL обычно избавлен от необходимости знать, как к каждому отношению присоединяются. В некоторых случаях желательно добавить дополнительные условия к условию объединения, обычно в случае внешних объединений. Это может быть сделано через ON пункте. ON пункте определен в JPA 2.1 specifiation и может поддерживаться некоторыми провайдерами JPA. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e LEFT JOIN e.address a ON a.city = :city</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="ORDER_BY"></a><span style=" font-size:large; font-weight:600;">O</span><span style=" font-size:large; font-weight:600;">RDER BY</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ORDER BY позволяет выборке результатов быть отсортированной. Многократные значения могут быть упорядочены, или возрастающий (ASC) или убывающий (DESC). JPA 1.0 и 2.0 BNFs ограничивают использование функций, и подвыбирает в ORDER BY, но проект JPA 2.1 удаляет большинство из них. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e ORDER BY e.lastName ASC, e.firstName, ASC</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e ORDER BY UPPER(e.lastName)</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="GROUP_BY"></a><span style=" font-size:large; font-weight:600;">G</span><span style=" font-size:large; font-weight:600;">ROUP BY</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">GROUP BY допускает итоговую информацию, которая будет вычислена на ряде объектов. GROUP BY обычно используется в сочетании с функциями агрегации. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT AVG(e.salary), e.address.city FROM Employee e GROUP BY e.address.city</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT AVG(e.salary), e.address.city FROM Employee e GROUP BY e.address.city ORDER BY AVG(e.salary)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e, COUNT(p) FROM Employee e LEFT JOIN e.projects p GROUP BY e</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="HAVING"></a><span style=" font-size:large; font-weight:600;">H</span><span style=" font-size:large; font-weight:600;">AVING</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Пункт HAVING допускает результаты GROUP BY, который будет фильтроваться. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT AVG(e.salary), e.address.city FROM Employee e GROUP BY e.address.city HAVING AVG(e.salary) &gt; 100000</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="UNION"></a><span style=" font-size:large; font-weight:600;">U</span><span style=" font-size:large; font-weight:600;">NION</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">JPA не поддерживает SQL UNION, INTERSECT и EXCEPT. Некоторые провайдеры JPA могут поддерживать их. </p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="WHERE"></a><span style=" font-size:x-large; font-weight:600;">W</span><span style=" font-size:x-large; font-weight:600;">HERE</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Оператор Where обычно - основная часть запроса, поскольку оно определяет условия, которые фильтруют выборку. Оператор Where может использовать любой оператор сравнения, логическую операцию, функции, атрибуты, объекты, и подвыборки. Операции сравнения включают =, &lt;, &gt;, &lt;=, &gt;=, &lt;&gt;, LIKE, BETWEEN, IS NULL,IN. NOT Может также использоваться с любым оператором сравнения (NOT LIKE, NOT BETWEEN, IS NOT NULL, NOT IN). Логические операции включают AND, OR, и NOT. </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9E.D0.BF.D0.B5.D1.80.D0.B0.D1.86.D0.B8.D0.B8_.D1.81.D1.80.D0.B0.D0.B2.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F"></a><span style=" font-size:large; font-weight:600;">О</span><span style=" font-size:large; font-weight:600;">перации сравнения</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Операция </span></p></td>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Описание </span></p></td>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Пример </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">= </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">равно </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName = 'Bob'</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt; </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">меньше чем </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary &lt; 100000</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&gt; </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">больше чем </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary &gt; :sal</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;= </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">меньше или равно </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary &lt;= 100000</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&gt;= </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">больше или равно </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary &gt;= :sal</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">LIKE </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">оценивает, если два соответствия последовательности, '%' и '_' являются допустимыми подстановочными знаками, и Символ ESC дополнительный </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName LIKE 'A%' OR e.firstName NOT LIKE '%._%' ESCAPE '.'</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BETWEEN </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">оценивает, если значение между двумя значениями </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName BETWEEN 'A' AND 'C'</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IS NULL </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">сравнивает значение с нулем, базы данных могут не позволить или иметь неожиданные результаты при использовании = с нулем </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.endDate IS NULL</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IN </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">оценивает, если значение содержится в списке </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName IN ('Bob', 'Fred', 'Joe')</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Операция IN допускает список значений или параметров, единственного параметра списка или подвыбора. </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName IN (:name1, :name2, :name3)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName IN (:name1)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName IN :names</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName IN (SELECT e2.firstName from Employee e2 WHERE e2.lastName = 'Smith')</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Подвыбор может использоваться с любой работой, если это возвращает единственное значение, или если ALL или ANY опции используются. ALL указывает, что атрибут должен быть истиной для всех элементов, возвращенных подвыбором, ANY указывает, что атрибутдолжен быть истиной для любого из элементов, возвращенных подвыбором. </p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName = (SELECT e2.firstName from Employee e2 WHERE e2.id = :id)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary &lt; (SELECT e2.salary from Employee e2 WHERE e2.id = :id)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.firstName = ANY (SELECT e2.firstName from Employee e2 WHERE e.id &lt;&gt; e.id)</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary &lt;= ALL (SELECT e2.salary from Employee e2)</span></p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_.D0.BD.D0.B0_.D0.BE.D0.B1.D0.BD.D0.BE.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"></a><span style=" font-size:x-large; font-weight:600;">З</span><span style=" font-size:x-large; font-weight:600;">апросы на обновление</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вы можете выполнить массовое обновление объектов с оператором <span style=" font-family:'monospace';">UPDATE</span>. Этот оператор воздействует на единственный тип объекта и устанавливает одно или более однозначных свойств объекта, подвергающегося условию в <span style=" font-family:'monospace';">WHERE</span>. Запросы на обновление обеспечивают эквивалент оператору <span style=" font-family:'monospace';">SQL UPDATE</span>, но с условными выражениями JPQL. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы на обновление не позволяют соединения, но действительно поддерживают выборку. OneToOne и отношения ManyToOne могут быть пересечены в операторе Where. Отношения набора могут все еще быть запрошены посредством использования EXISTS в операторе Where с подвыбором. Запросы на обновление могут только обновить атрибуты объекта или его embeddables, его отношения не могут быть обновлены. Сложные запросы на обновление зависят от поддержки обновления базы данных и могут использовать временные таблицы на некоторых базах данных. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы на обновление должны использоваться только для массовых обновлений, регулярные обновления объектов должны быть сделаны при помощи методов набора объекта в транзакции и фиксации изменений. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы на обновление возвращают число измененных строк на базе данных (количество строки). </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Этот пример демонстрирует, как использовать запрос на обновление, чтобы дать сотрудникам повышение. <span style=" font-family:'monospace';">WHERE</span> пункт содержит условное выражение. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BD.D0.B0_.D0.BE.D0.B1.D0.BD.D0.BE.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"></a><span style=" font-size:medium; font-weight:600;">П</span><span style=" font-size:medium; font-weight:600;">ример запроса на обновление</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;UPDATE Employee e SET e.salary = 60000 WHERE e.salary = 50000&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">int rowCount = query.executeUpdate();</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Контекст персистентности не обновлен, чтобы отразить результаты операций обновления. Если Вы используете ограниченный по объему транзакцией контекст персистентности, Вы должны или выполнить объемную работу в транзакции совершенно отдельно или являетесь первой работой в транзакции. Это вызвано тем, что любой объект, которым активно управляет контекст персистентности, останется не знать, что фактические изменения происходят на уровне базы данных. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Объекты в совместно используемом кэше, которые соответствуют запрос на обновление, будут лишены законной силы, чтобы гарантировать, чтобы последующие контексты персистентности видели обновленные данные. </p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.97.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D1.8B_.D0.BD.D0.B0_.D1.83.D0.B4.D0.B0.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"></a><span style=" font-size:x-large; font-weight:600;">З</span><span style=" font-size:x-large; font-weight:600;">апросы на удаление</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вы можете выполнить объемное удаление объектов с оператором <span style=" font-family:'monospace';">DELETE </span>. Запросы на удаление обеспечивают эквивалент оператору <span style=" font-family:'monospace';">SQL DELETE </span>, но с условными выражениями JPQL. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы на удаление не позволяют соединения, но действительно поддерживают, подвыбирает. OneToOne и отношения ManyToOne могут быть пересечены в операторе Where. Отношения набора могут все еще быть запрошены посредством использования EXISTS в операторе Where с подвыбором. Сложные запросы на удаление зависят от базы данных, удаляют поддержку и может использовать временные таблицы на некоторых базах данных. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы на удаление должны только использоваться для объема, удаляет, регулярный удаляет к объектам, должен быть выполнен посредством вызова <span style=" font-family:'monospace';">EntityManager , удаляют () </span>API. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы на удаление возвращают число удаленных строк на базе данных (количество строки). </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Этот пример демонстрирует, как использовать запрос на удаление, чтобы удалить всех сотрудников, которые не присвоены отделу. <span style=" font-family:'monospace';">WHERE</span> пункт содержит условное выражение. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BD.D0.B0_.D1.83.D0.B4.D0.B0.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5"></a><span style=" font-size:medium; font-weight:600;">П</span><span style=" font-size:medium; font-weight:600;">ример запроса на удаление</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;DELETE FROM Employee e WHERE e.department IS NULL&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">int rowCount = query.executeUpdate();</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запросы на удаление полиморфные: будут удалены любые экземпляры подкласса объекта, которые соответствуют критериям запроса на удаление. Однако запросы на удаление не соблюдают каскадные правила: никакие объекты кроме типа, на который ссылаются в запросе и его подклассах, не будут удалены, даже если у объекта будут отношения к другим объектам с каскадом, удаляет, включал. Запросы на удаление удалят строки из таблиц набора и соединения. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Контекст персистентности не может быть обновлен, чтобы отразить, что результаты удаляют операции. Если Вы используете ограниченный по объему транзакцией контекст персистентности, Вы должны или выполнить объемную работу в транзакции совершенно отдельно или являетесь первой работой в транзакции. Это вызвано тем, что любой объект, которым активно управляет контекст персистентности, останется не знать, что фактические изменения происходят на уровне базы данных. </p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9F.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D1.8B"></a><span style=" font-size:x-large; font-weight:600;">П</span><span style=" font-size:x-large; font-weight:600;">араметры</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">JPA определяет названные параметры и позиционные параметры. Названные параметры могут быть определены в JPQL использование синтаксиса <span style=" font-family:'monospace';">:&lt;name&gt;</span>. Позиционные параметры могут быть определены в JPQL использование синтаксиса <span style=" font-family:'monospace';">? </span>или <span style=" font-family:'monospace';">?&lt;position&gt;</span>. Позиционные параметры запускаются в позиции <span style=" font-family:'monospace';">1 </span>не <span style=" font-family:'monospace';">0 </span>. </p>
+<p style=" margin-top:12px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BD.D0.B0.D0.B7.D0.B2.D0.B0.D0.BD.D0.BD.D0.BE.D0.B3.D0.BE_.D0.BF.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D0.B0"></a><span style=" font-size:small; font-weight:600; font-style:italic;">П</span><span style=" font-size:small; font-weight:600; font-style:italic;">ример запроса названного параметра</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;SELECT e FROM Employee e WHERE e.firstName = :first and e.lastName = :last&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">query.setParameter(&quot;first&quot;, &quot;Bob&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">query.setParameter(&quot;last&quot;, &quot;Smith&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">List&lt;Employee&gt; list = query.getResultList();</span></p>
+<p style=" margin-top:12px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.BF.D1.80.D0.B8.D0.BC.D0.B5.D1.80_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0_.D0.BF.D0.BE.D0.B7.D0.B8.D1.86.D0.B8.D0.BE.D0.BD.D0.BD.D0.BE.D0.B3.D0.BE_.D0.BF.D0.B0.D1.80.D0.B0.D0.BC.D0.B5.D1.82.D1.80.D0.B0"></a><span style=" font-size:small; font-weight:600; font-style:italic;">п</span><span style=" font-size:small; font-weight:600; font-style:italic;">ример запроса позиционного параметра</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Query query = em.createQuery(&quot;SELECT e FROM Employee e WHERE e.firstName = ? and e.lastName = ?&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">query.setParameter(1, &quot;Bob&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">query.setParameter(2, &quot;Smith&quot;);</span></p>
+<p style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">List&lt;Employee&gt; list = query.getResultList();</span></p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9B.D0.B8.D1.82.D0.B5.D1.80.D0.B0.D0.BB.D1.8B"></a><span style=" font-size:x-large; font-weight:600;">Л</span><span style=" font-size:x-large; font-weight:600;">итералы</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Литеральные значения могут быть встроены в JPQL для стандартных типов Java. В целом обычно лучше использовать параметры вместо того, чтобы встроить значения. Встроенные параметры будут препятствовать тому, чтобы JPQL извлек выгоду из кэша синтаксического анализатора EclipseLink JPQL и могут потенциально подать заявку, уязвимую для атак инъекций JPQL. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Каждый Java типы определяет свой собственный синтаксис встраивания: </p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">String - '&lt;string&gt;'</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.name = 'Bob'</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Чтобы определить <span style=" font-weight:600;">' </span>(кавычка) символ в последовательности, кавычка дважды заключена в кавычки, т.е. <span style=" font-family:'monospace';">'Baie-D''Urfé'</span>.</li></ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Integer - +|-&lt;digits&gt;</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.id = 1234</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Long - +|-&lt;digits&gt;L</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.id = 1234L</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Float - +|-&lt;digits&gt;.&lt;decimale&gt;&lt;exponent&gt;F</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT s FROM Stat s WHERE s.ratio &gt; 3.14F</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Double - +|-&lt;digits&gt;.&lt;decimale&gt;&lt;exponent&gt;D</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT s FROM Stat s WHERE s.ratio &gt; 3.14e32D</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Boolean - TRUE | FALSE</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.active = TRUE</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Date - {d'yyyy-mm-dd'}</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.startDate = {d'2012-01-03'}</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Time - {t'hh:mm:ss'}</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.startTime = {t'09:00:00'}</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Timestamp - {ts'yyyy-mm-dd hh:mm:ss.nnnnnnnnn'}</span> - </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.version = {ts'2012-01-03 09:00:00.000000001'}</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">Enum - package.class.enum</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.gender = org.acme.Gender.MALE</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">null - NULL</span> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'monospace';">UPDATE Employee e SET e.manager = NULL WHERE e.manager = :manager</span></p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.A4.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8"></a><span style=" font-size:x-large; font-weight:600;">Ф</span><span style=" font-size:x-large; font-weight:600;">ункции</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">JPQL поддерживает несколько функций базы данных. Эти функции баз данных, независимы от имя и синтаксиса, но требуют поддержки базы данных. Если база данных поддерживает эквивалентный функциональный или различный синтаксис, стандартная функция JPQL поддерживается, если база данных не обеспечивает способа выполнить функцию, то это не поддерживается. Для математических функций (+,-/, *) применяются правила BEDMAS. Некоторые провайдеры JPA может поддерживать дополнительные функции. </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.9F.D0.BE.D0.B4.D0.B4.D0.B5.D1.80.D0.B6.D0.B8.D0.B2.D0.B0.D0.B5.D0.BC.D1.8B.D0.B5_JPQL_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D0.B8"></a><span style=" font-size:large; font-weight:600;">П</span><span style=" font-size:large; font-weight:600;">оддерживаемые JPQL функции</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Функция</span></p></td>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Описание </span></p></td>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Пример </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">- </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вычитание </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary - 1000</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">+ </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">сложение </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary + 1000</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">* </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">умножение </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary * 2</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">/ </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">деление </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">e.salary / 2</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ABS </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">модуль числа </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">ABS(e.salary - e.manager.salary)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CASE </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">определяет оператор выбора </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">CASE e.status WHEN 0 THEN 'active' WHEN 1 THEN 'consultant' ELSE 'unknown' END</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">COALESCE </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">оценивает к первому не нулевое значение аргумента </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">COALESCE(e.salary, 0)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CONCAT </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">конкатинирует строки </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">CONCAT(e.firstName, ' ', e.lastName)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CURRENT_DATE </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">текущая дата </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">CURRENT_DATE</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CURRENT_TIME </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">текущее время </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">CURRENT_TIME</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CURRENT_TIMESTAMP </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">текущее дата и время </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">CURRENT_TIMESTAMP</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">LENGTH </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">длинна строки или двоичного значения </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">LENGTH(e.lastName)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">LOCATE </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">индекс строки в последовательности, дополнительно начинающиейся по индексу запуска </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">LOCATE('-', e.lastName)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">LOWER </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">преобразование значение последовательности в нижний регистр </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">LOWER(e.lastName)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">MOD </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вычисляет остаток от деления первого целого числа вторым </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">MOD(e.hoursWorked / 8)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">NULLIF </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">возвращает null, если первый параметр будет равняться второму параметру, иначе возвращает первый параметр </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">NULLIF(e.salary, 0)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SQRT </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вычисляет квадратный корень числа </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SQRT(o.result)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SUBSTRING </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">подстрока от строки, начинающиеся по индексу, дополнительно с размером подстроки </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SUBSTRING(e.lastName, 0, 2)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">TRIM </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">обрезание пробелов в конце и начале строки </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">TRIM(TRAILING FROM e.lastName), TRIM(e.lastName), TRIM(LEADING '-' FROM e.lastName)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">UPPER </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">преобразование значение последовательности в верхний регистр </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">UPPER(e.lastName)</span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.A1.D0.BF.D0.B5.D1.86.D0.B8.D0.B0.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5_.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B"></a><span style=" font-size:x-large; font-weight:600;">С</span><span style=" font-size:x-large; font-weight:600;">пециальные операторы</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">JPQL определяет несколько специальных операторов, которые не являются функциями базы данных, но имеют особое значение в JPQL. Они включают INDEX, KEY, SIZE, IS EMPTY, TYPE, FUNCTION и TREAT. </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="JPQL_.D1.81.D0.BF.D0.B5.D1.86.D0.B8.D0.B0.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5_.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.BE.D1.80.D1.8B"></a><span style=" font-size:large; font-weight:600;">J</span><span style=" font-size:large; font-weight:600;">PQL специальные операторы</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Функция</span></p></td>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Описание </span></p></td>
+<td bgcolor="#ffdead">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600; background-color:#ffdead;">Пример </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">INDEX </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">индекс упорядоченного элемента Списка, только поддерживаемого с @OrderColumn </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT toDo FROM Employee e JOIN e.toDoList toDo WHERE INDEX(toDo) = 1</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">KEY </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ключ элемента Карты </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT p FROM Employee e JOIN e.priorities p WHERE KEY(p) = 'high'</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SIZE </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">размер отношений набора, это оценивает к подвыбору </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE SIZE(e.managedEmployees) &lt; 2</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IS EMPTY, IS NOT EMPTY </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">оценивает к истине, если отношение набора пусто, это оценивает к подвыбору </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.managedEmployees IS EMPTY</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">MEMBER OF, NOT MEMBER OF </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">оценивает к истине, если отношение набора содержит значение, это оценивает к подвыбору </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE 'write code' MEMBER OF e.responsibilities</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">TYPE </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">значение различителя наследования </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT p FROM Project p WHERE TYPE(p) = LargeProject</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">TREAT </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">обработка (cast) объект в качестве своего значения подкласса (JPA 2.1) </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee JOIN TREAT(e.projects as LargeProject) p WHERE p.budget &gt; 1000000</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">FUNCTION </p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вызовите функцию базы данных (JPA 2.1) </p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT p FROM Phone p WHERE FUNCTION('TO_NUMBER', p.areaCode) &gt; 613</span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name=".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"></a><span style=" font-size:x-large; font-weight:600;">С</span><span style=" font-size:x-large; font-weight:600;">сылки</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.wikipedia.org/wiki/Java_Persistence_Query_Language"><span style=" text-decoration: underline; color:#0000ff;">JPQL Wikipedia</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://docs.oracle.com/javaee/6/tutorial/doc/bnbuf.html"><span style=" text-decoration: underline; color:#0000ff;">Full Query Language Syntax from The Java EE 6 Tutorial</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://www.objectdb.com/java/jpa/query"><span style=" text-decoration: underline; color:#0000ff;">JPA Queries and JPQL - a chapter of the ObjectDB Manual</span></a></li>
+<li style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://torpedoquery.org"><span style=" text-decoration: underline; color:#0000ff;">Type safe Hibernate (HQL) query engine - TorpedoQuery</span></a></li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://ru.bmstu.wiki/index.php?title=Ru:JPQL_(Java_Persistence_Query_Language)&amp;action=edit&amp;redlink=1"><span style=" text-decoration: underline; color:#0000ff;">ru:JPQL (Java Persistence Query Language)</span></a> </p></body></html>

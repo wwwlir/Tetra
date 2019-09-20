@@ -1,0 +1,9 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">Удалить все локальные ветки git</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Команда для того чтобы удалить все смерженые(<span style=" font-weight:600;">–merged</span>) ветки за исключением текущей(<span style=" font-family:'Courier 10 Pitch,Courier,monospace'; font-size:13px; font-weight:600;">-v ‘*’</span>):</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'FreeMono'; color:#6a1009;">git branch --merged | grep -v '*' | xargs git branch -D</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">еще для себя я сделал такую алиас-команду для полной зачистки репозитория от изменений и старых веток:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'FreeMono'; color:#6a1009;">alias git-clean=&quot;git branch  | grep -v '*' | grep -v 'develop' | xargs git branch -D  &amp;&amp; git reset --hard &amp;&amp; git clean -d -x -f&quot;</span></p></body></html>
