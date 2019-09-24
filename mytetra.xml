@@ -56,6 +56,11 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="15693073000w59y31qvn" name="JAVA">
+     <recordtable>
+      <record id="15693073266b1c2p809s" name="LambdaForEach" author="" url="" tags="" ctime="20190924144206" dir="1569307326ydi32w6jnh" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
     <node crypt="" id="1559917112fgfu2v8bwt" name="Linux">
@@ -91,6 +96,8 @@
        <record id="1568180980xmrun1d226" name="createSupplementaryAggrements" author="" url="" tags="" ctime="20190920092213" dir="1568180980i150bcy6wb" file="text.html"/>
        <record id="1568701114zcb7e3kzkb" name="CreateAccruals" author="" url="" tags="" ctime="20190920092224" dir="1568701114foco3wzpfc" file="text.html"/>
        <record id="15682587125dqryw0lsf" name="Recalculate accruals" author="" url="" tags="" ctime="20190920092228" dir="1568258712zfaoneyje8" file="text.html"/>
+       <record id="1569219060kivz1r2ap7" name="RecalculationAmount" author="" url="" tags="" ctime="20190923141100" dir="1569219060a6gpvryfg7" file="text.html"/>
+       <record id="1569296234tgb90t73a2" name="GroovyReport_Supplementary" author="" url="" tags="" ctime="20190924113714" dir="1569296234n6o8qrt2nk" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
