@@ -90,6 +90,7 @@
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
      <recordtable>
       <record id="15689492234pwt6l9i7i" name="gradle.build" author="" url="" tags="" ctime="20190920111343" dir="1568949223szrg10h9xd" file="text.html"/>
+      <record id="1569377804l397eitj2x" name="Workflow-STP Add-on" author="" url="https://github.com/bizblocks/workflow-stp" tags="" ctime="20190925101644" dir="1569377804iznfs1vzkq" file="text.html"/>
      </recordtable>
      <node crypt="" id="1568942511gfdx2ilxe6" name="GroovyScripts">
       <recordtable>
