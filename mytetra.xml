@@ -72,6 +72,8 @@
       <record id="1559830896lrq4lg7qqn" name="Start a x11vnc view-only screen at 1080p for use over ssh " author="" url="" tags="" ctime="20190607171832" dir="1559830896ese0vwztur" file="text.html"/>
       <record id="15611669152kigr83di7" name="XRandR: настройка режимов работы с дисплеями (мониторами) в GNU/Linux&#10;" author="" url="https://linuxnow.ru/view.php?id=103" tags="" ctime="20190622092835" dir="1561166915evmowtlpu2" file="text.html"/>
       <record id="1569116259j5mmudr3sc" name="adduser" author="" url="" tags="" ctime="20190922093739" dir="1569116259e2r4cr8ono" file="text.html"/>
+      <record id="1569808531g3xz5y0l57" name="Проверка rtkit" author="" url="" tags="" ctime="20190930095531" dir="1569808531hzh7h1ljmt" file="text.html"/>
+      <record id="1569809596mud15s68ej" name="Полезные команды" author="" url="" tags="" ctime="20190930101316" dir="1569809596mcse5sc940" file="text.html"/>
      </recordtable>
      <node crypt="" id="1561120722h36v5i94i6" name="vim"/>
     </node>
@@ -91,19 +93,21 @@
      <recordtable>
       <record id="15689492234pwt6l9i7i" name="gradle.build" author="" url="" tags="" ctime="20190920111343" dir="1568949223szrg10h9xd" file="text.html"/>
       <record id="1569377804l397eitj2x" name="Workflow-STP Add-on" author="" url="https://github.com/bizblocks/workflow-stp" tags="" ctime="20190925101644" dir="1569377804iznfs1vzkq" file="text.html"/>
+      <record id="1569824406g4y2nrajvx" name="Рабочие процессы" author="" url="" tags="" ctime="20190930142006" dir="15698244069cnlcqgzp4" file="text.html"/>
      </recordtable>
      <node crypt="" id="1568942511gfdx2ilxe6" name="GroovyScripts">
       <recordtable>
-       <record id="1568180980xmrun1d226" name="createSupplementaryAggrements" author="" url="" tags="" ctime="20190920092213" dir="1568180980i150bcy6wb" file="text.html"/>
-       <record id="1568701114zcb7e3kzkb" name="CreateAccruals" author="" url="" tags="" ctime="20190920092224" dir="1568701114foco3wzpfc" file="text.html"/>
-       <record id="15682587125dqryw0lsf" name="Recalculate accruals" author="" url="" tags="" ctime="20190920092228" dir="1568258712zfaoneyje8" file="text.html"/>
-       <record id="1569219060kivz1r2ap7" name="RecalculationAmount" author="" url="" tags="" ctime="20190923141100" dir="1569219060a6gpvryfg7" file="text.html"/>
-       <record id="1569296234tgb90t73a2" name="GroovyReport_Supplementary" author="" url="" tags="" ctime="20190924113714" dir="1569296234n6o8qrt2nk" file="text.html"/>
+       <record id="1568180980xmrun1d226" name="createSupplementaryAggrements" author="" url="" tags="" ctime="20190920092213" dir="1568180980i150bcy6wb" file="text.html" block="1"/>
+       <record id="1568701114zcb7e3kzkb" name="CreateAccruals" author="" url="" tags="" ctime="20190920092224" dir="1568701114foco3wzpfc" file="text.html" block="1"/>
+       <record id="15682587125dqryw0lsf" name="Recalculate accruals" author="" url="" tags="" ctime="20190920092228" dir="1568258712zfaoneyje8" file="text.html" block="1"/>
+       <record id="1569219060kivz1r2ap7" name="RecalculationAmount" author="" url="" tags="" ctime="20190923141100" dir="1569219060a6gpvryfg7" file="text.html" block="1"/>
+       <record id="1569296234tgb90t73a2" name="GroovyReport_Supplementary" author="" url="" tags="" ctime="20190924113714" dir="1569296234n6o8qrt2nk" file="text.html" block="1"/>
+       <record id="15698129066442mxsycs" name="Тест этапа ChangeQuery" author="" url="" tags="" ctime="20190930110826" dir="1569812906tozs2nfte0" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
       <recordtable>
-       <record id="1568942636v9fof0hzgc" name="Кол-во уникальных входов по контрагентам" author="" url="" tags="" ctime="20190920092356" dir="1568942636ftkzivefj1" file="text.html"/>
+       <record id="1568942636v9fof0hzgc" name="Кол-во уникальных входов по контрагентам" author="" url="" tags="" ctime="20190920092356" dir="1568942636ftkzivefj1" file="text.html" block="1"/>
       </recordtable>
      </node>
     </node>
