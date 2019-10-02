@@ -18,6 +18,7 @@
       <record id="1568179381ajcnxuy9qq" name="DataManager" author="" url="" tags="" ctime="20190911132301" dir="1568179381267o3mxuwg" file="text.html"/>
       <record id="1568355099ppcsphfotr" name="AppBeans" author="" url="" tags="" ctime="20190913141139" dir="15683550991cuk6onbfg" file="text.html"/>
       <record id="1568703787vgbmxks141" name="Платформа CUBA. Руководство по разработке приложений&#10;Версия 6.10" author="" url="" tags="" ctime="20190917150307" dir="15687037871gi0exccqi" file="text.html"/>
+      <record id="1569977827y2a4x5tw31" name="Документация DataManager" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/dataManager.html" tags="" ctime="20191002085707" dir="1569977827geilwrda91" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m">
       <recordtable>
@@ -53,6 +54,7 @@
      <node crypt="" id="15689488177q528og42m" name="JPQL">
       <recordtable>
        <record id="1568948871eib7ef3rc2" name="JPQL (Java Persistence Query Language)" author="" url="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)" tags="" ctime="20190920110751" dir="1568948871nt59cexsyg" file="text.html"/>
+       <record id="156997587033p29sy2no" name="Функции JPQL (из CUBA)" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/jpql_functions.html" tags="" ctime="20191002082430" dir="156997587014b5as0x21" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -88,6 +90,7 @@
      <recordtable>
       <record id="1568179736ic3so0vlbb" name="Горячая линия росреестра" author="" url="" tags="" ctime="20190911132856" dir="1568179736fhx747xiwp" file="text.html"/>
       <record id="1569909158jn5htxfvyd" name="Предложения по проекту." author="" url="" tags="" ctime="20191001135238" dir="1569909158084avxo01v" file="text.html"/>
+      <record id="1569974679kk4q0f7a16" name="WIki" author="" url="" tags="" ctime="20191002080439" dir="1569974679cszg51pfox" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
@@ -104,6 +107,7 @@
        <record id="1569219060kivz1r2ap7" name="RecalculationAmount" author="" url="" tags="" ctime="20190923141100" dir="1569219060a6gpvryfg7" file="text.html" block="1"/>
        <record id="1569296234tgb90t73a2" name="GroovyReport_Supplementary" author="" url="" tags="" ctime="20190924113714" dir="1569296234n6o8qrt2nk" file="text.html" block="1"/>
        <record id="15698129066442mxsycs" name="Тест этапа ChangeQuery" author="" url="" tags="" ctime="20190930110826" dir="1569812906tozs2nfte0" file="text.html"/>
+       <record id="1570001764y7r885g2c3" name="GroovyReport_SupplementaryRefactoring" author="" url="" tags="" ctime="20191002153604" dir="1570001764ik39oguxse" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">

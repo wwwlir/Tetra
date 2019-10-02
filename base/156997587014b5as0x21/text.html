@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Главное отличие JPQL платформы CUBA от стандартного JPA заключается в том, что в CUBA необходимо всегда использовать алиас как в <span style=" font-family:'monospace';">SELECT</span>, так и в <span style=" font-family:'monospace';">UPDATE/DELETE</span> запросах. </p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">CUBA</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">JPA</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">UPDATE app$DeliveryAddress </span><span style=" font-family:'monospace'; font-weight:600;">e</span><span style=" font-family:'monospace';"> SET </span><span style=" font-family:'monospace'; font-weight:600;">e</span><span style=" font-family:'monospace';">.customer = :target WHERE </span><span style=" font-family:'monospace'; font-weight:600;">e</span><span style=" font-family:'monospace';">.customer = :source</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">UPDATE app$DeliveryAddress SET customer = :target WHERE customer = :source</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если в проекте используется <a href="https://doc.cuba-platform.com/manual-6.10-ru/soft_deletion.html"><span style=" text-decoration: underline; color:#0000ff;">мягкое удаление</span></a>, то при выполнении JPQL-запроса <span style=" font-family:'monospace';">DELETE FROM</span> для сущности, удалённой через мягкое удаление, будет выброшено исключение. Дело в том, что такой запрос, по сути, будет трансформирован в запрос SQL для удаления всех сущностей, не помеченных для удаления. По умолчанию мягкое удаление не используется, но его можно разрешить с помощью свойства приложения <a href="https://doc.cuba-platform.com/manual-6.10-ru/app_properties_reference.html#cuba.enableDeleteStatementInSoftDeleteMode"><span style=" text-decoration: underline; color:#0000ff;">cuba.enableDeleteStatementInSoftDeleteMode</span></a>. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В таблице ниже описаны функции JPQL, поддерживаемые и не поддерживаемые платформой CUBA. </p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Функция</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Поддерживается</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Пример запроса</span></p></td></tr></thead>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Агрегатные функции</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT AVG(o.quantity) FROM app$Order o</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: агрегатные функции со скалярными выражениями (особенность EclipseLink)</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT AVG(o.quantity)/2.0 FROM app$Order o</span><span style=" font-family:'monospace';"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT AVG(o.quantity * o.price) FROM app$Order o</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ALL, ANY, SOME</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT emp FROM app$Employee emp WHERE emp.salary &gt; ALL (SELECT m.salary FROM app$Manager m WHERE m.department = emp.department)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Арифметические функции (INDEX, SIZE, ABS, SQRT, MOD)</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT w.name FROM app$Course c JOIN c.studentWaitlist w WHERE c.name = 'Calculus' AND INDEX(w) = 0 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT w.name FROM app$Course c WHERE c.name = 'Calculus' AND SIZE(c.studentWaitlist) = 1 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT w.name FROM app$Course c WHERE c.name = 'Calculus' AND ABS(c.time) = 10 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT w.name FROM app$Course c WHERE c.name = 'Calculus' AND SQRT(c.time) = 10.5 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT w.name FROM app$Course c WHERE c.name = 'Calculus' AND MOD(c.time, c.time1) = 2</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CASE</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e.name, f.name, CONCAT(CASE WHEN f.annualMiles &gt; 50000 THEN 'Platinum ' WHEN f.annualMiles &gt; 25000 THEN 'Gold ' ELSE '' END, 'Frequent Flyer') FROM app$Employee e JOIN e.frequentFlierPlan f</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: CASE в UPDATE-запросе</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">UPDATE app$Employee e SET e.salary = CASE e.rating WHEN 1 THEN e.salary * 1.1 WHEN 2 THEN e.salary * 1.05 ELSE e.salary * 1.01 END</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Функции даты и времени (CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP)</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$Order e WHERE e.date = CURRENT_DATE</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Функции EclipseLink (CAST, REGEXP, EXTRACT)</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT EXTRACT(YEAR FROM e.createTs) FROM app$MyEntity e WHERE EXTRACT(YEAR FROM e.createTs) &gt; 2012 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$MyEntity e WHERE e.name REGEXP '.*' </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT CAST(e.number text) FROM app$MyEntity e WHERE e.path LIKE CAST(:ds$myEntityDs.id text)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: CAST в запросе GROUP BY</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT e FROM app$Order e WHERE e.amount &gt; 100 GROUP BY CAST(e.orderDate date)</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Операторы типов сущности</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА: тип сущности передаётся как параметр</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$Employee e WHERE TYPE(e) IN (:empType1, :empType2)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: прямая ссылка на сущность</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT e FROM app$Employee e WHERE TYPE(e) IN (app$Exempt, app$Contractor)</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вызов функций</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА: результат с операторами сравнения</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT u FROM sec$User u WHERE function('DAYOFMONTH', u.createTs) = 1</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: прямое использование результата функции</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT u FROM sec$User u WHERE function('hasRoles', u.createdBy, u.login)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IN</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e, IN(e.projects) p WHERE p.budget &gt; 1000000</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IS EMPTY для коллекций</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM Employee e WHERE e.projects IS EMPTY</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">KEY/VALUE</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT v.location.street, KEY(i).title, VALUE(i) FROM app$VideoStore v JOIN v.videoInventory i WHERE v.location.zipcode = '94301' AND VALUE(i) &gt; 0</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Литералы</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$Employee e WHERE e.name = 'Bob' </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$Employee e WHERE e.id = 1234 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$Employee e WHERE e.id = 1234L </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT s FROM app$Stat s WHERE s.ratio &gt; 3.14F </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT s FROM app$Stat s WHERE s.ratio &gt; 3.14e32D </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$Employee e WHERE e.active = TRUE</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: литералы даты и времени</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT e FROM app$Employee e WHERE e.startDate = {d'2012-01-03'}</span><span style=" font-family:'monospace';"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT e FROM app$Employee e WHERE e.startTime = {t'09:00:00'}</span><span style=" font-family:'monospace';"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT e FROM app$Employee e WHERE e.version = {ts'2012-01-03 09:00:00.000000001'}</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">MEMBER OF</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА: для полей и запросов</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT d FROM app$Department d WHERE (select e from app$Employee e where e.id = :eParam) MEMBER OF e.employees</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: для литералов</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT e FROM app$Employee e WHERE 'write code' MEMBER OF e.codes</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">NEW в SELECT</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT NEW com.acme.example.CustomerDetails(c.id, c.status, o.count) FROM app$Customer c JOIN c.orders o WHERE o.count &gt; 100</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">NULLIF/COALESCE</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT NULLIF(emp.salary, 10) FROM app$Employee emp </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT COALESCE(emp.salary, emp.salaryOld, 10) FROM app$Employee emp</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">NULLS FIRST, NULLS LAST в order by</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT h FROM sec$GroupHierarchy h ORDER BY h.level DESC NULLS FIRST</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Строковые функции (CONCAT, SUBSTRING, TRIM, LOWER, UPPER, LENGTH, LOCATE)</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT x FROM app$Magazine x WHERE CONCAT(x.title, 's') = 'JDJs' </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT x FROM app$Magazine x WHERE SUBSTRING(x.title, 1, 1) = 'J' </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT x FROM app$Magazine x WHERE LOWER(x.title) = 'd' </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT x FROM app$Magazine x WHERE UPPER(x.title) = 'D' </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT x FROM app$Magazine x WHERE LENGTH(x.title) = 10 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT x FROM app$Magazine x WHERE LOCATE('A', x.title, 4) = 6 </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT x FROM app$Magazine x WHERE TRIM(TRAILING FROM x.title) = 'D'</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: TRIM не поддерживается с trim char</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT x FROM app$Magazine x WHERE TRIM(TRAILING 'J' FROM x.title) = 'D'</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вложенные запросы</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT goodCustomer FROM app$Customer goodCustomer WHERE goodCustomer.balanceOwed &lt; (SELECT AVG(c.balanceOwed) FROM app$Customer c)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: path-выражения вместо имени сущности в FROM подзапроса</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT c FROM app$Customer c WHERE (SELECT AVG(o.price) FROM c.orders o) &gt; 100</span></p></td></tr>
+<tr>
+<td rowspan="2">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">TREAT</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ДА</p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace';">SELECT e FROM app$Employee e JOIN TREAT(e.projects AS app$LargeProject) p WHERE p.budget &gt; 1000000</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">НЕТ: TREAT в WHERE-выражениях</span></p></td>
+<td>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'monospace'; font-style:italic;">SELECT e FROM Employee e JOIN e.projects p WHERE TREAT(p as LargeProject).budget &gt; 1000000</span></p></td></tr></table></body></html>
