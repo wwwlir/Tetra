@@ -20,12 +20,7 @@
       <record id="1568703787vgbmxks141" name="Платформа CUBA. Руководство по разработке приложений&#10;Версия 6.10" author="" url="" tags="" ctime="20190917150307" dir="15687037871gi0exccqi" file="text.html"/>
       <record id="1569977827y2a4x5tw31" name="Документация DataManager" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/dataManager.html" tags="" ctime="20191002085707" dir="1569977827geilwrda91" file="text.html"/>
      </recordtable>
-     <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m">
-      <recordtable>
-       <record id="1568179476eus44c282s" name="UkM1U0lNUAMvetzriumAbNunzd56FsoaIi1s+xesZMLHwYJMVMUtsywvFdwRlQ1ijw2+8ecRdGA=" author="" url="" tags="" ctime="20190911132513" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block=""/>
-       <record id="1568179418xjw42jupr9" name="UkM1U0lNUAOeR4QUlih0cLnrj0R/45Smed7HjTfKuPsO+zohwBYKwI+20BahCmZBYVkeYhHLrj4=" author="" url="" tags="" ctime="20190911132518" dir="1568179418z5gbtd572w" file="text.html" crypt="1"/>
-      </recordtable>
-     </node>
+     <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
     </node>
     <node crypt="" id="15599168979q3i1uqzne" name="git">
      <recordtable>
@@ -38,6 +33,7 @@
       <record id="1562298593r1x9f43afi" name="Удачная модель ветвления для Git" author="" url="https://habr.com/ru/post/106912/" tags="" ctime="20190705114953" dir="1562298593acarch1hqj" file="text.html"/>
       <record id="15681796851bit2df9o5" name="Заготовки" author="" url="" tags="" ctime="20190911132805" dir="1568179685karn4kklul" file="text.html"/>
       <record id="1568943607bhwyfppb7u" name="Удалить все локальные ветки git" author="" url="" tags="" ctime="20190920094007" dir="1568943607bdvq2q6jpm" file="text.html"/>
+      <record id="1570158840xmy01rfw3y" name="git patch" author="" url="" tags="" ctime="20191004111400" dir="1570158840w4qirvnx7e" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="15599241473y33894oxm" name="Spring">
@@ -91,6 +87,7 @@
       <record id="1568179736ic3so0vlbb" name="Горячая линия росреестра" author="" url="" tags="" ctime="20190911132856" dir="1568179736fhx747xiwp" file="text.html"/>
       <record id="1569909158jn5htxfvyd" name="Предложения по проекту." author="" url="" tags="" ctime="20191001135238" dir="1569909158084avxo01v" file="text.html"/>
       <record id="1569974679kk4q0f7a16" name="WIki" author="" url="" tags="" ctime="20191002080439" dir="1569974679cszg51pfox" file="text.html"/>
+      <record id="1570152140t8yh4akdx9" name="Заготовки" author="" url="" tags="" ctime="20191004092220" dir="1570152140uugmjyyi8t" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
@@ -113,6 +110,12 @@
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
       <recordtable>
        <record id="1568942636v9fof0hzgc" name="Кол-во уникальных входов по контрагентам" author="" url="" tags="" ctime="20190920092356" dir="1568942636ftkzivefj1" file="text.html" block="1"/>
+      </recordtable>
+     </node>
+     <node crypt="1" icon="" id="1570169855n29tj8p4ci" name="UkM1U0lNUAPitU5LVBCJ33LUKzne9H7xBYuUHtiIhHASVyiou7molT/PbRZ++hRD">
+      <recordtable>
+       <record id="1568179418xjw42jupr9" name="UkM1U0lNUAMrMypSD9pcofQfoyPDpfti5E0ax4WEtLEQ6D5Ff5+/rta50QfE1TQWzxSfzQwOF5I=" author="" url="" tags="" ctime="20191004141744" dir="1568179418z5gbtd572w" file="text.html" crypt="1"/>
+       <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block=""/>
       </recordtable>
      </node>
     </node>
