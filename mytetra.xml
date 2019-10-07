@@ -53,6 +53,11 @@
        <record id="156997587033p29sy2no" name="Функции JPQL (из CUBA)" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/jpql_functions.html" tags="" ctime="20191002082430" dir="156997587014b5as0x21" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1570426886pbso7l5e5l" name="postgres">
+      <recordtable>
+       <record id="1570426933itlydtauba" name="psql" author="" url="" tags="" ctime="20191007134213" dir="1570426933poryczjht4" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="15693073000w59y31qvn" name="JAVA">
      <recordtable>
@@ -110,6 +115,7 @@
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
       <recordtable>
        <record id="1568942636v9fof0hzgc" name="Кол-во уникальных входов по контрагентам" author="" url="" tags="" ctime="20190920092356" dir="1568942636ftkzivefj1" file="text.html" block="1"/>
+       <record id="1570437825l2nmm6gz05" name="Установка организации в контракты" author="" url="" tags="" ctime="20191007164345" dir="1570437825wb88voxt33" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="1" icon="" id="1570169855n29tj8p4ci" name="UkM1U0lNUAPitU5LVBCJ33LUKzne9H7xBYuUHtiIhHASVyiou7molT/PbRZ++hRD">
