@@ -35,6 +35,7 @@
       <record id="15681796851bit2df9o5" name="Заготовки" author="" url="" tags="" ctime="20190911132805" dir="1568179685karn4kklul" file="text.html"/>
       <record id="1568943607bhwyfppb7u" name="Удалить все локальные ветки git" author="" url="" tags="" ctime="20190920094007" dir="1568943607bdvq2q6jpm" file="text.html"/>
       <record id="1570158840xmy01rfw3y" name="git patch" author="" url="" tags="" ctime="20191004111400" dir="1570158840w4qirvnx7e" file="text.html"/>
+      <record id="1571212168rrgo3104ey" name="Самые типичные ошибки и вопросы, связанные с Git, и удобные способы их решения" author="" url="https://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/" tags="" ctime="20191016154928" dir="1571212168kx9p7v9yfm" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="15599241473y33894oxm" name="Spring">
@@ -64,6 +65,12 @@
     <node crypt="" id="15693073000w59y31qvn" name="JAVA">
      <recordtable>
       <record id="15693073266b1c2p809s" name="LambdaForEach" author="" url="" tags="" ctime="20190924144206" dir="1569307326ydi32w6jnh" file="text.html"/>
+      <record id="15711941130ntmz2t9ji" name="Date and Calendar" author="" url="" tags="" ctime="20191016104833" dir="1571194113g6ihdr7vbb" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="157121243264kftsq265" name="Links">
+     <recordtable>
+      <record id="1571212443c9gp925bkl" name="Temp" author="" url="" tags="" ctime="20191016155403" dir="157121244335un0nvr5i" file="text.html"/>
      </recordtable>
     </node>
    </node>
@@ -102,6 +109,9 @@
       <record id="15689492234pwt6l9i7i" name="gradle.build" author="" url="" tags="" ctime="20190920111343" dir="1568949223szrg10h9xd" file="text.html"/>
       <record id="1569377804l397eitj2x" name="Workflow-STP Add-on" author="" url="https://github.com/bizblocks/workflow-stp" tags="" ctime="20190925101644" dir="1569377804iznfs1vzkq" file="text.html"/>
       <record id="1569824406g4y2nrajvx" name="Рабочие процессы" author="" url="" tags="" ctime="20190930142006" dir="15698244069cnlcqgzp4" file="text.html"/>
+      <record id="15712060766anlmkmlqs" name="com.groupstp.rtneo.core.bean.calculation.CalculationWorkerBean#getAreaNotInRentNew" author="" url="" tags="" ctime="20191016140756" dir="15712060762d1wf0eo9d" file="text.html"/>
+      <record id="1571208151hcdcnhafpg" name="Описание" author="" url="" tags="" ctime="20191016144231" dir="1571208151bm2yn4yppo" file="text.html"/>
+      <record id="1571208252m3ra182bc8" name="Рефакторинг" author="" url="" tags="" ctime="20191016144412" dir="1571208252h3kufos6jh" file="text.html"/>
      </recordtable>
      <node crypt="" id="1568942511gfdx2ilxe6" name="GroovyScripts">
       <recordtable>
