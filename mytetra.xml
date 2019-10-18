@@ -5,6 +5,9 @@
  <content>
   <node crypt="" id="1559916805ybtruadnpq" name="INFO">
    <node crypt="" id="1559916844zruik4uuvn" name="Development">
+    <recordtable>
+     <record id="1571359730skcoa9972r" name="Краткая шпаргалка по сочетаниям клавиш в IntelliJ IDEA " author="" url="" tags="" ctime="20191018084850" dir="157135973024pfahhl3b" file="text.html"/>
+    </recordtable>
     <node crypt="" id="15599168621kpr5h2ldu" name="GROOVY">
      <recordtable>
       <record id="1559484227ls4hjbpng5" name="Материал из Викиучебника" author="" url="https://ru.wikibooks.org/wiki/Groovy" tags="" ctime="20190607171422" dir="1559484227mm649ry5x9" file="text.html"/>
@@ -137,6 +140,12 @@
       <recordtable>
        <record id="1568179418xjw42jupr9" name="UkM1U0lNUAMrMypSD9pcofQfoyPDpfti5E0ax4WEtLEQ6D5Ff5+/rta50QfE1TQWzxSfzQwOF5I=" author="" url="" tags="" ctime="20191004141744" dir="1568179418z5gbtd572w" file="text.html" crypt="1"/>
        <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block=""/>
+       <record id="1571270955pad8jeo8hx" name="UkM1U0lNUANK4vScHBBno1h36jPmO1Wa4Q4p8tpMS4NPrlpimY1DKBmx4r1C0t0uu3NGVhuLjfP4Rss6CecOcKS4JS2Pv5A7CPAKoCXLPeE=" author="" url="" tags="" ctime="20191017080915" dir="15712709559p3d53t7w0" file="text.html" crypt="1"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1571279210e0ulxdnssp" name="Работа над задачами">
+      <recordtable>
+       <record id="1571280724t2lp9fj47v" name="Арендодатель платит за арендатора" author="" url="" tags="" ctime="20191017105204" dir="1571280724v0xp1v243b" file="text.html"/>
       </recordtable>
      </node>
     </node>
