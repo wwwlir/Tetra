@@ -23,6 +23,7 @@
       <record id="1568355099ppcsphfotr" name="AppBeans" author="" url="" tags="" ctime="20190913141139" dir="15683550991cuk6onbfg" file="text.html"/>
       <record id="1568703787vgbmxks141" name="Платформа CUBA. Руководство по разработке приложений&#10;Версия 6.10" author="" url="" tags="" ctime="20190917150307" dir="15687037871gi0exccqi" file="text.html"/>
       <record id="1569977827y2a4x5tw31" name="Документация DataManager" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/dataManager.html" tags="" ctime="20191002085707" dir="1569977827geilwrda91" file="text.html"/>
+      <record id="1572064335ylzbzlsgln" name="Опции компиляции java" author="" url="" tags="" ctime="20191026123215" dir="1572064335bew8e6exoi" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
     </node>
@@ -56,6 +57,7 @@
       <recordtable>
        <record id="1568948871eib7ef3rc2" name="JPQL (Java Persistence Query Language)" author="" url="https://ru.bmstu.wiki/JPQL_(Java_Persistence_Query_Language)" tags="" ctime="20190920110751" dir="1568948871nt59cexsyg" file="text.html"/>
        <record id="156997587033p29sy2no" name="Функции JPQL (из CUBA)" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/jpql_functions.html" tags="" ctime="20191002082430" dir="156997587014b5as0x21" file="text.html"/>
+       <record id="15719844310vk1k5rcyd" name="Установка и настройка базы данных PostgreSQL на Ubuntu " author="" url="https://o7planning.org/ru/11325/installing-and-configuring-postgresql-database-on-ubuntu" tags="" ctime="20191025142031" dir="1571984431xah7a2knov" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1570426886pbso7l5e5l" name="postgres">
@@ -69,12 +71,20 @@
      <recordtable>
       <record id="15693073266b1c2p809s" name="LambdaForEach" author="" url="" tags="" ctime="20190924144206" dir="1569307326ydi32w6jnh" file="text.html"/>
       <record id="15711941130ntmz2t9ji" name="Date and Calendar" author="" url="" tags="" ctime="20191016104833" dir="1571194113g6ihdr7vbb" file="text.html"/>
+      <record id="1571811460169e3x8nyd" name="Сортировка Map через stream" author="" url="" tags="" ctime="20191023141740" dir="1571811460pz62uzvz69" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="157121243264kftsq265" name="Links">
      <recordtable>
       <record id="1571212443c9gp925bkl" name="Temp" author="" url="" tags="" ctime="20191016155403" dir="157121244335un0nvr5i" file="text.html"/>
      </recordtable>
+    </node>
+    <node crypt="" id="1572253373nzpf3wqot9" name="Arduino">
+     <node crypt="" id="1572253381rvo7emz0qq" name="temp">
+      <recordtable>
+       <record id="1572253417arpfjyone0" name="Начало" author="" url="" tags="" ctime="20191028170337" dir="1572253417whuk4omkoc" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
@@ -89,6 +99,7 @@
       <record id="1569116259j5mmudr3sc" name="adduser" author="" url="" tags="" ctime="20190922093739" dir="1569116259e2r4cr8ono" file="text.html"/>
       <record id="1569808531g3xz5y0l57" name="Проверка rtkit" author="" url="" tags="" ctime="20190930095531" dir="1569808531hzh7h1ljmt" file="text.html"/>
       <record id="1569809596mud15s68ej" name="Полезные команды" author="" url="" tags="" ctime="20190930101316" dir="1569809596mcse5sc940" file="text.html"/>
+      <record id="15719688211cu0ldd6vd" name="Создание и распаковка архивов в Linux" author="" url="" tags="" ctime="20191025100021" dir="1571968821mam7czooxd" file="text.html"/>
      </recordtable>
      <node crypt="" id="1561120722h36v5i94i6" name="vim"/>
     </node>
@@ -126,6 +137,7 @@
        <record id="15698129066442mxsycs" name="Тест этапа ChangeQuery" author="" url="" tags="" ctime="20190930110826" dir="1569812906tozs2nfte0" file="text.html"/>
        <record id="1570001764y7r885g2c3" name="GroovyReport_SupplementaryRefactoring" author="" url="" tags="" ctime="20191002153604" dir="1570001764ik39oguxse" file="text.html"/>
        <record id="15711271871rlec54cky" name="Арендаторы с удаленными объектами" author="" url="" tags="" ctime="20191015161307" dir="1571127187672jteymbv" file="text.html"/>
+       <record id="1571791757t1cetd57d1" name="Доп соглашение с оплатой за арендатора" author="" url="" tags="" ctime="20191023084917" dir="1571791757guvrnyk5ed" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
@@ -146,6 +158,8 @@
      <node crypt="" id="1571279210e0ulxdnssp" name="Работа над задачами">
       <recordtable>
        <record id="1571280724t2lp9fj47v" name="Арендодатель платит за арендатора" author="" url="" tags="" ctime="20191017105204" dir="1571280724v0xp1v243b" file="text.html"/>
+       <record id="1572233076znge7p4314" name="Создание допа при принятии заявки на изменение" author="" url="" tags="" ctime="20191028112436" dir="15722330762iziha4r5f" file="text.html"/>
+       <record id="1572251574rgvewdncmc" name="Проверочные контрагенты" author="" url="" tags="" ctime="20191028163254" dir="1572251574p8eln1a75r" file="text.html"/>
       </recordtable>
      </node>
     </node>
