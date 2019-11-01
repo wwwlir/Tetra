@@ -24,6 +24,8 @@
       <record id="1568703787vgbmxks141" name="Платформа CUBA. Руководство по разработке приложений&#10;Версия 6.10" author="" url="" tags="" ctime="20190917150307" dir="15687037871gi0exccqi" file="text.html"/>
       <record id="1569977827y2a4x5tw31" name="Документация DataManager" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/dataManager.html" tags="" ctime="20191002085707" dir="1569977827geilwrda91" file="text.html"/>
       <record id="1572064335ylzbzlsgln" name="Опции компиляции java" author="" url="" tags="" ctime="20191026123215" dir="1572064335bew8e6exoi" file="text.html"/>
+      <record id="1572320765sxmzvm89s0" name="Пароль по умолчанию" author="" url="" tags="" ctime="20191029114605" dir="1572320765bcy7qk29o9" file="text.html"/>
+      <record id="15724822142gichc7ivf" name="SimpleDateFormat" author="" url="" tags="" ctime="20191031083654" dir="1572482214k0pf9sdcjw" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
     </node>
@@ -73,6 +75,20 @@
       <record id="15711941130ntmz2t9ji" name="Date and Calendar" author="" url="" tags="" ctime="20191016104833" dir="1571194113g6ihdr7vbb" file="text.html"/>
       <record id="1571811460169e3x8nyd" name="Сортировка Map через stream" author="" url="" tags="" ctime="20191023141740" dir="1571811460pz62uzvz69" file="text.html"/>
      </recordtable>
+     <node crypt="" id="1572571740h4wvjytv5k" name="Collection">
+      <recordtable>
+       <record id="1572571765hoguxeaa93" name="Типы коллекций. Интерфейс Collection" author="" url="" tags="" ctime="20191101092925" dir="1572571765ffdqlh1qj5" file="text.html"/>
+       <record id="1572571801sxq112wwcm" name="Класс ArrayList и интерфейс List" author="" url="" tags="" ctime="20191101093001" dir="1572571801y4ruzp8pzx" file="text.html"/>
+       <record id="1572571859h58xsq8kws" name="Очереди и класс ArrayDeque" author="" url="" tags="" ctime="20191101093059" dir="15725718598u9w1hc6al" file="text.html"/>
+       <record id="1572571876erlynq8q6o" name="Класс LinkedList" author="" url="" tags="" ctime="20191101093116" dir="1572571876zj6nxet5z5" file="text.html"/>
+       <record id="1572571901ehjcd94o91" name="Интерфейс Set и класс HashSet" author="" url="" tags="" ctime="20191101093141" dir="157257190121tv2wpz6x" file="text.html"/>
+       <record id="1572571930mej9aczyb3" name="SortedSet, NavigableSet, TreeSet" author="" url="" tags="" ctime="20191101093210" dir="1572571930g8s8jwpfwl" file="text.html"/>
+       <record id="1572571954o2azoa960y" name="Интерфейсы Comparable и Comparator. Сортировка" author="" url="" tags="" ctime="20191101093234" dir="15725719543p1ptkm2oi" file="text.html"/>
+       <record id="1572571984fahgqxprz1" name="Интерфейс Map и класс HashMap" author="" url="" tags="" ctime="20191101093304" dir="15725719842w8shsz0u6" file="text.html"/>
+       <record id="1572572010qd0btbeilg" name="Интерфейсы SortedMap и NavigableMap. Класс TreeMap" author="" url="" tags="" ctime="20191101093330" dir="1572572010km714fxh5x" file="text.html"/>
+       <record id="1572572032diei3ss33y" name="Итераторы" author="" url="" tags="" ctime="20191101093352" dir="1572572032ic0x3wpv41" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="157121243264kftsq265" name="Links">
      <recordtable>
@@ -126,6 +142,7 @@
       <record id="15712060766anlmkmlqs" name="com.groupstp.rtneo.core.bean.calculation.CalculationWorkerBean#getAreaNotInRentNew" author="" url="" tags="" ctime="20191016140756" dir="15712060762d1wf0eo9d" file="text.html"/>
       <record id="1571208151hcdcnhafpg" name="Описание" author="" url="" tags="" ctime="20191016144231" dir="1571208151bm2yn4yppo" file="text.html"/>
       <record id="1571208252m3ra182bc8" name="Рефакторинг" author="" url="" tags="" ctime="20191016144412" dir="1571208252h3kufos6jh" file="text.html"/>
+      <record id="15723278382lwkt5x8l0" name="CategoryABC" author="" url="" tags="" ctime="20191029134358" dir="15723278387ixshx3xu3" file="text.html"/>
      </recordtable>
      <node crypt="" id="1568942511gfdx2ilxe6" name="GroovyScripts">
       <recordtable>
@@ -138,6 +155,10 @@
        <record id="1570001764y7r885g2c3" name="GroovyReport_SupplementaryRefactoring" author="" url="" tags="" ctime="20191002153604" dir="1570001764ik39oguxse" file="text.html"/>
        <record id="15711271871rlec54cky" name="Арендаторы с удаленными объектами" author="" url="" tags="" ctime="20191015161307" dir="1571127187672jteymbv" file="text.html"/>
        <record id="1571791757t1cetd57d1" name="Доп соглашение с оплатой за арендатора" author="" url="" tags="" ctime="20191023084917" dir="1571791757guvrnyk5ed" file="text.html"/>
+       <record id="1572401062oltla3t0vo" name="Выгрузка для УПД" author="" url="" tags="" ctime="20191030100422" dir="1572401062m81g6rfprc" file="text.html" block="1"/>
+       <record id="157240604640a55ehub9" name="Выгрузка для УПД2" author="" url="" tags="" ctime="20191030112726" dir="1572406046vsvjuks347" file="text.html"/>
+       <record id="1572422104xbm20s297m" name="Выгрузка Контрагент + Договор" author="" url="" tags="" ctime="20191030155504" dir="1572422104f2yub960hy" file="text.html"/>
+       <record id="1572577166irr2275at3" name="Общественные организации" author="" url="" tags="" ctime="20191101105926" dir="1572577166g3lr9jqrw7" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
