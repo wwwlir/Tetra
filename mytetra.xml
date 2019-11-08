@@ -102,6 +102,11 @@
       </recordtable>
      </node>
     </node>
+    <node crypt="" id="15726611818di6uvmwia" name="IDEA">
+     <recordtable>
+      <record id="1572661311ycfuahjmjo" name="Навигация" author="" url="" tags="" ctime="20191102102151" dir="15726613114f42lexnrv" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
     <node crypt="" id="1559917112fgfu2v8bwt" name="Linux">
@@ -159,7 +164,17 @@
        <record id="157240604640a55ehub9" name="Выгрузка для УПД2" author="" url="" tags="" ctime="20191030112726" dir="1572406046vsvjuks347" file="text.html"/>
        <record id="1572422104xbm20s297m" name="Выгрузка Контрагент + Договор" author="" url="" tags="" ctime="20191030155504" dir="1572422104f2yub960hy" file="text.html"/>
        <record id="1572577166irr2275at3" name="Общественные организации" author="" url="" tags="" ctime="20191101105926" dir="1572577166g3lr9jqrw7" file="text.html"/>
+       <record id="15729307858c4x7e53ih" name="Тест отчета с оплатой за арендатора" author="" url="" tags="" ctime="20191105131305" dir="1572930785whtbp17m8j" file="text.html" block="1"/>
+       <record id="1572931289kao7s3hpnv" name="2" author="" url="" tags="" ctime="20191105132129" dir="1572931289wrkircttbm" file="text.html"/>
+       <record id="1572960170avbi7urw8e" name="Заготовка" author="" url="" tags="" ctime="20191105212250" dir="1572960170gbiegafmwp" file="text.html" block="1"/>
+       <record id="1573111474ebp9cvn340" name="SupplyRefactor" author="" url="" tags="" ctime="20191107152434" dir="1573111474sbc3km4m4b" file="text.html"/>
+       <record id="1573116260kwgw6pbl2m" name="SupplyRefactor2" author="" url="" tags="" ctime="20191107164420" dir="1573116260is471gj4z3" file="text.html"/>
       </recordtable>
+      <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
+       <recordtable>
+        <record id="1573012474ludjeei2ts" name="Выгрузка по площади контрагентов" author="" url="" tags="" ctime="20191106115434" dir="1573012474sfokxrdou4" file="text.html" block="1"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
       <recordtable>
@@ -181,6 +196,7 @@
        <record id="1571280724t2lp9fj47v" name="Арендодатель платит за арендатора" author="" url="" tags="" ctime="20191017105204" dir="1571280724v0xp1v243b" file="text.html"/>
        <record id="1572233076znge7p4314" name="Создание допа при принятии заявки на изменение" author="" url="" tags="" ctime="20191028112436" dir="15722330762iziha4r5f" file="text.html"/>
        <record id="1572251574rgvewdncmc" name="Проверочные контрагенты" author="" url="" tags="" ctime="20191028163254" dir="1572251574p8eln1a75r" file="text.html"/>
+       <record id="1573099348yln92rsdem" name="Установить объемы арендаторам за которых платит арендодатель" author="" url="" tags="" ctime="20191107120228" dir="1573099348d1zw0f0wyk" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -204,6 +220,12 @@
   <node crypt="1" icon="" id="1568179775dbvbifiwyu" name="UkM1U0lNUAPofsOpV9kwFSE2kBjhdvmCjHgFWnaZL+uidAB/iVjem9BdBRjSZLKx">
    <recordtable>
     <record id="1569568146gw64gzahcx" name="UkM1U0lNUANTYIJYTAdRyRIXyIL4YWAZYePIoLcpsIW5hVjuHu3gdz/rVM8kzLc0yo5y6vPa5Of47o1E4YNR2JH5HlTjJO1b" author="" url="" tags="" ctime="20190927150906" dir="1569568146fl2y7n9cxm" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1572950320wfxfyqag67" name="Temp">
+   <recordtable>
+    <record id="15729503369pr660272j" name="Статистика по площадям" author="" url="" tags="" ctime="20191105183856" dir="1572950336wgh9cvzmcl" file="text.html"/>
+    <record id="1572960763nhv1mlulqq" name="Статистика разбор" author="" url="" tags="" ctime="20191105213243" dir="1572960763pafp2v11a0" file="text.html"/>
    </recordtable>
   </node>
  </content>
