@@ -122,7 +122,11 @@
       <record id="1569809596mud15s68ej" name="Полезные команды" author="" url="" tags="" ctime="20190930101316" dir="1569809596mcse5sc940" file="text.html"/>
       <record id="15719688211cu0ldd6vd" name="Создание и распаковка архивов в Linux" author="" url="" tags="" ctime="20191025100021" dir="1571968821mam7czooxd" file="text.html"/>
      </recordtable>
-     <node crypt="" id="1561120722h36v5i94i6" name="vim"/>
+     <node crypt="" id="1561120722h36v5i94i6" name="vim">
+      <recordtable>
+       <record id="1573605984vn2pp7ljfb" name="Ответ по копированию" author="" url="" tags="" ctime="20191113084624" dir="157360598483jyra3qe4" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="1560944081n1uyln28gi" name="MyTetra">
      <recordtable>
@@ -137,6 +141,7 @@
       <record id="1569909158jn5htxfvyd" name="Предложения по проекту." author="" url="" tags="" ctime="20191001135238" dir="1569909158084avxo01v" file="text.html"/>
       <record id="1569974679kk4q0f7a16" name="WIki" author="" url="" tags="" ctime="20191002080439" dir="1569974679cszg51pfox" file="text.html"/>
       <record id="1570152140t8yh4akdx9" name="Заготовки" author="" url="" tags="" ctime="20191004092220" dir="1570152140uugmjyyi8t" file="text.html"/>
+      <record id="1573720874ed71w4ve3k" name="Рабочие процессы" author="" url="" tags="" ctime="20191114164114" dir="15737208749jmsgw6ic5" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
@@ -148,6 +153,7 @@
       <record id="1571208151hcdcnhafpg" name="Описание" author="" url="" tags="" ctime="20191016144231" dir="1571208151bm2yn4yppo" file="text.html"/>
       <record id="1571208252m3ra182bc8" name="Рефакторинг" author="" url="" tags="" ctime="20191016144412" dir="1571208252h3kufos6jh" file="text.html"/>
       <record id="15723278382lwkt5x8l0" name="CategoryABC" author="" url="" tags="" ctime="20191029134358" dir="15723278387ixshx3xu3" file="text.html"/>
+      <record id="1573443585wk2jhxeqxd" name="Методы" author="" url="" tags="" ctime="20191111113945" dir="1573443585k4f0d2qbbo" file="text.html"/>
      </recordtable>
      <node crypt="" id="1568942511gfdx2ilxe6" name="GroovyScripts">
       <recordtable>
@@ -169,6 +175,8 @@
        <record id="1572960170avbi7urw8e" name="Заготовка" author="" url="" tags="" ctime="20191105212250" dir="1572960170gbiegafmwp" file="text.html" block="1"/>
        <record id="1573111474ebp9cvn340" name="SupplyRefactor" author="" url="" tags="" ctime="20191107152434" dir="1573111474sbc3km4m4b" file="text.html"/>
        <record id="1573116260kwgw6pbl2m" name="SupplyRefactor2" author="" url="" tags="" ctime="20191107164420" dir="1573116260is471gj4z3" file="text.html"/>
+       <record id="1573804484f464an5ctc" name="Создание позиций и допа(Не работает, нет метода в интерфейсе сервиса)" author="" url="" tags="" ctime="20191115155444" dir="1573804484wtp1brm2nz" file="text.html"/>
+       <record id="15738084227cge5kcitm" name="Редактирование начислений" author="" url="" tags="" ctime="20191115170022" dir="1573808422hdv7lhtkpx" file="text.html"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
@@ -187,7 +195,7 @@
      <node crypt="1" icon="" id="1570169855n29tj8p4ci" name="UkM1U0lNUAPitU5LVBCJ33LUKzne9H7xBYuUHtiIhHASVyiou7molT/PbRZ++hRD">
       <recordtable>
        <record id="1568179418xjw42jupr9" name="UkM1U0lNUAMrMypSD9pcofQfoyPDpfti5E0ax4WEtLEQ6D5Ff5+/rta50QfE1TQWzxSfzQwOF5I=" author="" url="" tags="" ctime="20191004141744" dir="1568179418z5gbtd572w" file="text.html" crypt="1"/>
-       <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block=""/>
+       <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block="1"/>
        <record id="1571270955pad8jeo8hx" name="UkM1U0lNUANK4vScHBBno1h36jPmO1Wa4Q4p8tpMS4NPrlpimY1DKBmx4r1C0t0uu3NGVhuLjfP4Rss6CecOcKS4JS2Pv5A7CPAKoCXLPeE=" author="" url="" tags="" ctime="20191017080915" dir="15712709559p3d53t7w0" file="text.html" crypt="1"/>
       </recordtable>
      </node>
@@ -204,6 +212,11 @@
      <recordtable>
       <record id="1573176831k8si7re29t" name="План" author="" url="" tags="" ctime="20191108093351" dir="15731768310jdq4e9q8h" file="text.html"/>
       <record id="1573180635ovemhtsvny" name="Пометки" author="" url="" tags="" ctime="20191108103715" dir="1573180635lasd28t67s" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="1" icon="" id="1573473026f9lwwro2jb" name="UkM1U0lNUANGHV5SO8IqM6fYxPUtUbBDCz6d6bmcl6BpjZIGGT3TVd+ReFF/iwCE">
+     <recordtable>
+      <record id="1573473058sdfangskyc" name="UkM1U0lNUAOqvQja0H5RAHajXsFg36XSIXbLPpMAi1ZHvFLsaSCppr4NDJf/2zfT6AP5xOcTgXk=" author="" url="" tags="" ctime="20191111195058" dir="1573473058u1cfd8mhbl" file="text.html" crypt="1"/>
      </recordtable>
     </node>
    </node>
