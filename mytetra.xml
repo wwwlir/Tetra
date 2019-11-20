@@ -147,8 +147,6 @@
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
      <recordtable>
       <record id="15689492234pwt6l9i7i" name="gradle.build" author="" url="" tags="" ctime="20190920111343" dir="1568949223szrg10h9xd" file="text.html"/>
-      <record id="1569377804l397eitj2x" name="Workflow-STP Add-on" author="" url="https://github.com/bizblocks/workflow-stp" tags="" ctime="20190925101644" dir="1569377804iznfs1vzkq" file="text.html"/>
-      <record id="1569824406g4y2nrajvx" name="Рабочие процессы" author="" url="" tags="" ctime="20190930142006" dir="15698244069cnlcqgzp4" file="text.html"/>
       <record id="15712060766anlmkmlqs" name="com.groupstp.rtneo.core.bean.calculation.CalculationWorkerBean#getAreaNotInRentNew" author="" url="" tags="" ctime="20191016140756" dir="15712060762d1wf0eo9d" file="text.html"/>
       <record id="1571208151hcdcnhafpg" name="Описание" author="" url="" tags="" ctime="20191016144231" dir="1571208151bm2yn4yppo" file="text.html"/>
       <record id="1571208252m3ra182bc8" name="Рефакторинг" author="" url="" tags="" ctime="20191016144412" dir="1571208252h3kufos6jh" file="text.html"/>
@@ -177,6 +175,8 @@
        <record id="1573116260kwgw6pbl2m" name="SupplyRefactor2" author="" url="" tags="" ctime="20191107164420" dir="1573116260is471gj4z3" file="text.html"/>
        <record id="1573804484f464an5ctc" name="Создание позиций и допа(Не работает, нет метода в интерфейсе сервиса)" author="" url="" tags="" ctime="20191115155444" dir="1573804484wtp1brm2nz" file="text.html"/>
        <record id="15738084227cge5kcitm" name="Редактирование начислений" author="" url="" tags="" ctime="20191115170022" dir="1573808422hdv7lhtkpx" file="text.html"/>
+       <record id="1574057005k9z9azg572" name="Вывоз по факту" author="" url="" tags="" ctime="20191118140325" dir="15740570052ceouvp5ct" file="text.html" block="1"/>
+       <record id="15742409173jjux4tyny" name="Groovy доступ к файлу" author="" url="" tags="" ctime="20191120170837" dir="1574240917ph433gcgql" file="text.html"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
@@ -190,6 +190,7 @@
        <record id="1570437825l2nmm6gz05" name="Установка организации в контракты" author="" url="" tags="" ctime="20191007164345" dir="1570437825wb88voxt33" file="text.html"/>
        <record id="1571032735u6n02sdf77" name="Установка начала действия позиций по договору" author="" url="" tags="" ctime="20191014135855" dir="15710327354bp76tog0k" file="text.html"/>
        <record id="1571103199ythppalv81" name="Сдаваемая площадь в определенный период по объекту недвижимости контрагента" author="" url="" tags="" ctime="20191015093319" dir="1571103199fz946tosla" file="text.html"/>
+       <record id="1574218945ks3bp73xp5" name="Запрос выбирает контрагентов у которых принято хоть одно доп соглашение" author="" url="" tags="" ctime="20191120110225" dir="1574218945po667my76g" file="text.html" block="1"/>
       </recordtable>
      </node>
      <node crypt="1" icon="" id="1570169855n29tj8p4ci" name="UkM1U0lNUAPitU5LVBCJ33LUKzne9H7xBYuUHtiIhHASVyiou7molT/PbRZ++hRD">
@@ -205,6 +206,14 @@
        <record id="1572233076znge7p4314" name="Создание допа при принятии заявки на изменение" author="" url="" tags="" ctime="20191028112436" dir="15722330762iziha4r5f" file="text.html"/>
        <record id="1572251574rgvewdncmc" name="Проверочные контрагенты" author="" url="" tags="" ctime="20191028163254" dir="1572251574p8eln1a75r" file="text.html"/>
        <record id="1573099348yln92rsdem" name="Установить объемы арендаторам за которых платит арендодатель" author="" url="" tags="" ctime="20191107120228" dir="1573099348d1zw0f0wyk" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="15740865639fv63ykhck" name="WorkFlow">
+      <recordtable>
+       <record id="1569377804l397eitj2x" name="Workflow-STP Add-on" author="" url="https://github.com/bizblocks/workflow-stp" tags="" ctime="20191118221613" dir="1569377804iznfs1vzkq" file="text.html"/>
+       <record id="1569824406g4y2nrajvx" name="Рабочие процессы" author="" url="" tags="" ctime="20191118221623" dir="15698244069cnlcqgzp4" file="text.html"/>
+       <record id="1574086637cjdbxchpnw" name="Взаимодействие с пользователем" author="" url="" tags="" ctime="20191118221717" dir="1574086637zp5exrd9g4" file="text.html"/>
+       <record id="1574097444vv3zmq9jkq" name="Алгоритм" author="" url="" tags="" ctime="20191119011724" dir="1574097444tx2qt8livm" file="text.html"/>
       </recordtable>
      </node>
     </node>

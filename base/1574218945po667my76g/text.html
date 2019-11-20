@@ -1,0 +1,5 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c.name, c.inn, c.legalAddress, (select c2.number from rtneo$Contract c2 where c2.contragent.id = c.id and c2.createTs = (select max(c3.createTs) from rtneo$Contract c3 where c3.contragent.id = c.id and c3.mainContract is null)) from rtneo$Contragent c where (select count(c1) from rtneo$Contract c1 where c1.contragent.id = c.id and not c1.mainContract is null and c1.accepted = true and (c1.mainContract.loadedFromBigTrio = false or c1.mainContract.loadedFromBigTrio is null))&gt;0</p></body></html>
