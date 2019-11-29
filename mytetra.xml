@@ -16,7 +16,7 @@
     </node>
     <node crypt="" id="15599168834pxcb7g7d6" name="CUBA">
      <recordtable>
-      <record id="1568179145i36th5k8jr" name="update.sh" author="" url="" tags="" ctime="20190911131905" dir="1568179145z888lxve7i" file="text.html"/>
+      <record id="1568179145i36th5k8jr" name="update.sh" author="" url="" tags="" ctime="20190911131905" dir="1568179145z888lxve7i" file="text.html" block="1"/>
       <record id="1568179255nhjff3mdmn" name="Logger" author="" url="" tags="" ctime="20190911132055" dir="15681792552n1owitg6d" file="text.html"/>
       <record id="1568179325xislxhzigx" name="ViewRepository" author="" url="" tags="" ctime="20190911132205" dir="1568179325rszr7eu98g" file="text.html"/>
       <record id="1568179381ajcnxuy9qq" name="DataManager" author="" url="" tags="" ctime="20190911132301" dir="1568179381267o3mxuwg" file="text.html"/>
@@ -28,6 +28,11 @@
       <record id="15724822142gichc7ivf" name="SimpleDateFormat" author="" url="" tags="" ctime="20191031083654" dir="1572482214k0pf9sdcjw" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
+     <node crypt="" id="1574996644bnshqgqtxe" name="REST">
+      <recordtable>
+       <record id="15749966597blohomsoz" name="Получение OAuth токена" author="" url="" tags="" ctime="20191129110419" dir="1574996659j52bmsstm5" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="15599168979q3i1uqzne" name="git">
      <recordtable>
@@ -164,29 +169,34 @@
        <record id="1570001764y7r885g2c3" name="GroovyReport_SupplementaryRefactoring" author="" url="" tags="" ctime="20191002153604" dir="1570001764ik39oguxse" file="text.html"/>
        <record id="15711271871rlec54cky" name="Арендаторы с удаленными объектами" author="" url="" tags="" ctime="20191015161307" dir="1571127187672jteymbv" file="text.html"/>
        <record id="1571791757t1cetd57d1" name="Доп соглашение с оплатой за арендатора" author="" url="" tags="" ctime="20191023084917" dir="1571791757guvrnyk5ed" file="text.html"/>
-       <record id="1572401062oltla3t0vo" name="Выгрузка для УПД" author="" url="" tags="" ctime="20191030100422" dir="1572401062m81g6rfprc" file="text.html" block="1"/>
-       <record id="157240604640a55ehub9" name="Выгрузка для УПД2" author="" url="" tags="" ctime="20191030112726" dir="1572406046vsvjuks347" file="text.html"/>
-       <record id="1572422104xbm20s297m" name="Выгрузка Контрагент + Договор" author="" url="" tags="" ctime="20191030155504" dir="1572422104f2yub960hy" file="text.html"/>
-       <record id="1572577166irr2275at3" name="Общественные организации" author="" url="" tags="" ctime="20191101105926" dir="1572577166g3lr9jqrw7" file="text.html"/>
        <record id="15729307858c4x7e53ih" name="Тест отчета с оплатой за арендатора" author="" url="" tags="" ctime="20191105131305" dir="1572930785whtbp17m8j" file="text.html" block="1"/>
        <record id="1572931289kao7s3hpnv" name="2" author="" url="" tags="" ctime="20191105132129" dir="1572931289wrkircttbm" file="text.html"/>
        <record id="1572960170avbi7urw8e" name="Заготовка" author="" url="" tags="" ctime="20191105212250" dir="1572960170gbiegafmwp" file="text.html" block="1"/>
        <record id="1573111474ebp9cvn340" name="SupplyRefactor" author="" url="" tags="" ctime="20191107152434" dir="1573111474sbc3km4m4b" file="text.html"/>
        <record id="1573116260kwgw6pbl2m" name="SupplyRefactor2" author="" url="" tags="" ctime="20191107164420" dir="1573116260is471gj4z3" file="text.html"/>
        <record id="1573804484f464an5ctc" name="Создание позиций и допа(Не работает, нет метода в интерфейсе сервиса)" author="" url="" tags="" ctime="20191115155444" dir="1573804484wtp1brm2nz" file="text.html"/>
-       <record id="15738084227cge5kcitm" name="Редактирование начислений" author="" url="" tags="" ctime="20191115170022" dir="1573808422hdv7lhtkpx" file="text.html"/>
+       <record id="15738084227cge5kcitm" name="Редактирование начислений" author="" url="" tags="" ctime="20191115170022" dir="1573808422hdv7lhtkpx" file="text.html" block="1"/>
        <record id="1574057005k9z9azg572" name="Вывоз по факту" author="" url="" tags="" ctime="20191118140325" dir="15740570052ceouvp5ct" file="text.html" block="1"/>
-       <record id="15742409173jjux4tyny" name="Groovy доступ к файлу" author="" url="" tags="" ctime="20191120170837" dir="1574240917ph433gcgql" file="text.html"/>
+       <record id="15742409173jjux4tyny" name="Groovy доступ к файлу" author="" url="" tags="" ctime="20191120170837" dir="1574240917ph433gcgql" file="text.html" block="1"/>
+       <record id="1574825277d7vawceolj" name="Попытка создания допа" author="" url="" tags="" ctime="20191127112757" dir="1574825277ixap86gzj4" file="text.html"/>
+       <record id="157490649394hh8r4k3r" name="Создание допа" author="" url="" tags="" ctime="20191128100133" dir="1574906493m2g2ty61wh" file="text.html" block="1"/>
+       <record id="1574913604sblcw85giz" name="Создание допа с отправкой уведомления" author="" url="" tags="" ctime="20191128120004" dir="1574913604v8nl5yha20" file="text.html" block="1"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
         <record id="1573012474ludjeei2ts" name="Выгрузка по площади контрагентов" author="" url="" tags="" ctime="20191106115434" dir="1573012474sfokxrdou4" file="text.html" block="1"/>
+        <record id="1568942636v9fof0hzgc" name="Кол-во уникальных входов по контрагентам" author="" url="" tags="" ctime="20191125083425" dir="1568942636ftkzivefj1" file="text.html" block="1"/>
+        <record id="1572401062oltla3t0vo" name="Выгрузка для УПД" author="" url="" tags="" ctime="20191126140132" dir="1572401062m81g6rfprc" file="text.html" block="1"/>
+        <record id="157240604640a55ehub9" name="Выгрузка для УПД2" author="" url="" tags="" ctime="20191126140135" dir="1572406046vsvjuks347" file="text.html"/>
+        <record id="1572422104xbm20s297m" name="Выгрузка Контрагент + Договор" author="" url="" tags="" ctime="20191126140138" dir="1572422104f2yub960hy" file="text.html"/>
+        <record id="1572577166irr2275at3" name="Общественные организации" author="" url="" tags="" ctime="20191126140141" dir="1572577166g3lr9jqrw7" file="text.html"/>
+        <record id="15748192502j3bnwv87o" name="Выгрузка для УПД по файлу" author="" url="" tags="" ctime="20191127094730" dir="1574819250nj0prob0v6" file="text.html" block="1"/>
+        <record id="1574844395d3bjmpoffm" name="Выгрузка для УПД по файлу с арендаторами" author="" url="" tags="" ctime="20191127164635" dir="15748443956aa1kmuebv" file="text.html" block="1"/>
        </recordtable>
       </node>
      </node>
      <node crypt="" id="1568942523s00q6utowz" name="SQLScripts">
       <recordtable>
-       <record id="1568942636v9fof0hzgc" name="Кол-во уникальных входов по контрагентам" author="" url="" tags="" ctime="20190920092356" dir="1568942636ftkzivefj1" file="text.html" block="1"/>
        <record id="1570437825l2nmm6gz05" name="Установка организации в контракты" author="" url="" tags="" ctime="20191007164345" dir="1570437825wb88voxt33" file="text.html"/>
        <record id="1571032735u6n02sdf77" name="Установка начала действия позиций по договору" author="" url="" tags="" ctime="20191014135855" dir="15710327354bp76tog0k" file="text.html"/>
        <record id="1571103199ythppalv81" name="Сдаваемая площадь в определенный период по объекту недвижимости контрагента" author="" url="" tags="" ctime="20191015093319" dir="1571103199fz946tosla" file="text.html"/>
@@ -214,6 +224,8 @@
        <record id="1569824406g4y2nrajvx" name="Рабочие процессы" author="" url="" tags="" ctime="20191118221623" dir="15698244069cnlcqgzp4" file="text.html"/>
        <record id="1574086637cjdbxchpnw" name="Взаимодействие с пользователем" author="" url="" tags="" ctime="20191118221717" dir="1574086637zp5exrd9g4" file="text.html"/>
        <record id="1574097444vv3zmq9jkq" name="Алгоритм" author="" url="" tags="" ctime="20191119011724" dir="1574097444tx2qt8livm" file="text.html"/>
+       <record id="1574318434v8ka4pauqo" name="WorkflowWebBean" author="" url="" tags="" ctime="20191121144034" dir="1574318434ttodn9b2qh" file="text.html"/>
+       <record id="1574903638wwp7bnhoqz" name="Код КП в списке экрана" author="" url="" tags="" ctime="20191128091358" dir="157490363890gazs1089" file="text.html" block="1"/>
       </recordtable>
      </node>
     </node>
