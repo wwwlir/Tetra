@@ -26,11 +26,16 @@
       <record id="1572064335ylzbzlsgln" name="Опции компиляции java" author="" url="" tags="" ctime="20191026123215" dir="1572064335bew8e6exoi" file="text.html"/>
       <record id="1572320765sxmzvm89s0" name="Пароль по умолчанию" author="" url="" tags="" ctime="20191029114605" dir="1572320765bcy7qk29o9" file="text.html"/>
       <record id="15724822142gichc7ivf" name="SimpleDateFormat" author="" url="" tags="" ctime="20191031083654" dir="1572482214k0pf9sdcjw" file="text.html"/>
+      <record id="1575268457a4t9nerkyz" name="EntityManager" author="" url="" tags="" ctime="20191202143417" dir="1575268457pndzxnmgei" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
      <node crypt="" id="1574996644bnshqgqtxe" name="REST">
       <recordtable>
        <record id="15749966597blohomsoz" name="Получение OAuth токена" author="" url="" tags="" ctime="20191129110419" dir="1574996659j52bmsstm5" file="text.html"/>
+       <record id="1575356921sviupomkrv" name="Настройка предопределенных JPQL запросов " author="" url="" tags="" ctime="20191203150841" dir="1575356921d1npi1c3yk" file="text.html"/>
+       <record id="1575356953w7te1iy4pw" name="Настройка сервисов среднего слоя" author="" url="" tags="" ctime="20191203150913" dir="1575356953to9rjyglyn" file="text.html"/>
+       <record id="1575358762tszh5jhwkv" name="Выполнение JPQL-запроса" author="" url="" tags="" ctime="20191203153922" dir="1575358762yopr2q9gue" file="text.html"/>
+       <record id="1575358811taur12kecn" name="Вызов метода сервиса" author="" url="" tags="" ctime="20191203154011" dir="1575358811c4us1zbibb" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -147,6 +152,7 @@
       <record id="1569974679kk4q0f7a16" name="WIki" author="" url="" tags="" ctime="20191002080439" dir="1569974679cszg51pfox" file="text.html"/>
       <record id="1570152140t8yh4akdx9" name="Заготовки" author="" url="" tags="" ctime="20191004092220" dir="1570152140uugmjyyi8t" file="text.html"/>
       <record id="1573720874ed71w4ve3k" name="Рабочие процессы" author="" url="" tags="" ctime="20191114164114" dir="15737208749jmsgw6ic5" file="text.html"/>
+      <record id="1575256103a839yd08by" name="Планы на новый год" author="" url="" tags="" ctime="20191202110823" dir="1575256103unv592cnpq" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
@@ -192,6 +198,7 @@
         <record id="1572577166irr2275at3" name="Общественные организации" author="" url="" tags="" ctime="20191126140141" dir="1572577166g3lr9jqrw7" file="text.html"/>
         <record id="15748192502j3bnwv87o" name="Выгрузка для УПД по файлу" author="" url="" tags="" ctime="20191127094730" dir="1574819250nj0prob0v6" file="text.html" block="1"/>
         <record id="1574844395d3bjmpoffm" name="Выгрузка для УПД по файлу с арендаторами" author="" url="" tags="" ctime="20191127164635" dir="15748443956aa1kmuebv" file="text.html" block="1"/>
+        <record id="1575250670vfb667x7e7" name="Платежи в один день" author="" url="" tags="" ctime="20191202093750" dir="1575250670xs79s2a5wj" file="text.html"/>
        </recordtable>
       </node>
      </node>
@@ -226,6 +233,7 @@
        <record id="1574097444vv3zmq9jkq" name="Алгоритм" author="" url="" tags="" ctime="20191119011724" dir="1574097444tx2qt8livm" file="text.html"/>
        <record id="1574318434v8ka4pauqo" name="WorkflowWebBean" author="" url="" tags="" ctime="20191121144034" dir="1574318434ttodn9b2qh" file="text.html"/>
        <record id="1574903638wwp7bnhoqz" name="Код КП в списке экрана" author="" url="" tags="" ctime="20191128091358" dir="157490363890gazs1089" file="text.html" block="1"/>
+       <record id="1575190441g2ll4vs36j" name="BackTrack" author="" url="" tags="" ctime="20191201165401" dir="15751904410yaqzxn5s5" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -233,6 +241,7 @@
      <recordtable>
       <record id="1573176831k8si7re29t" name="План" author="" url="" tags="" ctime="20191108093351" dir="15731768310jdq4e9q8h" file="text.html"/>
       <record id="1573180635ovemhtsvny" name="Пометки" author="" url="" tags="" ctime="20191108103715" dir="1573180635lasd28t67s" file="text.html"/>
+      <record id="1575168208qvucqvgn00" name="Вопросы" author="" url="" tags="" ctime="20191201104328" dir="1575168208p49gregepf" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="1" icon="" id="1573473026f9lwwro2jb" name="UkM1U0lNUANGHV5SO8IqM6fYxPUtUbBDCz6d6bmcl6BpjZIGGT3TVd+ReFF/iwCE">
