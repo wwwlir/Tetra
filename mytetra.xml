@@ -27,6 +27,8 @@
       <record id="1572320765sxmzvm89s0" name="Пароль по умолчанию" author="" url="" tags="" ctime="20191029114605" dir="1572320765bcy7qk29o9" file="text.html"/>
       <record id="15724822142gichc7ivf" name="SimpleDateFormat" author="" url="" tags="" ctime="20191031083654" dir="1572482214k0pf9sdcjw" file="text.html"/>
       <record id="1575268457a4t9nerkyz" name="EntityManager" author="" url="" tags="" ctime="20191202143417" dir="1575268457pndzxnmgei" file="text.html"/>
+      <record id="1575516591vczveay1xp" name="ExecutorService" author="" url="" tags="" ctime="20191205112951" dir="1575516591rxg0q76bpr" file="text.html"/>
+      <record id="1575525306j3z9qiu3fg" name="Фоновые задачи" author="" url="" tags="" ctime="20191205135506" dir="1575525306mb6hcgj5gv" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
      <node crypt="" id="1574996644bnshqgqtxe" name="REST">
@@ -76,6 +78,7 @@
       <recordtable>
        <record id="1570426933itlydtauba" name="psql" author="" url="" tags="" ctime="20191007134213" dir="1570426933poryczjht4" file="text.html"/>
        <record id="1570686225vicdrcrlyy" name="Изменить тип" author="" url="" tags="" ctime="20191010134345" dir="15706862253uuu6hl7r4" file="text.html"/>
+       <record id="157542242320a3y508k1" name="15 полезных команд PostgreSQL" author="" url="https://tproger.ru/translations/useful-postgresql-commands/" tags="" ctime="20191204092023" dir="1575422423ker16inaf4" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -187,6 +190,8 @@
        <record id="1574825277d7vawceolj" name="Попытка создания допа" author="" url="" tags="" ctime="20191127112757" dir="1574825277ixap86gzj4" file="text.html"/>
        <record id="157490649394hh8r4k3r" name="Создание допа" author="" url="" tags="" ctime="20191128100133" dir="1574906493m2g2ty61wh" file="text.html" block="1"/>
        <record id="1574913604sblcw85giz" name="Создание допа с отправкой уведомления" author="" url="" tags="" ctime="20191128120004" dir="1574913604v8nl5yha20" file="text.html" block="1"/>
+       <record id="1575535078e9va4kvhi0" name="Создание договоров в несколько потоков" author="" url="" tags="" ctime="20191205163758" dir="1575535078rqrp6tk2dg" file="text.html" block="1"/>
+       <record id="1575537304m2gxbofswz" name="Чистый пул потоков" author="" url="" tags="" ctime="20191205171504" dir="15755373040c0eq86ilh" file="text.html" block="1"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
