@@ -1,0 +1,5 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c.name, c.legalAddress, (select ct.number from rtneo$Contract ct where ct.contragent.id = c.id and ct.mainContract is null) from rtneo$Contragent c where lower(c.legalAddress) like '%бодайбо%' and size(c.contracts) &lt;=1 and (select count(p) from rtneo$Payment p where p.inn = c.inn)=0 and ((select count(s) from sec$SessionLogEntry s where c.user = s.user)=0 or c.user is null)</p></body></html>

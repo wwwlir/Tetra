@@ -29,6 +29,7 @@
       <record id="1575268457a4t9nerkyz" name="EntityManager" author="" url="" tags="" ctime="20191202143417" dir="1575268457pndzxnmgei" file="text.html"/>
       <record id="1575516591vczveay1xp" name="ExecutorService" author="" url="" tags="" ctime="20191205112951" dir="1575516591rxg0q76bpr" file="text.html"/>
       <record id="1575525306j3z9qiu3fg" name="Фоновые задачи" author="" url="" tags="" ctime="20191205135506" dir="1575525306mb6hcgj5gv" file="text.html"/>
+      <record id="1575537304m2gxbofswz" name="Чистый пул потоков" author="" url="" tags="" ctime="20191206095958" dir="15755373040c0eq86ilh" file="text.html" block="1"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
      <node crypt="" id="1574996644bnshqgqtxe" name="REST">
@@ -191,7 +192,6 @@
        <record id="157490649394hh8r4k3r" name="Создание допа" author="" url="" tags="" ctime="20191128100133" dir="1574906493m2g2ty61wh" file="text.html" block="1"/>
        <record id="1574913604sblcw85giz" name="Создание допа с отправкой уведомления" author="" url="" tags="" ctime="20191128120004" dir="1574913604v8nl5yha20" file="text.html" block="1"/>
        <record id="1575535078e9va4kvhi0" name="Создание договоров в несколько потоков" author="" url="" tags="" ctime="20191205163758" dir="1575535078rqrp6tk2dg" file="text.html" block="1"/>
-       <record id="1575537304m2gxbofswz" name="Чистый пул потоков" author="" url="" tags="" ctime="20191205171504" dir="15755373040c0eq86ilh" file="text.html" block="1"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
@@ -204,6 +204,7 @@
         <record id="15748192502j3bnwv87o" name="Выгрузка для УПД по файлу" author="" url="" tags="" ctime="20191127094730" dir="1574819250nj0prob0v6" file="text.html" block="1"/>
         <record id="1574844395d3bjmpoffm" name="Выгрузка для УПД по файлу с арендаторами" author="" url="" tags="" ctime="20191127164635" dir="15748443956aa1kmuebv" file="text.html" block="1"/>
         <record id="1575250670vfb667x7e7" name="Платежи в один день" author="" url="" tags="" ctime="20191202093750" dir="1575250670xs79s2a5wj" file="text.html"/>
+        <record id="1575598850gmyttrf3cx" name="Контрагенты которые не входили в лк, нет платежей и допов" author="" url="" tags="" ctime="20191206102050" dir="1575598850vpmjvl3ss6" file="text.html" block="1"/>
        </recordtable>
       </node>
      </node>
@@ -269,6 +270,7 @@
   <node crypt="" icon="/Swift/color_swift_Tamburine.svg" id="1568182986512qevxu72" name="LINKS">
    <recordtable>
     <record id="1568183049sop16r4j7m" name="rtneo" author="" url="" tags="" ctime="20190911142409" dir="1568183049m6v4uiik9t" file="text.html"/>
+    <record id="1575599852vmfbrx6mo3" name="https://webhamster.ru/webmytetra" author="" url="https://webhamster.ru/webmytetra" tags="" ctime="20191206103732" dir="1575599852ltyz286ibi" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="1568179775dbvbifiwyu" name="UkM1U0lNUAPofsOpV9kwFSE2kBjhdvmCjHgFWnaZL+uidAB/iVjem9BdBRjSZLKx">
