@@ -103,6 +103,7 @@
        <record id="1572572032diei3ss33y" name="Итераторы" author="" url="" tags="" ctime="20191101093352" dir="1572572032ic0x3wpv41" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1575937203utta9asurx" name="optional"/>
     </node>
     <node crypt="" id="157121243264kftsq265" name="Links">
      <recordtable>
@@ -192,6 +193,11 @@
        <record id="157490649394hh8r4k3r" name="Создание допа" author="" url="" tags="" ctime="20191128100133" dir="1574906493m2g2ty61wh" file="text.html" block="1"/>
        <record id="1574913604sblcw85giz" name="Создание допа с отправкой уведомления" author="" url="" tags="" ctime="20191128120004" dir="1574913604v8nl5yha20" file="text.html" block="1"/>
        <record id="1575535078e9va4kvhi0" name="Создание договоров в несколько потоков" author="" url="" tags="" ctime="20191205163758" dir="1575535078rqrp6tk2dg" file="text.html" block="1"/>
+       <record id="1575869727i29naucv0s" name="files/groovyscripts/updateMunicipalityForRealEstate.groovy" author="" url="" tags="" ctime="20191209133527" dir="15758697276zrtucjcba" file="text.html"/>
+       <record id="1575878404ww71an4wdm" name="removeDuplicatesCREandContragent.groovy" author="" url="" tags="" ctime="20191209160004" dir="157587840474khrar35r" file="text.html"/>
+       <record id="1575941178vd0yvrs04z" name="Замена на подтвержденную КП" author="" url="" tags="" ctime="20191210092618" dir="15759411785fyyqnpihw" file="text.html" block="1"/>
+       <record id="1575947572jf2fp8wp43" name="Чистим дубли" author="" url="" tags="" ctime="20191210111252" dir="15759475729n64pgsu50" file="text.html" block="1"/>
+       <record id="157596893841naci0bnv" name="Чистим дубли, многопоточность" author="" url="" tags="" ctime="20191210170858" dir="1575968938ky5pfynrz9" file="text.html" block="1"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
@@ -205,6 +211,9 @@
         <record id="1574844395d3bjmpoffm" name="Выгрузка для УПД по файлу с арендаторами" author="" url="" tags="" ctime="20191127164635" dir="15748443956aa1kmuebv" file="text.html" block="1"/>
         <record id="1575250670vfb667x7e7" name="Платежи в один день" author="" url="" tags="" ctime="20191202093750" dir="1575250670xs79s2a5wj" file="text.html"/>
         <record id="1575598850gmyttrf3cx" name="Контрагенты которые не входили в лк, нет платежей и допов" author="" url="" tags="" ctime="20191206102050" dir="1575598850vpmjvl3ss6" file="text.html" block="1"/>
+        <record id="157561787907ccihlvl9" name="Категория&#9;Лицевой счет&#9;Наименование&#9;ИНН&#9;Адрес юр.&#9;Адрес факт.&#9;Телефон&#9;Электронный адрес&#9;Договор/Доп. соглашение&#9;Дата принятия&#9;Годовой объем в куб.м.&#9;Сумма платежей в руб." author="" url="" tags="" ctime="20191206153759" dir="1575617879kmzvuknt8i" file="text.html"/>
+        <record id="1575881858svqak0jjhc" name="Задолжности1" author="" url="" tags="" ctime="20191209165738" dir="1575881858wj1njjba6h" file="text.html" block="1"/>
+        <record id="15758842571t9opdc213" name="Задолжности2" author="" url="" tags="" ctime="20191209173737" dir="1575884257ijfe5dpamv" file="text.html"/>
        </recordtable>
       </node>
      </node>
@@ -248,6 +257,11 @@
       <record id="1573176831k8si7re29t" name="План" author="" url="" tags="" ctime="20191108093351" dir="15731768310jdq4e9q8h" file="text.html"/>
       <record id="1573180635ovemhtsvny" name="Пометки" author="" url="" tags="" ctime="20191108103715" dir="1573180635lasd28t67s" file="text.html"/>
       <record id="1575168208qvucqvgn00" name="Вопросы" author="" url="" tags="" ctime="20191201104328" dir="1575168208p49gregepf" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1575703869uzww1u1vq7" name="ncifra">
+     <recordtable>
+      <record id="1575704006ivn0rivpff" name="create" author="" url="" tags="" ctime="20191207153326" dir="1575704006z1jpvd34co" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="1" icon="" id="1573473026f9lwwro2jb" name="UkM1U0lNUANGHV5SO8IqM6fYxPUtUbBDCz6d6bmcl6BpjZIGGT3TVd+ReFF/iwCE">
