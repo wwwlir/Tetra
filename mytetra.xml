@@ -30,6 +30,7 @@
       <record id="1575516591vczveay1xp" name="ExecutorService" author="" url="" tags="" ctime="20191205112951" dir="1575516591rxg0q76bpr" file="text.html"/>
       <record id="1575525306j3z9qiu3fg" name="Фоновые задачи" author="" url="" tags="" ctime="20191205135506" dir="1575525306mb6hcgj5gv" file="text.html"/>
       <record id="1575537304m2gxbofswz" name="Чистый пул потоков" author="" url="" tags="" ctime="20191206095958" dir="15755373040c0eq86ilh" file="text.html" block="1"/>
+      <record id="1576207648a3oke3zw2b" name="Хранилище файлов " author="" url="https://doc.cuba-platform.com/manual-6.10-ru/file_storage.html" tags="" ctime="20191213112728" dir="15762076485v75l40ijp" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
      <node crypt="" id="1574996644bnshqgqtxe" name="REST">
@@ -88,6 +89,8 @@
       <record id="15693073266b1c2p809s" name="LambdaForEach" author="" url="" tags="" ctime="20190924144206" dir="1569307326ydi32w6jnh" file="text.html"/>
       <record id="15711941130ntmz2t9ji" name="Date and Calendar" author="" url="" tags="" ctime="20191016104833" dir="1571194113g6ihdr7vbb" file="text.html"/>
       <record id="1571811460169e3x8nyd" name="Сортировка Map через stream" author="" url="" tags="" ctime="20191023141740" dir="1571811460pz62uzvz69" file="text.html"/>
+      <record id="1576715981cg8k9mz8hf" name="SimpleDateFormat" author="" url="www.seostella.com/ru/article/2012/02/05/formatirovanie-daty-v-java.html" tags="" ctime="20191219083941" dir="1576715981v3cm82pge5" file="text.html"/>
+      <record id="1576716079gqhk9x5blw" name="Дата и время" author="" url="http://proglang.su/java/date-and-time" tags="" ctime="20191219084119" dir="1576716079ikiqlrs0g9" file="text.html"/>
      </recordtable>
      <node crypt="" id="1572571740h4wvjytv5k" name="Collection">
       <recordtable>
@@ -101,6 +104,7 @@
        <record id="1572571984fahgqxprz1" name="Интерфейс Map и класс HashMap" author="" url="" tags="" ctime="20191101093304" dir="15725719842w8shsz0u6" file="text.html"/>
        <record id="1572572010qd0btbeilg" name="Интерфейсы SortedMap и NavigableMap. Класс TreeMap" author="" url="" tags="" ctime="20191101093330" dir="1572572010km714fxh5x" file="text.html"/>
        <record id="1572572032diei3ss33y" name="Итераторы" author="" url="" tags="" ctime="20191101093352" dir="1572572032ic0x3wpv41" file="text.html"/>
+       <record id="1576029878esz09r2o9e" name="Хватит писать циклы!" author="" url="" tags="" ctime="20191211100438" dir="15760298783cyry5iw3y" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1575937203utta9asurx" name="optional"/>
@@ -122,6 +126,11 @@
       <record id="1572661311ycfuahjmjo" name="Навигация" author="" url="" tags="" ctime="20191102102151" dir="15726613114f42lexnrv" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1576035715n3fw455r5u" name="freemarker">
+     <recordtable>
+      <record id="1576035728ow6lz9xwf8" name="https://freemarker.apache.org/docs/" author="" url="https://freemarker.apache.org/docs/" tags="" ctime="20191211114208" dir="15760357289wp5s9ad0v" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
     <node crypt="" id="1559917112fgfu2v8bwt" name="Linux">
@@ -136,6 +145,8 @@
       <record id="1569808531g3xz5y0l57" name="Проверка rtkit" author="" url="" tags="" ctime="20190930095531" dir="1569808531hzh7h1ljmt" file="text.html"/>
       <record id="1569809596mud15s68ej" name="Полезные команды" author="" url="" tags="" ctime="20190930101316" dir="1569809596mcse5sc940" file="text.html"/>
       <record id="15719688211cu0ldd6vd" name="Создание и распаковка архивов в Linux" author="" url="" tags="" ctime="20191025100021" dir="1571968821mam7czooxd" file="text.html"/>
+      <record id="15765546071226lndb0u" name="EDS" author="" url="" tags="" ctime="20191217115007" dir="1576554607g55bjjnc7v" file="text.html"/>
+      <record id="1576575244qm11iaymc5" name="Проброс портов CUBA debug" author="" url="" tags="" ctime="20191217173404" dir="1576575244pmpzs4tx7e" file="text.html"/>
      </recordtable>
      <node crypt="" id="1561120722h36v5i94i6" name="vim">
       <recordtable>
@@ -159,6 +170,29 @@
       <record id="1573720874ed71w4ve3k" name="Рабочие процессы" author="" url="" tags="" ctime="20191114164114" dir="15737208749jmsgw6ic5" file="text.html"/>
       <record id="1575256103a839yd08by" name="Планы на новый год" author="" url="" tags="" ctime="20191202110823" dir="1575256103unv592cnpq" file="text.html"/>
      </recordtable>
+     <node crypt="" id="15762266594gatoi2h58" name="Работа над задачами">
+      <recordtable>
+       <record id="1571280724t2lp9fj47v" name="Арендодатель платит за арендатора" author="" url="" tags="" ctime="20191213164419" dir="1571280724v0xp1v243b" file="text.html"/>
+       <record id="1572233076znge7p4314" name="Создание допа при принятии заявки на изменение" author="" url="" tags="" ctime="20191213164419" dir="15722330762iziha4r5f" file="text.html"/>
+       <record id="1572251574rgvewdncmc" name="Проверочные контрагенты" author="" url="" tags="" ctime="20191213164419" dir="1572251574p8eln1a75r" file="text.html"/>
+       <record id="1573099348yln92rsdem" name="Установить объемы арендаторам за которых платит арендодатель" author="" url="" tags="" ctime="20191213164419" dir="1573099348d1zw0f0wyk" file="text.html"/>
+       <record id="1576226690epm5autqjt" name="История КП в допе" author="" url="" tags="" ctime="20191213164450" dir="15762266902usd3gb5eh" file="text.html" block="1"/>
+       <record id="1576474412xmpw955qhs" name="История КП доп" author="" url="" tags="" ctime="20191216133332" dir="1576474412wyoqtlg1kr" file="text.html" block="1"/>
+       <record id="1576632386eisf9oywpd" name="История в снапшотах" author="" url="" tags="" ctime="20191218092626" dir="1576632386qpezxzobql" file="text.html"/>
+       <record id="1576637400thk8v4ve2f" name="Создание снапшота" author="" url="" tags="" ctime="20191218105000" dir="15766374006rd7m95duf" file="text.html" block="1"/>
+       <record id="1576662403v3ml507apn" name="Новый метод " author="" url="" tags="" ctime="20191218174643" dir="1576662403d9zai091m1" file="text.html" block="1"/>
+       <record id="15767355681qv70w7hq5" name="Рабочий отчет История КП" author="" url="" tags="" ctime="20191219140608" dir="15767355687ukaff9wcj" file="text.html" block="1"/>
+       <record id="1576739645yswa09rawm" name="Контрагенты" author="" url="" tags="" ctime="20191219151405" dir="15767396453evd6l4gqd" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1576741353lv9mgv53jb" name="Рефакторинг">
+      <node crypt="" id="1576741360x3s1kvdhki" name="Доп">
+       <recordtable>
+        <record id="15766633874aiewhqi5k" name="Попытка рефакторинга" author="" url="" tags="" ctime="20191219154324" dir="15766633871ppqandj49" file="text.html"/>
+        <record id="1576827754oj2sfxc14i" name="Рефакторинг, кроме КП" author="" url="" tags="" ctime="20191220154234" dir="1576827754xj8v8b1qqk" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+     </node>
     </node>
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
      <recordtable>
@@ -198,6 +232,7 @@
        <record id="1575941178vd0yvrs04z" name="Замена на подтвержденную КП" author="" url="" tags="" ctime="20191210092618" dir="15759411785fyyqnpihw" file="text.html" block="1"/>
        <record id="1575947572jf2fp8wp43" name="Чистим дубли" author="" url="" tags="" ctime="20191210111252" dir="15759475729n64pgsu50" file="text.html" block="1"/>
        <record id="157596893841naci0bnv" name="Чистим дубли, многопоточность" author="" url="" tags="" ctime="20191210170858" dir="1575968938ky5pfynrz9" file="text.html" block="1"/>
+       <record id="1576044377m1nhjz1poz" name="Дубли 2" author="" url="" tags="" ctime="20191211140617" dir="1576044377yg141gded8" file="text.html"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
@@ -232,14 +267,6 @@
        <record id="1571270955pad8jeo8hx" name="UkM1U0lNUANK4vScHBBno1h36jPmO1Wa4Q4p8tpMS4NPrlpimY1DKBmx4r1C0t0uu3NGVhuLjfP4Rss6CecOcKS4JS2Pv5A7CPAKoCXLPeE=" author="" url="" tags="" ctime="20191017080915" dir="15712709559p3d53t7w0" file="text.html" crypt="1"/>
       </recordtable>
      </node>
-     <node crypt="" id="1571279210e0ulxdnssp" name="Работа над задачами">
-      <recordtable>
-       <record id="1571280724t2lp9fj47v" name="Арендодатель платит за арендатора" author="" url="" tags="" ctime="20191017105204" dir="1571280724v0xp1v243b" file="text.html"/>
-       <record id="1572233076znge7p4314" name="Создание допа при принятии заявки на изменение" author="" url="" tags="" ctime="20191028112436" dir="15722330762iziha4r5f" file="text.html"/>
-       <record id="1572251574rgvewdncmc" name="Проверочные контрагенты" author="" url="" tags="" ctime="20191028163254" dir="1572251574p8eln1a75r" file="text.html"/>
-       <record id="1573099348yln92rsdem" name="Установить объемы арендаторам за которых платит арендодатель" author="" url="" tags="" ctime="20191107120228" dir="1573099348d1zw0f0wyk" file="text.html"/>
-      </recordtable>
-     </node>
      <node crypt="" id="15740865639fv63ykhck" name="WorkFlow">
       <recordtable>
        <record id="1569377804l397eitj2x" name="Workflow-STP Add-on" author="" url="https://github.com/bizblocks/workflow-stp" tags="" ctime="20191118221613" dir="1569377804iznfs1vzkq" file="text.html"/>
@@ -257,6 +284,7 @@
       <record id="1573176831k8si7re29t" name="План" author="" url="" tags="" ctime="20191108093351" dir="15731768310jdq4e9q8h" file="text.html"/>
       <record id="1573180635ovemhtsvny" name="Пометки" author="" url="" tags="" ctime="20191108103715" dir="1573180635lasd28t67s" file="text.html"/>
       <record id="1575168208qvucqvgn00" name="Вопросы" author="" url="" tags="" ctime="20191201104328" dir="1575168208p49gregepf" file="text.html"/>
+      <record id="15760308599jaaxrceh2" name="Обсуждение" author="" url="" tags="" ctime="20191211102059" dir="1576030859xw2cdb4ffd" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1575703869uzww1u1vq7" name="ncifra">
