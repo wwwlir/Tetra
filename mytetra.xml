@@ -105,6 +105,7 @@
        <record id="1572572010qd0btbeilg" name="Интерфейсы SortedMap и NavigableMap. Класс TreeMap" author="" url="" tags="" ctime="20191101093330" dir="1572572010km714fxh5x" file="text.html"/>
        <record id="1572572032diei3ss33y" name="Итераторы" author="" url="" tags="" ctime="20191101093352" dir="1572572032ic0x3wpv41" file="text.html"/>
        <record id="1576029878esz09r2o9e" name="Хватит писать циклы!" author="" url="" tags="" ctime="20191211100438" dir="15760298783cyry5iw3y" file="text.html"/>
+       <record id="1577254608odpqxv3xos" name="Удаление элемента массива во время итерации" author="" url="" tags="" ctime="20191225141648" dir="1577254608rzoeydbmlf" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1575937203utta9asurx" name="optional"/>
@@ -183,6 +184,8 @@
        <record id="1576662403v3ml507apn" name="Новый метод " author="" url="" tags="" ctime="20191218174643" dir="1576662403d9zai091m1" file="text.html" block="1"/>
        <record id="15767355681qv70w7hq5" name="Рабочий отчет История КП" author="" url="" tags="" ctime="20191219140608" dir="15767355687ukaff9wcj" file="text.html" block="1"/>
        <record id="1576739645yswa09rawm" name="Контрагенты" author="" url="" tags="" ctime="20191219151405" dir="15767396453evd6l4gqd" file="text.html"/>
+       <record id="157700156157pedeplxf" name="Рабочий отчет История КП и объемы(для всех)" author="" url="Убрал проверки стр. 132, 987" tags="" ctime="20191222155921" dir="1577001561umfpol178n" file="text.html" block="1"/>
+       <record id="1577238778rf7j9ho742" name="Логеры" author="" url="" tags="" ctime="20191225095258" dir="1577238778hl59luws3f" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1576741353lv9mgv53jb" name="Рефакторинг">
