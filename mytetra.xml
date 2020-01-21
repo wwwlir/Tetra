@@ -20,6 +20,7 @@
       <record id="1568179255nhjff3mdmn" name="Logger" author="" url="" tags="" ctime="20190911132055" dir="15681792552n1owitg6d" file="text.html"/>
       <record id="1568179325xislxhzigx" name="ViewRepository" author="" url="" tags="" ctime="20190911132205" dir="1568179325rszr7eu98g" file="text.html"/>
       <record id="1568179381ajcnxuy9qq" name="DataManager" author="" url="" tags="" ctime="20190911132301" dir="1568179381267o3mxuwg" file="text.html"/>
+      <record id="1578619030r2c5aa14my" name="LoadContext" author="" url="" tags="" ctime="20200110091710" dir="1578619030b0ogzzi9kp" file="text.html"/>
       <record id="1568355099ppcsphfotr" name="AppBeans" author="" url="" tags="" ctime="20190913141139" dir="15683550991cuk6onbfg" file="text.html"/>
       <record id="1568703787vgbmxks141" name="Платформа CUBA. Руководство по разработке приложений&#10;Версия 6.10" author="" url="" tags="" ctime="20190917150307" dir="15687037871gi0exccqi" file="text.html"/>
       <record id="1569977827y2a4x5tw31" name="Документация DataManager" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/dataManager.html" tags="" ctime="20191002085707" dir="1569977827geilwrda91" file="text.html"/>
@@ -87,10 +88,7 @@
     <node crypt="" id="15693073000w59y31qvn" name="JAVA">
      <recordtable>
       <record id="15693073266b1c2p809s" name="LambdaForEach" author="" url="" tags="" ctime="20190924144206" dir="1569307326ydi32w6jnh" file="text.html"/>
-      <record id="15711941130ntmz2t9ji" name="Date and Calendar" author="" url="" tags="" ctime="20191016104833" dir="1571194113g6ihdr7vbb" file="text.html"/>
       <record id="1571811460169e3x8nyd" name="Сортировка Map через stream" author="" url="" tags="" ctime="20191023141740" dir="1571811460pz62uzvz69" file="text.html"/>
-      <record id="1576715981cg8k9mz8hf" name="SimpleDateFormat" author="" url="www.seostella.com/ru/article/2012/02/05/formatirovanie-daty-v-java.html" tags="" ctime="20191219083941" dir="1576715981v3cm82pge5" file="text.html"/>
-      <record id="1576716079gqhk9x5blw" name="Дата и время" author="" url="http://proglang.su/java/date-and-time" tags="" ctime="20191219084119" dir="1576716079ikiqlrs0g9" file="text.html"/>
      </recordtable>
      <node crypt="" id="1572571740h4wvjytv5k" name="Collection">
       <recordtable>
@@ -106,9 +104,25 @@
        <record id="1572572032diei3ss33y" name="Итераторы" author="" url="" tags="" ctime="20191101093352" dir="1572572032ic0x3wpv41" file="text.html"/>
        <record id="1576029878esz09r2o9e" name="Хватит писать циклы!" author="" url="" tags="" ctime="20191211100438" dir="15760298783cyry5iw3y" file="text.html"/>
        <record id="1577254608odpqxv3xos" name="Удаление элемента массива во время итерации" author="" url="" tags="" ctime="20191225141648" dir="1577254608rzoeydbmlf" file="text.html"/>
+       <record id="157803019673lq49bpr8" name="Используйте Stream API проще (или не используйте вообще) " author="" url="https://habr.com/ru/post/337350/" tags="" ctime="20200103134316" dir="1578030196rzr45qqb7e" file="text.html"/>
+       <record id="15786552567vfj2hcxb3" name="IDEA подсказала. forEach" author="" url="" tags="" ctime="20200110192056" dir="1578655256y750syxwad" file="text.html"/>
+       <record id="1578962094eafr3wruxs" name="Шпаргалка Java программиста 4. Java Stream API " author="" url="" tags="" ctime="20200114083454" dir="1578962094htjputdury" file="text.html"/>
+       <record id="1579076860bgyg2hd6hj" name="Шпаргалка Java программиста 3. Коллекции в Java (стандартные, guava, apache, trove, gs-collections и другие) " author="" url="https://habr.com/ru/company/luxoft/blog/256877/" tags="" ctime="20200115162740" dir="15790768606ok97k2lr5" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1575937203utta9asurx" name="optional"/>
+     <node crypt="" id="15784581532bkmdh988g" name="Строки">
+      <recordtable>
+       <record id="1578030305tow8qynhss" name="Урок J-14. Работа со строками в Java. Основные методы класса String." author="" url="http://study-java.ru/uroki-java/rabota-so-strokami-v-java-osnovnye-metody-klassa-string/#search1" tags="" ctime="20200108123632" dir="1578030305ffl8d1q1oz" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1578458205wo5wx3pkar" name="Даты">
+      <recordtable>
+       <record id="15711941130ntmz2t9ji" name="Date and Calendar" author="" url="" tags="" ctime="20200108123651" dir="1571194113g6ihdr7vbb" file="text.html"/>
+       <record id="1576715981cg8k9mz8hf" name="SimpleDateFormat" author="" url="www.seostella.com/ru/article/2012/02/05/formatirovanie-daty-v-java.html" tags="" ctime="20200108123656" dir="1576715981v3cm82pge5" file="text.html"/>
+       <record id="1576716079gqhk9x5blw" name="Дата и время" author="" url="http://proglang.su/java/date-and-time" tags="" ctime="20200108123659" dir="1576716079ikiqlrs0g9" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="157121243264kftsq265" name="Links">
      <recordtable>
@@ -148,6 +162,8 @@
       <record id="15719688211cu0ldd6vd" name="Создание и распаковка архивов в Linux" author="" url="" tags="" ctime="20191025100021" dir="1571968821mam7czooxd" file="text.html"/>
       <record id="15765546071226lndb0u" name="EDS" author="" url="" tags="" ctime="20191217115007" dir="1576554607g55bjjnc7v" file="text.html"/>
       <record id="1576575244qm11iaymc5" name="Проброс портов CUBA debug" author="" url="" tags="" ctime="20191217173404" dir="1576575244pmpzs4tx7e" file="text.html"/>
+      <record id="15774081611xievil9sn" name="Шрифты windows" author="" url="" tags="" ctime="20191227085601" dir="1577408161i5n5iuve7d" file="text.html"/>
+      <record id="15774095117nw9xhbkf7" name="Переводчик" author="" url="" tags="" ctime="20191227091831" dir="157740951134qli1jkbc" file="text.html"/>
      </recordtable>
      <node crypt="" id="1561120722h36v5i94i6" name="vim">
       <recordtable>
@@ -186,6 +202,13 @@
        <record id="1576739645yswa09rawm" name="Контрагенты" author="" url="" tags="" ctime="20191219151405" dir="15767396453evd6l4gqd" file="text.html"/>
        <record id="157700156157pedeplxf" name="Рабочий отчет История КП и объемы(для всех)" author="" url="Убрал проверки стр. 132, 987" tags="" ctime="20191222155921" dir="1577001561umfpol178n" file="text.html" block="1"/>
        <record id="1577238778rf7j9ho742" name="Логеры" author="" url="" tags="" ctime="20191225095258" dir="1577238778hl59luws3f" file="text.html"/>
+       <record id="15772626627ipmb6cbf8" name="Доп соглашение перерасчета" author="" url="" tags="" ctime="20191225163102" dir="1577262662wwdmtwmni8" file="text.html"/>
+       <record id="1578032507nfiqpp6hl4" name="Рефакторинг доп с историей" author="" url="" tags="" ctime="20200103142147" dir="1578032507vqtcgrxfq0" file="text.html" block="1"/>
+       <record id="1578452078zik2x7ub7x" name="История КП, 2-я таблица - КП через дробь" author="" url="" tags="" ctime="20200108105438" dir="1578452078fqsjohxfw7" file="text.html" block="1"/>
+       <record id="1578484335osbbs9ysnw" name="new" author="" url="" tags="" ctime="20200108195215" dir="1578484335x1lfz0ghy6" file="text.html" block="1"/>
+       <record id="1578515140p917e5hyna" name="new2" author="" url="" tags="" ctime="20200109042540" dir="1578515140zqr2xyk2qz" file="text.html"/>
+       <record id="1578659692s5q0o7ux8v" name="Кол-во начислений за период по кп у контрагента(Не окончен)" author="" url="" tags="" ctime="20200110203452" dir="1578659692rek7x2opzf" file="text.html"/>
+       <record id="15788255474lm3tju4cv" name="Предложения" author="" url="" tags="" ctime="20200112183907" dir="15788255478z27fy3b03" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1576741353lv9mgv53jb" name="Рефакторинг">
@@ -236,6 +259,7 @@
        <record id="1575947572jf2fp8wp43" name="Чистим дубли" author="" url="" tags="" ctime="20191210111252" dir="15759475729n64pgsu50" file="text.html" block="1"/>
        <record id="157596893841naci0bnv" name="Чистим дубли, многопоточность" author="" url="" tags="" ctime="20191210170858" dir="1575968938ky5pfynrz9" file="text.html" block="1"/>
        <record id="1576044377m1nhjz1poz" name="Дубли 2" author="" url="" tags="" ctime="20191211140617" dir="1576044377yg141gded8" file="text.html"/>
+       <record id="1579240331ku7aohpz5t" name="Обнуление начислений" author="" url="" tags="" ctime="20200117135211" dir="1579240331tzbzh57udj" file="text.html"/>
       </recordtable>
       <node crypt="" id="15730124619ksimda3ah" name="Выгрузки">
        <recordtable>
