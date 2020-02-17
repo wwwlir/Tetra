@@ -32,6 +32,7 @@
       <record id="1575525306j3z9qiu3fg" name="Фоновые задачи" author="" url="" tags="" ctime="20191205135506" dir="1575525306mb6hcgj5gv" file="text.html"/>
       <record id="1575537304m2gxbofswz" name="Чистый пул потоков" author="" url="" tags="" ctime="20191206095958" dir="15755373040c0eq86ilh" file="text.html" block="1"/>
       <record id="1576207648a3oke3zw2b" name="Хранилище файлов " author="" url="https://doc.cuba-platform.com/manual-6.10-ru/file_storage.html" tags="" ctime="20191213112728" dir="15762076485v75l40ijp" file="text.html"/>
+      <record id="1580345251ixnen4kltq" name="Источники данных" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/datasources.html" tags="" ctime="20200130084731" dir="158034525109h4k51n4q" file="text.html"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
      <node crypt="" id="1574996644bnshqgqtxe" name="REST">
@@ -89,6 +90,7 @@
      <recordtable>
       <record id="15693073266b1c2p809s" name="LambdaForEach" author="" url="" tags="" ctime="20190924144206" dir="1569307326ydi32w6jnh" file="text.html"/>
       <record id="1571811460169e3x8nyd" name="Сортировка Map через stream" author="" url="" tags="" ctime="20191023141740" dir="1571811460pz62uzvz69" file="text.html"/>
+      <record id="15815824626c04ybqxiz" name="Рекурсия" author="" url="" tags="" ctime="20200213162742" dir="1581582462xvgrfbn25x" file="text.html"/>
      </recordtable>
      <node crypt="" id="1572571740h4wvjytv5k" name="Collection">
       <recordtable>
@@ -108,6 +110,7 @@
        <record id="15786552567vfj2hcxb3" name="IDEA подсказала. forEach" author="" url="" tags="" ctime="20200110192056" dir="1578655256y750syxwad" file="text.html"/>
        <record id="1578962094eafr3wruxs" name="Шпаргалка Java программиста 4. Java Stream API " author="" url="" tags="" ctime="20200114083454" dir="1578962094htjputdury" file="text.html"/>
        <record id="1579076860bgyg2hd6hj" name="Шпаргалка Java программиста 3. Коллекции в Java (стандартные, guava, apache, trove, gs-collections и другие) " author="" url="https://habr.com/ru/company/luxoft/blog/256877/" tags="" ctime="20200115162740" dir="15790768606ok97k2lr5" file="text.html"/>
+       <record id="1581558024k38k1jpoyz" name="Streams example" author="" url="" tags="" ctime="20200213094024" dir="1581558024p5swfoosj1" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1575937203utta9asurx" name="optional"/>
@@ -121,6 +124,13 @@
        <record id="15711941130ntmz2t9ji" name="Date and Calendar" author="" url="" tags="" ctime="20200108123651" dir="1571194113g6ihdr7vbb" file="text.html"/>
        <record id="1576715981cg8k9mz8hf" name="SimpleDateFormat" author="" url="www.seostella.com/ru/article/2012/02/05/formatirovanie-daty-v-java.html" tags="" ctime="20200108123656" dir="1576715981v3cm82pge5" file="text.html"/>
        <record id="1576716079gqhk9x5blw" name="Дата и время" author="" url="http://proglang.su/java/date-and-time" tags="" ctime="20200108123659" dir="1576716079ikiqlrs0g9" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1580886163o8jyqzio1z" name="XML">
+      <recordtable>
+       <record id="1580886211jcb7ndq8hk" name="Dom4J (github.io)" author="" url="https://dom4j.github.io/" tags="" ctime="20200205150331" dir="1580886211n7l6lrlkg3" file="text.html" block="1"/>
+       <record id="1580886266x3srl44sr1" name="Dom4J tutorial" author="" url="https://www.tutorialspoint.com/java_xml/java_dom4j_parse_document.htm" tags="" ctime="20200205150426" dir="1580886266bzkm6ngwwx" file="text.html" block="1"/>
+       <record id="1580886369wpeyiqnqak" name="Dom4J(Андрюхин скрипт in to FileDescription)" author="" url="" tags="" ctime="20200205150609" dir="15808863694jwcahxeqo" file="text.html" block="1"/>
       </recordtable>
      </node>
     </node>
@@ -160,7 +170,6 @@
       <record id="1569808531g3xz5y0l57" name="Проверка rtkit" author="" url="" tags="" ctime="20190930095531" dir="1569808531hzh7h1ljmt" file="text.html"/>
       <record id="1569809596mud15s68ej" name="Полезные команды" author="" url="" tags="" ctime="20190930101316" dir="1569809596mcse5sc940" file="text.html"/>
       <record id="15719688211cu0ldd6vd" name="Создание и распаковка архивов в Linux" author="" url="" tags="" ctime="20191025100021" dir="1571968821mam7czooxd" file="text.html"/>
-      <record id="15765546071226lndb0u" name="EDS" author="" url="" tags="" ctime="20191217115007" dir="1576554607g55bjjnc7v" file="text.html"/>
       <record id="1576575244qm11iaymc5" name="Проброс портов CUBA debug" author="" url="" tags="" ctime="20191217173404" dir="1576575244pmpzs4tx7e" file="text.html"/>
       <record id="15774081611xievil9sn" name="Шрифты windows" author="" url="" tags="" ctime="20191227085601" dir="1577408161i5n5iuve7d" file="text.html"/>
       <record id="15774095117nw9xhbkf7" name="Переводчик" author="" url="" tags="" ctime="20191227091831" dir="157740951134qli1jkbc" file="text.html"/>
@@ -186,6 +195,7 @@
       <record id="1570152140t8yh4akdx9" name="Заготовки" author="" url="" tags="" ctime="20191004092220" dir="1570152140uugmjyyi8t" file="text.html"/>
       <record id="1573720874ed71w4ve3k" name="Рабочие процессы" author="" url="" tags="" ctime="20191114164114" dir="15737208749jmsgw6ic5" file="text.html"/>
       <record id="1575256103a839yd08by" name="Планы на новый год" author="" url="" tags="" ctime="20191202110823" dir="1575256103unv592cnpq" file="text.html"/>
+      <record id="15765546071226lndb0u" name="EDS" author="" url="" tags="" ctime="20200121113305" dir="1576554607g55bjjnc7v" file="text.html" block="1"/>
      </recordtable>
      <node crypt="" id="15762266594gatoi2h58" name="Работа над задачами">
       <recordtable>
@@ -193,29 +203,80 @@
        <record id="1572233076znge7p4314" name="Создание допа при принятии заявки на изменение" author="" url="" tags="" ctime="20191213164419" dir="15722330762iziha4r5f" file="text.html"/>
        <record id="1572251574rgvewdncmc" name="Проверочные контрагенты" author="" url="" tags="" ctime="20191213164419" dir="1572251574p8eln1a75r" file="text.html"/>
        <record id="1573099348yln92rsdem" name="Установить объемы арендаторам за которых платит арендодатель" author="" url="" tags="" ctime="20191213164419" dir="1573099348d1zw0f0wyk" file="text.html"/>
-       <record id="1576226690epm5autqjt" name="История КП в допе" author="" url="" tags="" ctime="20191213164450" dir="15762266902usd3gb5eh" file="text.html" block="1"/>
-       <record id="1576474412xmpw955qhs" name="История КП доп" author="" url="" tags="" ctime="20191216133332" dir="1576474412wyoqtlg1kr" file="text.html" block="1"/>
-       <record id="1576632386eisf9oywpd" name="История в снапшотах" author="" url="" tags="" ctime="20191218092626" dir="1576632386qpezxzobql" file="text.html"/>
-       <record id="1576637400thk8v4ve2f" name="Создание снапшота" author="" url="" tags="" ctime="20191218105000" dir="15766374006rd7m95duf" file="text.html" block="1"/>
-       <record id="1576662403v3ml507apn" name="Новый метод " author="" url="" tags="" ctime="20191218174643" dir="1576662403d9zai091m1" file="text.html" block="1"/>
-       <record id="15767355681qv70w7hq5" name="Рабочий отчет История КП" author="" url="" tags="" ctime="20191219140608" dir="15767355687ukaff9wcj" file="text.html" block="1"/>
        <record id="1576739645yswa09rawm" name="Контрагенты" author="" url="" tags="" ctime="20191219151405" dir="15767396453evd6l4gqd" file="text.html"/>
-       <record id="157700156157pedeplxf" name="Рабочий отчет История КП и объемы(для всех)" author="" url="Убрал проверки стр. 132, 987" tags="" ctime="20191222155921" dir="1577001561umfpol178n" file="text.html" block="1"/>
        <record id="1577238778rf7j9ho742" name="Логеры" author="" url="" tags="" ctime="20191225095258" dir="1577238778hl59luws3f" file="text.html"/>
-       <record id="15772626627ipmb6cbf8" name="Доп соглашение перерасчета" author="" url="" tags="" ctime="20191225163102" dir="1577262662wwdmtwmni8" file="text.html"/>
-       <record id="1578032507nfiqpp6hl4" name="Рефакторинг доп с историей" author="" url="" tags="" ctime="20200103142147" dir="1578032507vqtcgrxfq0" file="text.html" block="1"/>
-       <record id="1578452078zik2x7ub7x" name="История КП, 2-я таблица - КП через дробь" author="" url="" tags="" ctime="20200108105438" dir="1578452078fqsjohxfw7" file="text.html" block="1"/>
-       <record id="1578484335osbbs9ysnw" name="new" author="" url="" tags="" ctime="20200108195215" dir="1578484335x1lfz0ghy6" file="text.html" block="1"/>
        <record id="1578515140p917e5hyna" name="new2" author="" url="" tags="" ctime="20200109042540" dir="1578515140zqr2xyk2qz" file="text.html"/>
        <record id="1578659692s5q0o7ux8v" name="Кол-во начислений за период по кп у контрагента(Не окончен)" author="" url="" tags="" ctime="20200110203452" dir="1578659692rek7x2opzf" file="text.html"/>
        <record id="15788255474lm3tju4cv" name="Предложения" author="" url="" tags="" ctime="20200112183907" dir="15788255478z27fy3b03" file="text.html"/>
+       <record id="1579653089miv85acgf3" name="Обновить БД на TKO-QA" author="" url="" tags="" ctime="20200122083129" dir="15796530898hfb2zmlfo" file="text.html"/>
+       <record id="1580885010qsfeualwdu" name="Зануление начислений по позиции" author="" url="" tags="" ctime="20200205144330" dir="15808850109fa1g4ym1b" file="text.html"/>
       </recordtable>
+      <node crypt="" id="1580439349jdzxnn3tkg" name="Управление">
+       <recordtable>
+        <record id="15804393713tpmtddspw" name="Скрипт переноса арендаторов" author="" url="" tags="" ctime="20200131105611" dir="1580439371261h3556yp" file="text.html" block="1"/>
+        <record id="1580715432fyu9a0ydro" name="Скрипт переноса арендаторов(Простой)" author="" url="" tags="" ctime="20200203153712" dir="1580715432zoe2yqe6p2" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1580451582439szovbyr" name="КорректировкаУПД">
+       <recordtable>
+        <record id="1580451607kh3tn0ciew" name="Проба соединения" author="" url="" tags="" ctime="20200131142007" dir="1580451607xqvniubtlq" file="text.html" block="1"/>
+        <record id="15808651542egfgxb0hh" name="Проверка сервиса" author="" url="" tags="" ctime="20200205091234" dir="15808651546jhepz8mr8" file="text.html" block="1"/>
+        <record id="1580891949bfe5we5k87" name="Немного переделанный отчет Макса" author="" url="" tags="" ctime="20200205163909" dir="1580891949terdm58utb" file="text.html" block="1"/>
+        <record id="158089288980f7xskska" name="Рабочий, кроме цены" author="" url="" tags="" ctime="20200205165449" dir="1580892889rus50o0l88" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1580809222rx41zbyodv" name="Перерасчет">
+       <recordtable>
+        <record id="15808092748ljcri70yz" name="Контрагенты по факту с арендаторами за которых оплачивают" author="" url="" tags="" ctime="20200204174114" dir="1580809274dikyjj9xn2" file="text.html"/>
+        <record id="15814098719431gmlzqf" name="Деление по дате верификации КП" author="" url="" tags="" ctime="20200211163111" dir="15814098714ezff0lw2q" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1580864777xjw1q1dvqf" name="Отчеты">
+       <recordtable>
+        <record id="15808050174dt1r20xf2" name="Отчет с продакшена без ПНООЛР (4.02.2020)" author="" url="" tags="" ctime="20200205090624" dir="1580805017b5amqxp2wt" file="text.html"/>
+        <record id="1579758666549ie5blge" name="Отчет по факту с ПНООЛР" author="" url="" tags="" ctime="20200205090627" dir="1579758666h5aiy9kju1" file="text.html" block="1"/>
+        <record id="1578032507nfiqpp6hl4" name="Рефакторинг доп с историей" author="" url="" tags="" ctime="20200205090637" dir="1578032507vqtcgrxfq0" file="text.html" block="1"/>
+        <record id="1578452078zik2x7ub7x" name="История КП, 2-я таблица - КП через дробь" author="" url="" tags="" ctime="20200205090640" dir="1578452078fqsjohxfw7" file="text.html" block="1"/>
+        <record id="1578484335osbbs9ysnw" name="new" author="" url="" tags="" ctime="20200205090647" dir="1578484335x1lfz0ghy6" file="text.html" block="1"/>
+        <record id="15772626627ipmb6cbf8" name="Доп соглашение перерасчета" author="" url="" tags="" ctime="20200205090653" dir="1577262662wwdmtwmni8" file="text.html"/>
+        <record id="157700156157pedeplxf" name="Рабочий отчет История КП и объемы(для всех)" author="" url="Убрал проверки стр. 132, 987" tags="" ctime="20200205090657" dir="1577001561umfpol178n" file="text.html" block="1"/>
+        <record id="15767355681qv70w7hq5" name="Рабочий отчет История КП" author="" url="" tags="" ctime="20200205090700" dir="15767355687ukaff9wcj" file="text.html" block="1"/>
+        <record id="1576474412xmpw955qhs" name="История КП доп" author="" url="" tags="" ctime="20200205090707" dir="1576474412wyoqtlg1kr" file="text.html" block="1"/>
+        <record id="1576226690epm5autqjt" name="История КП в допе" author="" url="" tags="" ctime="20200205090710" dir="15762266902usd3gb5eh" file="text.html" block="1"/>
+        <record id="1576662403v3ml507apn" name="Новый метод " author="" url="" tags="" ctime="20200205090757" dir="1576662403d9zai091m1" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1580864857rpv4gfo842" name="Снапшоты">
+       <recordtable>
+        <record id="1576637400thk8v4ve2f" name="Создание снапшота" author="" url="" tags="" ctime="20200205090743" dir="15766374006rd7m95duf" file="text.html" block="1"/>
+        <record id="1576632386eisf9oywpd" name="История в снапшотах" author="" url="" tags="" ctime="20200205090804" dir="1576632386qpezxzobql" file="text.html"/>
+        <record id="1581242892n3h4bvz43x" name="Сериализация" author="" url="" tags="" ctime="20200209180812" dir="1581242892yozxazsech" file="text.html"/>
+        <record id="1581245456q45mcw90zq" name="tmp" author="" url="" tags="" ctime="20200209185056" dir="1581245456129c76sxv7" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1581381505uorlwf87gh" name="Расчет по факту">
+       <recordtable>
+        <record id="1581381531e570q59fqi" name="Перевод КП на факт update запросом" author="" url="" tags="" ctime="20200211083851" dir="1581381531wnenorjwez" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1581641058k044qid68n" name="Категоризация">
+       <recordtable>
+        <record id="1581645874c6vxp0n5kq" name="Отладка метода" author="" url="" tags="" ctime="20200214100434" dir="1581645874cj6saguurf" file="text.html"/>
+        <record id="1581900527lkvt5grbef" name="Categorization key" author="" url="" tags="" ctime="20200217084847" dir="1581900527fuyd7z7617" file="text.html" block="1"/>
+        <record id="1581918535vulndb9ti6" name="Определение категорий" author="" url="" tags="" ctime="20200217134855" dir="1581918535yhwyoz4g9a" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="" id="1576741353lv9mgv53jb" name="Рефакторинг">
       <node crypt="" id="1576741360x3s1kvdhki" name="Доп">
        <recordtable>
         <record id="15766633874aiewhqi5k" name="Попытка рефакторинга" author="" url="" tags="" ctime="20191219154324" dir="15766633871ppqandj49" file="text.html"/>
         <record id="1576827754oj2sfxc14i" name="Рефакторинг, кроме КП" author="" url="" tags="" ctime="20191220154234" dir="1576827754xj8v8b1qqk" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="15806577848wuhk0jpky" name="На рефакторинг">
+       <recordtable>
+        <record id="1580657850nrd4hi5roo" name="Снапшот контракта" author="" url="" tags="" ctime="20200202233730" dir="15806578501siwpic8ow" file="text.html"/>
        </recordtable>
       </node>
      </node>
@@ -228,6 +289,7 @@
       <record id="1571208252m3ra182bc8" name="Рефакторинг" author="" url="" tags="" ctime="20191016144412" dir="1571208252h3kufos6jh" file="text.html"/>
       <record id="15723278382lwkt5x8l0" name="CategoryABC" author="" url="" tags="" ctime="20191029134358" dir="15723278387ixshx3xu3" file="text.html"/>
       <record id="1573443585wk2jhxeqxd" name="Методы" author="" url="" tags="" ctime="20191111113945" dir="1573443585k4f0d2qbbo" file="text.html"/>
+      <record id="1581231654gx1v9wacsi" name="Groovy imports" author="" url="" tags="" ctime="20200210093155" dir="1581231654vrixf4umrq" file="text.html"/>
      </recordtable>
      <node crypt="" id="1568942511gfdx2ilxe6" name="GroovyScripts">
       <recordtable>
@@ -290,8 +352,11 @@
      <node crypt="1" icon="" id="1570169855n29tj8p4ci" name="UkM1U0lNUAPitU5LVBCJ33LUKzne9H7xBYuUHtiIhHASVyiou7molT/PbRZ++hRD">
       <recordtable>
        <record id="1568179418xjw42jupr9" name="UkM1U0lNUAMrMypSD9pcofQfoyPDpfti5E0ax4WEtLEQ6D5Ff5+/rta50QfE1TQWzxSfzQwOF5I=" author="" url="" tags="" ctime="20191004141744" dir="1568179418z5gbtd572w" file="text.html" crypt="1"/>
-       <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block="1"/>
+       <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block=""/>
        <record id="1571270955pad8jeo8hx" name="UkM1U0lNUANK4vScHBBno1h36jPmO1Wa4Q4p8tpMS4NPrlpimY1DKBmx4r1C0t0uu3NGVhuLjfP4Rss6CecOcKS4JS2Pv5A7CPAKoCXLPeE=" author="" url="" tags="" ctime="20191017080915" dir="15712709559p3d53t7w0" file="text.html" crypt="1"/>
+       <record id="1579599744hmehtjvja2" name="UkM1U0lNUAPVmqSVBgETa1Yaj43kQuDxfzmRYxVTJPI6C4nCK2GKZPR4aHrGDdom" author="" url="" tags="" ctime="20200121174224" dir="1579599744v60ka18xno" file="text.html" crypt="1" block="1"/>
+       <record id="1579828602mlm6iwkg89" name="UkM1U0lNUANGzp9n7RTU0gWaeo31iGzVN53js4lAQLR6jXuHW8TdAiB42mcmX6vBe2sk4Jbv6TI=" author="" url="" tags="" ctime="20200124091642" dir="15798286025qmys84vlk" file="text.html" crypt="1" block="1"/>
+       <record id="1580193985zvzongrb6a" name="UkM1U0lNUAM3S6voNxUBffeeZct+cvEFBBNKnm6C7Auhx9Ku+o3VH7VPxjODclnsqMLYhcrSS7g=" author="" url="" tags="" ctime="20200128144904" dir="1580193985znd1rwkgl5" file="text.html" crypt="1" block="1"/>
       </recordtable>
      </node>
      <node crypt="" id="15740865639fv63ykhck" name="WorkFlow">
@@ -303,6 +368,13 @@
        <record id="1574318434v8ka4pauqo" name="WorkflowWebBean" author="" url="" tags="" ctime="20191121144034" dir="1574318434ttodn9b2qh" file="text.html"/>
        <record id="1574903638wwp7bnhoqz" name="Код КП в списке экрана" author="" url="" tags="" ctime="20191128091358" dir="157490363890gazs1089" file="text.html" block="1"/>
        <record id="1575190441g2ll4vs36j" name="BackTrack" author="" url="" tags="" ctime="20191201165401" dir="15751904410yaqzxn5s5" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1581383919e7dl7k6gfw" name="Инструменты">
+      <recordtable>
+       <record id="1581298301sd29aznjdc" name="log" author="" url="" tags="" ctime="20200211092342" dir="1581298301ypxgi48wc4" file="text.html" block="1"/>
+       <record id="1581642321x6gru2ka52" name="Стиль CUBA" author="" url="" tags="" ctime="20200214090521" dir="1581642321f1khahqis6" file="text.html"/>
+       <record id="1581927908zjefkot7fp" name="viewRepository" author="" url="" tags="" ctime="20200217162508" dir="1581927908fyzd9n3v0n" file="text.html"/>
       </recordtable>
      </node>
     </node>
