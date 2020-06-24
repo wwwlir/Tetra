@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IN проверяет, является ли значение одним из явного фиксированного списка литералов или параметров запроса.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="admediator-54575-361975"></a>MEMBER OF проверяет, присутствует ли значение в коллекции JPA, т.е. коллекции, которая фактически является частью объектной модели.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ps: если фиксированный аргумент, то in, если результат или параметр, то member of</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c from rtneo$Contragent c where c.personalAccount <span style=" font-weight:600;">in</span> ('ААА3812525543', 'ААА3827046945', 'ААА3812525541')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Нижнее подчеркивание, любой одиночный символ</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c from rtneo$Contragent c where c.personalAccount <span style=" font-weight:600;">like</span> 'ААА38125255<span style=" font-weight:600;">__</span>'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select count(c) from rtneo$Contragent c where c.contracts <span style=" font-weight:600;">is empty</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c from rtneo$Contract c join fetch rtneo$Accrual a on c = a.contractPosition.contract where c.contragent.personalAccount = 'ААА3812525543'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select distinct a.period from rtneo$Accrual a where a.contragent.personalAccount = 'ААА3812525543' order by a.period</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c.number, c.from, c.createTs from rtneo$Contract c where c.contragent.personalAccount = 'ААА3812525543' and c.accepted = true order by c.from, c.createTs</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c.from, max(c.createTs) from rtneo$Contract c where c.contragent.personalAccount = 'ААА3812525543' and c.accepted = true group by c.from </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c.number from rtneo$Contract c join fetch rtneo$Accrual a on c = a.contractPosition.contract where c.contragent.personalAccount = 'ААА3812525543' and c.createTs in (select max(c1.createTs) from rtneo$Contract c1 where c1.contragent.personalAccount = 'ААА3812525543' and c1.accepted = true group by c1.from) order by c.from</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">дЛЯ КАЖДОГО ПЕРИОДА ПОЛУЧИТЬ АКТУАЛЬНЫЙ ДОГОВОР</p></body></html>

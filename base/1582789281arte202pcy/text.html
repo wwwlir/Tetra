@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c.name, r.containerYard.code, r.containerYard.address, (select max(ct1.number) from rtneo$Contract ct1 where ct1.mainContract is null and ct1.contragent.id = c.id) as mainContract, ct.number from rtneo$Contragent c, rtneo$Contract ct, rtneo$RealEstateContainerYard r </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">where c.id = ct.contragent.id </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">and c.id = r.contragentRealEstate.contragent.id </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">and ct.accepted = true </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">and ct.acceptanceDate = (select max(contract.acceptanceDate) from rtneo$Contract contract where contract.contragent.id = c.id) </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">and (select count(ct2) from rtneo$Contract ct2 where ct2.contragent.id = c.id and ct2.accepted = true and not ct2.mainContract is null) &gt; 0</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">and (lower(c.legalAddress) like '%%г. байкальск%%' or lower(c.legalAddress) like '%%г байкальск%%') </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">order by c.inn</p></body></html>

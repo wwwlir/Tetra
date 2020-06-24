@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select CASE WHEN a.contractPosition.contract.mainContract is not null THEN b.contractPosition.contract.mainContract.number ELSE a.contractPosition.contract.number END from rtneo$Accrual a left outer join rtneo$Accrual b on a.id = '18781b72-c499-1d1e-5e9f-50216d447438'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Работает</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select CASE WHEN not a.contractPosition.contract.mainContract is null THEN b.number ELSE a.contractPosition.contract.number END from rtneo$Accrual a left join a.contractPosition.contract.mainContract b where a.id = '18781b72-c499-1d1e-5e9f-50216d447438'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select CASE WHEN not a.contractPosition.contract.mainContract is null THEN b.number ELSE a.contractPosition.contract.number END, CASE WHEN not a.contractPosition.contract.mainContract is null THEN b.date ELSE a.contractPosition.contract.date END from rtneo$Accrual a left outer join a.contractPosition.contract.mainContract b where a.id = '18781b72-c499-1d1e-5e9f-50216d447438'</p></body></html>
