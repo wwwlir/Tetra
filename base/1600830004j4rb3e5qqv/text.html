@@ -1,0 +1,6 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select count(distinct cp.contragent) from rtneo$ContractPosition cp join cp.contragent c where not cp.category.norm = cp.norm and size(c.contracts) = 1 and cp.contract.mainContract is null and cp.contract.accepted = true </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">and (cp.contract.loadedFromBigTrio is null or cp.contract.loadedFromBigTrio = false) and not c.id in (select t.entityId from rtneo$EntityesTemporarySet t)</p></body></html>

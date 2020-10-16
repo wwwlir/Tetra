@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SELECT count(*) FROM public.rtneo_accrual a WHERE a.delete_ts is null and a.comment = 'Перерасчет по факту';</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">- SELECT count(*) FROM public.rtneo_accrual a WHERE a.delete_ts is null and a.comment = 'Перерасчет по факту' and round(a.total_sum, 2) = round(((a.total_sum/1.2)-a.total_sum)*-1, 5);</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SELECT count(*) FROM public.rtneo_accrual a WHERE a.delete_ts is null and a.comment = 'Перерасчет по факту' and round(a.nds_sum, 5) = round(((a.total_sum/1.2)-a.total_sum)*-1, 5);</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">--SELECT a.total_sum, a.nds_sum, round(((a.total_sum/1.2)-a.total_sum)*-1, 2) FROM public.rtneo_accrual a WHERE a.id = 'fffffed1-1417-df5a-6658-10579e3b4d3b'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- update public.rtneo_accrual set nds_sum = round(((total_sum/1.2)-total_sum)*-1, 5), nds_sum_base = round(((total_sum/1.2)-total_sum)*-1, 5) WHERE delete_ts is null and comment = 'Перерасчет по факту' and not round(nds_sum, 2) = round(((total_sum/1.2)-total_sum)*-1, 2);</p></body></html>

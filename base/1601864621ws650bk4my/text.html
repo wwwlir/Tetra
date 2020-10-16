@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- select ct.inn, count(ct.id) </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- from (select distinct c1.id as id, c1.inn as inn, coalesce(c1.personal_account, 'nopa') as pa, coalesce(c1.name, 'noname') as name</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- 	  from rtneo_contragent c1 join rtneo_payment p1 on c1.inn = p1.inn join rtneo_contract cn1 on c1.id = cn1.contragent_id</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- 	  where c1.delete_ts is null and p1.delete_ts is null and p1.create_ts &lt;= '2020-07-27'::date and p1.inn is not null and c1.inn is not null) as ct </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- group by ct.name, ct.pa, ct.inn having count(ct.id)&gt;1</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- select distinct c1.id as id, c1.inn as inn from rtneo_contragent c1 join rtneo_payment p1 on c1.inn = p1.inn where c1.delete_ts is null and p1.delete_ts is null order by c1.inn</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">select c3.personal_account, c3.name, c3.inn from (</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">	select c2.inn as inn2, count(c2.id) </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">from (select distinct c1.id as id</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">	  from rtneo_contragent c1 join rtneo_payment p1 on c1.inn = p1.inn join rtneo_contract cn1 on c1.id = cn1.contragent_id</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">	  where c1.delete_ts is null and p1.delete_ts is null and p1.create_ts &lt;= '2020-07-27'::date and p1.inn is not null and c1.inn is not null) as ct </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">join rtneo_contragent c2 on ct.id = c2.id</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">group by c2.inn having count(c2.id)&gt;1</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">) as ct2 join rtneo_contragent c3 on ct2.inn2 = c3.inn and c3.personal_account is not null and c3.inn is not null and c3.delete_ts is null order by c3.inn</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- select c2.inn as inn2, count(c2.id) </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- from (select distinct c1.id as id</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- 	  from rtneo_contragent c1 join rtneo_payment p1 on c1.inn = p1.inn join rtneo_contract cn1 on c1.id = cn1.contragent_id</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- 	  where c1.delete_ts is null and p1.delete_ts is null and p1.create_ts &lt;= '2020-07-27'::date and p1.inn is not null and c1.inn is not null) as ct </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- join rtneo_contragent c2 on ct.id = c2.id</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-- group by c2.inn having count(c2.id)&gt;1</p></body></html>
