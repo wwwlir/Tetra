@@ -5,13 +5,15 @@
  <content>
   <node crypt="" id="1559916805ybtruadnpq" name="INFO">
    <node crypt="" id="1559916844zruik4uuvn" name="Development">
-    <recordtable>
-     <record id="1571359730skcoa9972r" name="Краткая шпаргалка по сочетаниям клавиш в IntelliJ IDEA " author="" url="" tags="" ctime="20191018084850" dir="157135973024pfahhl3b" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="15599168621kpr5h2ldu" name="GROOVY">
+    <node crypt="" icon="/Swift/color_swift_Bandage.svg" id="15599168621kpr5h2ldu" name="GROOVY">
      <recordtable>
       <record id="1559484227ls4hjbpng5" name="Материал из Викиучебника" author="" url="https://ru.wikibooks.org/wiki/Groovy" tags="" ctime="20190607171422" dir="1559484227mm649ry5x9" file="text.html"/>
       <record id="1571117884ttdlcytxhe" name="Типовые ошибки" author="" url="" tags="" ctime="20191015133804" dir="1571117884710lc2a6oy" file="text.html"/>
+      <record id="1611049984239se5f08m" name="Динамическое переопределение" author="" url="" tags="" ctime="20210119175304" dir="16110499842v7fv9qgfp" file="text.html"/>
+      <record id="1615807492s7l1imk02z" name="stream Collectors" author="" url="" tags="" ctime="20210315192452" dir="16158074920pk59hyspn" file="text.html"/>
+      <record id="1615948126f7aycfvx5x" name="mixin" author="" url="" tags="" ctime="20210317102846" dir="16159481263u6zeorxsy" file="text.html"/>
+      <record id="1615999117oeskw4tzxi" name="Collectors" author="" url="" tags="" ctime="20210318003837" dir="1615999117ow50jzcgwo" file="text.html"/>
+      <record id="16173373763w0px0i5d0" name="Примеры делегирования" author="" url="" tags="" ctime="20210402122256" dir="1617337376feup9mvtk3" file="text.html"/>
      </recordtable>
      <node crypt="" id="1594007919nbdpf8n9tf" name="BС">
       <recordtable>
@@ -20,8 +22,13 @@
        <record id="1594009034j20o5xt72l" name="file IO" author="" url="" tags="" ctime="20200706121714" dir="1594009034hoztn6onku" file="text.html"/>
       </recordtable>
      </node>
+     <node crypt="" id="1617671993fdysljd2ab" name="Templates">
+      <recordtable>
+       <record id="1617672036w3vs3u6ep8" name="Mixin box" author="" url="" tags="" ctime="20210406092036" dir="16176720361ybg7wzke9" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
-    <node crypt="" id="15599168834pxcb7g7d6" name="CUBA">
+    <node crypt="" icon="/Swift/color_swift_Bandage.svg" id="15599168834pxcb7g7d6" name="CUBA">
      <recordtable>
       <record id="1568179145i36th5k8jr" name="update.sh" author="" url="" tags="" ctime="20190911131905" dir="1568179145z888lxve7i" file="text.html" block="1"/>
       <record id="1568179255nhjff3mdmn" name="Logger" author="" url="" tags="" ctime="20190911132055" dir="15681792552n1owitg6d" file="text.html"/>
@@ -31,13 +38,15 @@
       <record id="1568703787vgbmxks141" name="Платформа CUBA. Руководство по разработке приложений&#10;Версия 6.10" author="" url="" tags="" ctime="20190917150307" dir="15687037871gi0exccqi" file="text.html"/>
       <record id="1569977827y2a4x5tw31" name="Документация DataManager" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/dataManager.html" tags="" ctime="20191002085707" dir="1569977827geilwrda91" file="text.html"/>
       <record id="1572064335ylzbzlsgln" name="Опции компиляции java" author="" url="" tags="" ctime="20191026123215" dir="1572064335bew8e6exoi" file="text.html"/>
-      <record id="1572320765sxmzvm89s0" name="Пароль по умолчанию" author="" url="" tags="" ctime="20191029114605" dir="1572320765bcy7qk29o9" file="text.html"/>
+      <record id="1572320765sxmzvm89s0" name="Пароль по умолчанию" author="" url="" tags="" ctime="20191029114605" dir="1572320765bcy7qk29o9" file="text.html" block="1"/>
       <record id="1575268457a4t9nerkyz" name="EntityManager" author="" url="" tags="" ctime="20191202143417" dir="1575268457pndzxnmgei" file="text.html"/>
       <record id="1575516591vczveay1xp" name="ExecutorService" author="" url="" tags="" ctime="20191205112951" dir="1575516591rxg0q76bpr" file="text.html"/>
       <record id="1575525306j3z9qiu3fg" name="Фоновые задачи" author="" url="" tags="" ctime="20191205135506" dir="1575525306mb6hcgj5gv" file="text.html"/>
       <record id="1575537304m2gxbofswz" name="Чистый пул потоков" author="" url="" tags="" ctime="20191206095958" dir="15755373040c0eq86ilh" file="text.html" block="1"/>
       <record id="1576207648a3oke3zw2b" name="Хранилище файлов " author="" url="https://doc.cuba-platform.com/manual-6.10-ru/file_storage.html" tags="" ctime="20191213112728" dir="15762076485v75l40ijp" file="text.html"/>
       <record id="1580345251ixnen4kltq" name="Источники данных" author="" url="https://doc.cuba-platform.com/manual-6.10-ru/datasources.html" tags="" ctime="20200130084731" dir="158034525109h4k51n4q" file="text.html"/>
+      <record id="1609153157f9zzu8zf84" name="Настройка хостов" author="" url="" tags="" ctime="20201228185917" dir="1609153157dbkwhymk23" file="text.html"/>
+      <record id="16118129362drryd8v0g" name="Перехват события ApplicationEvent" author="" url="https://www.cuba-platform.ru/discuss/t/perehvat-sobytiya-applicationevent/1149" tags="" ctime="20210128134856" dir="1611812936d92kt78r8y" file="text.html" block="1"/>
      </recordtable>
      <node crypt="1" icon="" id="1568179504ss33bih2ts" name="UkM1U0lNUANp2dGma51Mke/zyFsOAzpVmv8/l81pnlDAsGXYITR5k3DVWjnl6V/m"/>
      <node crypt="" id="1574996644bnshqgqtxe" name="REST">
@@ -73,12 +82,12 @@
       <record id="1571212168rrgo3104ey" name="Самые типичные ошибки и вопросы, связанные с Git, и удобные способы их решения" author="" url="https://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/" tags="" ctime="20191016154928" dir="1571212168kx9p7v9yfm" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="" id="15599241473y33894oxm" name="Spring">
+    <node crypt="" icon="/Swift/color_swift_Bandage.svg" id="15599241473y33894oxm" name="Spring">
      <recordtable>
       <record id="15599241909nqcn3hdg1" name="Как писать на Spring в 2017" author="" url="" tags="" ctime="20190607191630" dir="1559924190hskf1s7xzr" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="" id="1568185248l1d02h9h4i" name="grudle">
+    <node crypt="" icon="/Swift/color_swift_Bandage.svg" id="1568185248l1d02h9h4i" name="grudle">
      <recordtable>
       <record id="1568185294gl7fk8wm2f" name="gradle upload" author="" url="" tags="" ctime="20190911150134" dir="1568185294r9f49x2yf6" file="text.html"/>
      </recordtable>
@@ -108,13 +117,25 @@
        <record id="15915428591gwea8nuzd" name="postgres" author="" url="" tags="" ctime="20200921113513" dir="15915428594yb41rcrop" file="text.html" block="1"/>
        <record id="1600927336nemocr66z4" name="Обновление" author="" url="" tags="" ctime="20200924140216" dir="16009273361c8tq6zp1v" file="text.html"/>
        <record id="1601534928mo71edeb89" name="Insert" author="" url="" tags="" ctime="20201001144848" dir="1601534928yw2wol9s8j" file="text.html"/>
-       <record id="1602121715tl4ptup3tb" name="copy" author="" url="" tags="" ctime="20201008094835" dir="1602121715bpcuatt77d" file="text.html"/>
+       <record id="1602121715tl4ptup3tb" name="copy" author="" url="" tags="" ctime="20201008094835" dir="1602121715bpcuatt77d" file="text.html" block="1"/>
        <record id="1601638298z99k9kb4o3" name="psql" author="" url="" tags="" ctime="20201012165849" dir="1601638298fn1pp3ka53" file="text.html"/>
        <record id="16024972391grcgoagj0" name="https://habr.com/ru/post/340460/" author="" url="" tags="" ctime="20201012180719" dir="1602497239c7k3ub30u8" file="text.html"/>
        <record id="1602497259e52adx5xyp" name="https://habr.com/ru/post/268983/" author="" url="" tags="" ctime="20201012180739" dir="1602497259rc8i447ek6" file="text.html"/>
        <record id="1602497600ki35sb9clw" name="https://habr.com/ru/company/mailru/blog/513968/" author="" url="" tags="" ctime="20201012181320" dir="1602497600pj1rau5vsj" file="text.html"/>
        <record id="1602497775f1g70jpaom" name="https://habr.com/ru/post/263541/" author="" url="" tags="" ctime="20201012181615" dir="160249777548mu4xx7j4" file="text.html"/>
        <record id="16025789611vxp9sa64f" name="Testing with union" author="" url="" tags="" ctime="20201013164921" dir="1602578961943wn120ic" file="text.html" block="1"/>
+       <record id="1603257969fb7gh57v90" name="split_part" author="" url="" tags="" ctime="20201021132609" dir="16032579695lr9td21zh" file="text.html"/>
+       <record id="1603436714lq6eb5adiv" name="regexp" author="" url="" tags="" ctime="20201023150514" dir="160343671493s49azf01" file="text.html"/>
+       <record id="1603767683rddj0p8a0h" name="delete log" author="" url="" tags="" ctime="20201027110123" dir="1603767683j1e6oqp5r9" file="text.html"/>
+       <record id="160376790103cqv59nzz" name="update log" author="" url="https://postgrespro.ru/docs/postgresql/9.6/queries-with" tags="" ctime="20201027110501" dir="1603767901tbo7voc3ec" file="text.html"/>
+       <record id="16066750568jryqn6j6o" name="postgresql to entity" author="" url="" tags="" ctime="20201130023736" dir="1606675056kepm374fwv" file="text.html"/>
+       <record id="1606701406m812yv2iqo" name="Удаление и создание кластера" author="" url="" tags="" ctime="20201130095646" dir="1606701406h97o0d23pc" file="text.html"/>
+       <record id="1607672184f2mt8q3ei7" name="Глава 9. Функции и операторы" author="" url="https://postgrespro.ru/docs/postgrespro/9.5/functions-datetime#functions-datetime-trunc" tags="" ctime="20201211153624" dir="1607672184w7ux91br0d" file="text.html"/>
+       <record id="1611554154s0ditcp1hz" name="Размеры баз" author="" url="" tags="" ctime="20210125135554" dir="1611554154qcr14wmnhl" file="text.html"/>
+       <record id="1614243142kswfa67jof" name="Создание частичного индекса" author="" url="" tags="" ctime="20210225165222" dir="161424314225epeo5hl4" file="text.html" block="1"/>
+       <record id="1614266081fehl1s0btp" name="Добавил таблицу rtneo_carrier" author="" url="" tags="" ctime="20210225231441" dir="1614266081qi72dh8kgc" file="text.html"/>
+       <record id="1616551574var7fn6fe0" name="Пересечение периодов дат" author="" url="" tags="" ctime="20210324100614" dir="16165515749lyonr8vu6" file="text.html"/>
+       <record id="16176775540hitsy6dlw" name="Начало и конец текущего месяца" author="" url="" tags="" ctime="20210406105234" dir="16176775542e07dby92u" file="text.html"/>
       </recordtable>
      </node>
     </node>
@@ -141,6 +162,10 @@
        <record id="1577254608odpqxv3xos" name="Удаление элемента массива во время итерации" author="" url="" tags="" ctime="20191225141648" dir="1577254608rzoeydbmlf" file="text.html"/>
        <record id="1579076860bgyg2hd6hj" name="Шпаргалка Java программиста 3. Коллекции в Java (стандартные, guava, apache, trove, gs-collections и другие) " author="" url="https://habr.com/ru/company/luxoft/blog/256877/" tags="https://www.codeflow.site/ru/article/guava-table" ctime="20200115162740" dir="15790768606ok97k2lr5" file="text.html"/>
        <record id="1588901132yd2i0jyh65" name="Как правильно делать сортировку в Java" author="" url="" tags="" ctime="20200508092532" dir="1588901132cika8shz2r" file="text.html"/>
+       <record id="1607504823a1ap0a70pg" name="Обход HashMap" author="" url="" tags="" ctime="20201209170703" dir="16075048239tbmakviap" file="text.html"/>
+       <record id="16118812058m4plnhsjt" name="Сортировать HashMap в Java" author="" url="https://www.codeflow.site/ru/article/java-hashmap-sort" tags="" ctime="20210129084645" dir="16118812054py0dxe020" file="text.html"/>
+       <record id="1611881422q0munxjwuq" name="Сортровка через LinkedHashMap" author="" url="" tags="" ctime="20210129085022" dir="16118814226awqfhdx9d" file="text.html"/>
+       <record id="1615994883v9ydy85l48" name="Сравнение двух коллкуций" author="" url="" tags="" ctime="20210317232803" dir="1615994883igzeko61t2" file="text.html"/>
       </recordtable>
       <node crypt="" id="15940149841392mexgle" name="Stream">
        <recordtable>
@@ -153,6 +178,9 @@
         <record id="1596896671b56e8cuv5y" name="Полное руководство по Java 8 Stream API в картинках и примерах" author="" url="https://annimon.com/article/2778" tags="" ctime="20200808222431" dir="1596896671xu8yq6uj7d" file="text.html"/>
         <record id="1596897205l72knrbsjz" name="Руководство по языку программирования Java" author="" url="https://metanit.com/java/tutorial/" tags="" ctime="20200808223325" dir="1596897205nibuczm7ur" file="text.html"/>
         <record id="1601343502xo4efvtxo0" name="groupingBy" author="" url="" tags="" ctime="20200929093822" dir="16013435020ykw5ctp8n" file="text.html"/>
+        <record id="1605347688tbopcqicjr" name="groupingBy and summing" author="" url="" tags="" ctime="20201114175448" dir="1605347688ikigu92tkw" file="text.html"/>
+        <record id="160534897502ytanf0as" name="groupingBy" author="" url="" tags="" ctime="20201114181621" dir="1605348975btue9a2pzy" file="text.html"/>
+        <record id="1612486144106hmf7fqn" name="Полное руководство по Java 8 Stream API в картинках и примерах" author="" url="https://annimon.com/article/2778" tags="" ctime="20210205084904" dir="1612486144oj90t6flyg" file="text.html"/>
        </recordtable>
       </node>
      </node>
@@ -195,24 +223,30 @@
       </recordtable>
      </node>
     </node>
-    <node crypt="" id="157121243264kftsq265" name="Links">
+    <node crypt="" icon="/Swift/color_swift_Bandage.svg" id="157121243264kftsq265" name="Links">
      <recordtable>
       <record id="1571212443c9gp925bkl" name="Temp" author="" url="" tags="" ctime="20191016155403" dir="157121244335un0nvr5i" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1572253373nzpf3wqot9" name="Arduino">
+     <recordtable>
+      <record id="161485358675p47x7gtk" name="Диагностика" author="" url="" tags="" ctime="20210304182626" dir="1614853586dou8ajfvbb" file="text.html" block="1"/>
+      <record id="1617265840rw9ehxor42" name="Типы корпусов импортных микросхем" author="" url="" tags="" ctime="20210401163040" dir="1617265840umsgn69v12" file="text.html"/>
+     </recordtable>
      <node crypt="" id="1572253381rvo7emz0qq" name="temp">
       <recordtable>
        <record id="1572253417arpfjyone0" name="Начало" author="" url="" tags="" ctime="20191028170337" dir="1572253417whuk4omkoc" file="text.html"/>
       </recordtable>
      </node>
     </node>
-    <node crypt="" id="15726611818di6uvmwia" name="IDEA">
+    <node crypt="" icon="/Swift/color_swift_Bandage.svg" id="15726611818di6uvmwia" name="IDEA">
      <recordtable>
       <record id="1572661311ycfuahjmjo" name="Навигация" author="" url="" tags="" ctime="20191102102151" dir="15726613114f42lexnrv" file="text.html"/>
+      <record id="1622507866jfxe65xw1k" name="Исправление кодировки" author="" url="" tags="" ctime="20210601083746" dir="1622507866668u7loywe" file="text.html"/>
+      <record id="1571359730skcoa9972r" name="Краткая шпаргалка по сочетаниям клавиш в IntelliJ IDEA " author="" url="" tags="" ctime="20210604171108" dir="157135973024pfahhl3b" file="text.html"/>
      </recordtable>
     </node>
-    <node crypt="" id="1576035715n3fw455r5u" name="freemarker">
+    <node crypt="" icon="/Swift/color_swift_Bandage.svg" id="1576035715n3fw455r5u" name="freemarker">
      <recordtable>
       <record id="1576035728ow6lz9xwf8" name="https://freemarker.apache.org/docs/" author="" url="https://freemarker.apache.org/docs/" tags="" ctime="20191211114208" dir="15760357289wp5s9ad0v" file="text.html"/>
      </recordtable>
@@ -234,6 +268,25 @@
      </recordtable>
     </node>
     <node crypt="" id="15985284591ykiqnsa2l" name="Чек листы"/>
+    <node crypt="" id="1602907072jwq7rt7sxo" name="Common">
+     <recordtable>
+      <record id="1602907095lzltlgfeuh" name="Отношения между классами и объектами" author="" url="https://metanit.com/sharp/patterns/1.2.php" tags="" ctime="20201017115815" dir="1602907095rzlb1igi9g" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1603072406ii30128zrx" name="Checklists">
+     <recordtable>
+      <record id="1603072414docr3b8nuv" name="postgres" author="" url="" tags="" ctime="20201019095334" dir="1603072414hqb1rsjfra" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="16134888275ei2ati3vi" name="AVR">
+     <node crypt="" id="1613488845umfa72tyob" name="tutorials">
+      <recordtable>
+       <record id="1613488878umk1q4fchr" name="AVR. Учебный Курс. Программирование на Си" author="" url="http://easyelectronics.ru/avr-uchebnyj-kurs-programmirovanie-na-si-chast-1.html" tags="" ctime="20210216232118" dir="161348887842010bs6xb" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1613488854ccxhbb6ljo" name="examples"/>
+    </node>
+    <node crypt="" id="1617263938rfjldroqtk" name="CI/CD"/>
    </node>
    <node crypt="" id="1559916922jhfe953kvu" name="System">
     <node crypt="" id="1559917112fgfu2v8bwt" name="Linux">
@@ -251,10 +304,14 @@
       <record id="1576575244qm11iaymc5" name="Проброс портов CUBA debug" author="" url="" tags="" ctime="20191217173404" dir="1576575244pmpzs4tx7e" file="text.html"/>
       <record id="15774081611xievil9sn" name="Шрифты windows" author="" url="" tags="" ctime="20191227085601" dir="1577408161i5n5iuve7d" file="text.html"/>
       <record id="15774095117nw9xhbkf7" name="Переводчик" author="" url="" tags="" ctime="20191227091831" dir="157740951134qli1jkbc" file="text.html"/>
+      <record id="1610075254xjla40qvyd" name="Linux - как почистить логи /var/log/journal/" author="" url="https://wiki.iphoster.net/wiki/Linux_-_%D0%BA%D0%B0%D0%BA_%D0%BF%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D1%8C_%D0%BB%D0%BE%D0%B3%D0%B8_/var/log/journal/" tags="" ctime="20210108110734" dir="1610075254fp5rlul8nd" file="text.html"/>
+      <record id="1611553716fqvrpl3kj5" name="screen" author="" url="https://losst.ru/komanda-screen-linux" tags="" ctime="20210125134836" dir="1611553716fwsr20u1kz" file="text.html"/>
+      <record id="16193736793r2a2o9l5f" name="Расшаривание папки по sshfs" author="" url="" tags="" ctime="20210426020119" dir="1619373679tfmcgtk84z" file="text.html"/>
      </recordtable>
      <node crypt="" id="1561120722h36v5i94i6" name="vim">
       <recordtable>
-       <record id="1573605984vn2pp7ljfb" name="Ответ по копированию" author="" url="" tags="" ctime="20191113084624" dir="157360598483jyra3qe4" file="text.html"/>
+       <record id="1573605984vn2pp7ljfb" name="Ответ по копированию" author="" url="" tags="" ctime="20191113084624" dir="157360598483jyra3qe4" file="text.html" block="1"/>
+       <record id="1617694924k8ki3gu9jj" name="Моя шпаргалка по работе в Vim" author="" url="" tags="" ctime="20210406154204" dir="1617694924r8y9iq8ok9" file="text.html" block="1"/>
       </recordtable>
      </node>
      <node crypt="" id="1589700541fyblh8nghc" name="docker">
@@ -268,6 +325,11 @@
       <recordtable>
        <record id="1589852603svokgz0vki" name="Инструкция по установке" author="" url="https://cryptoarm.ru/kak-nastroit-utility-po-rabote-s-elektronnoy-podpisyu-v-linux" tags="" ctime="20200519094323" dir="1589852603v4ekma309u" file="text.html"/>
        <record id="1589854872f3igv55uzj" name="Опыт" author="" url="" tags="" ctime="20200519102112" dir="15898548723gkr006hbq" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1606699709jkd97xwrst" name="LVM">
+      <recordtable>
+       <record id="1606699736u8v2ma03vh" name="Linux: LVM — уменьшить home, увеличить root" author="" url="" tags="" ctime="20201130092856" dir="1606699736vgr85el15u" file="text.html" block="1"/>
       </recordtable>
      </node>
     </node>
@@ -289,6 +351,7 @@
       <record id="15765546071226lndb0u" name="EDS" author="" url="" tags="" ctime="20200121113305" dir="1576554607g55bjjnc7v" file="text.html" block="1"/>
       <record id="1583804112na8scixna0" name="Пролонгация за период" author="" url="" tags="" ctime="20200310093512" dir="1583804112akv2s9izql" file="text.html"/>
       <record id="15948775608byo3qtp44" name="Удаление сущностей" author="" url="" tags="" ctime="20200716133240" dir="1594877560uhy3lbl7qs" file="text.html"/>
+      <record id="1618730696gjspbm42bm" name="Обновление начислений" author="" url="" tags="" ctime="20210418152456" dir="16187306963922fkmk0q" file="text.html" block="1"/>
      </recordtable>
      <node crypt="" id="15762266594gatoi2h58" name="Работа над задачами">
       <recordtable>
@@ -305,12 +368,14 @@
        <record id="1591143506csdmtsh56d" name="Выполненные задачи за день" author="" url="" tags="" ctime="20200603081826" dir="15911435063ildvvw32q" file="text.html"/>
        <record id="15723278382lwkt5x8l0" name="CategoryABC" author="" url="" tags="" ctime="20201007110827" dir="15723278387ixshx3xu3" file="text.html"/>
        <record id="1602099236cst001xeyi" name="Печать начисления замер производительности" author="" url="" tags="" ctime="20201008033356" dir="1602099236o7uqdjt7gv" file="text.html"/>
+       <record id="1606782291nxdojc4klz" name="Создание Bill" author="" url="" tags="" ctime="20201201082451" dir="1606782291wycdgroi9e" file="text.html"/>
+       <record id="1607531398mmul84mk2f" name="Объединение договоров" author="" url="" tags="" ctime="20201210002958" dir="16075313988tmzi295jf" file="text.html" block="1"/>
+       <record id="16013712470ai1vyz82w" name="Копия КЛ" author="" url="" tags="" ctime="20210211102115" dir="16013712476n6eqaqkab" file="text.html" block="1"/>
       </recordtable>
       <node crypt="" id="1580439349jdzxnn3tkg" name="Управление">
        <recordtable>
         <record id="15804393713tpmtddspw" name="Скрипт переноса арендаторов" author="" url="" tags="" ctime="20200131105611" dir="1580439371261h3556yp" file="text.html" block="1"/>
         <record id="1580715432fyu9a0ydro" name="Скрипт переноса арендаторов(Простой)" author="" url="" tags="" ctime="20200203153712" dir="1580715432zoe2yqe6p2" file="text.html" block="1"/>
-        <record id="16013712470ai1vyz82w" name="Копия КЛ" author="" url="" tags="" ctime="20200929172047" dir="16013712476n6eqaqkab" file="text.html" block="1"/>
        </recordtable>
       </node>
       <node crypt="" id="1580451582439szovbyr" name="КорректировкаУПД">
@@ -324,8 +389,9 @@
         <record id="1595833837yqcvwy404k" name="Условия корректировки" author="" url="" tags="" ctime="20200727151037" dir="15958338374rc5ppdwy9" file="text.html"/>
         <record id="15967708786fx053362y" name="Замечания" author="" url="" tags="" ctime="20200807112758" dir="1596770878ft6unbxc17" file="text.html"/>
         <record id="15968018225z3287xenj" name="test" author="" url="" tags="" ctime="20200807200342" dir="1596801822i8db60o2tk" file="text.html"/>
-        <record id="1597028463674y0jeaok" name="Вызов метода" author="" url="" tags="" ctime="20200810110103" dir="15970284632gaqno4fs9" file="text.html"/>
+        <record id="1597028463674y0jeaok" name="Вызов метода" author="" url="" tags="" ctime="20200810110103" dir="15970284632gaqno4fs9" file="text.html" block="1"/>
         <record id="15970687618ckw669w4b" name="Показывает счета договоров" author="" url="" tags="" ctime="20200810221241" dir="159706876190qtx701wb" file="text.html"/>
+        <record id="16106290472u8bhhk0s2" name="Backup UPD 14-01-21" author="" url="" tags="" ctime="20210114205727" dir="1610629047k6r1zt66gy" file="text.html"/>
        </recordtable>
       </node>
       <node crypt="" id="1580864777xjw1q1dvqf" name="Отчеты">
@@ -378,6 +444,10 @@
         <record id="1592241716skvib2cz7h" name="Без истории в таблице 3" author="" url="" tags="" ctime="20200616012156" dir="1592241716htda5kdghv" file="text.html"/>
         <record id="1600161354p5igk9uzrl" name="Сырые данные" author="" url="" tags="" ctime="20200915171554" dir="16001613546m0esoe9sa" file="text.html"/>
         <record id="16004194328l5qn8cb23" name="Категоризация" author="" url="" tags="" ctime="20200918165712" dir="1600419432cw0j5dzd2f" file="text.html"/>
+        <record id="1603027484liaplff1dr" name="update" author="" url="" tags="" ctime="20201018212444" dir="16030274841eexghjb2g" file="text.html"/>
+        <record id="1603042862c5l138phpz" name="Скрипт по ключевым словам" author="" url="" tags="" ctime="20201019014102" dir="160304286240xu6i9l0m" file="text.html" block="1"/>
+        <record id="1616752071gat4co4exy" name="Замечания" author="" url="" tags="" ctime="20210326174751" dir="1616752071tyif9uacpe" file="text.html"/>
+        <record id="1617844472a8z71zih4x" name="Установка категорий из файла" author="" url="" tags="" ctime="20210408091432" dir="1617844472tqm5zib2nq" file="text.html"/>
        </recordtable>
       </node>
       <node crypt="" id="158201449392lgsjnyni" name="Договор бюджетников">
@@ -396,6 +466,8 @@
         <record id="15863503512qrlniq8xc" name="Скрипт пролонгации" author="" url="" tags="" ctime="20200408205231" dir="1586350351thtda9q6mz" file="text.html" block="1"/>
         <record id="1594010117l8uuzouaq4" name="Исправление" author="" url="" tags="" ctime="20200706123517" dir="1594010117b8wczct2z3" file="text.html"/>
         <record id="1594014428m5qew3v20k" name="Скрипт исправления" author="" url="" tags="" ctime="20200706134708" dir="1594014428pds07so2ie" file="text.html" block="1"/>
+        <record id="1605591119qjmhysg4kv" name="Быстро накидал" author="" url="" tags="" ctime="20201117133159" dir="16055911199hgxiuexzo" file="text.html"/>
+        <record id="1606503117vkeuuyj3kh" name="2" author="" url="" tags="" ctime="20201128025157" dir="1606503117vi098y2xut" file="text.html"/>
        </recordtable>
       </node>
       <node crypt="" id="1588003472p03wcpgph9" name="Создание договоров">
@@ -422,6 +494,15 @@
         <record id="1602739130qjyu592c1f" name="AllContragentCreateContract_15-10-20" author="" url="" tags="" ctime="20201015131850" dir="1602739130h2yt7tezdx" file="text.html"/>
         <record id="1602746509p60tvp60pb" name="по всем" author="" url="" tags="" ctime="20201015152149" dir="1602746509mhlkb6auir" file="text.html"/>
         <record id="1602817911lgl3eqp7e3" name="Отрефакторил по всем" author="" url="" tags="" ctime="20201016111151" dir="1602817911a5z5ul0rrz" file="text.html" block="1"/>
+        <record id="1602834323gwy9odx6x8" name="1" author="" url="" tags="" ctime="20201016154523" dir="16028343236vyvzux45n" file="text.html" block="1"/>
+        <record id="1603233477c6tr997jq0" name="20-10" author="" url="" tags="" ctime="20201021063757" dir="1603233477s3hl9zjl7b" file="text.html" block="1"/>
+        <record id="16032597028oe8nhw9h5" name="set share" author="" url="" tags="" ctime="20201021135502" dir="16032597022ogqkxvrsk" file="text.html" block="1"/>
+        <record id="1606074539c528eq1hj7" name="last" author="" url="" tags="" ctime="20201123034859" dir="160607453960vl0w662v" file="text.html" block="1"/>
+        <record id="1610358417fhklhmhocn" name="Создание договоров по объектам" author="" url="" tags="" ctime="20210111174657" dir="1610358417c8o0njccjh" file="text.html" block="1"/>
+        <record id="1610381227woo78i4l6i" name="Создание договоров по объектам(многопоточность)" author="" url="" tags="" ctime="20210112000707" dir="16103812275j1eg1lng1" file="text.html" block="1"/>
+        <record id="16124843001mds9chxnc" name="Создание 04-02-21" author="" url="" tags="" ctime="20210205081820" dir="1612484300xyaab5h8b3" file="text.html" block="1"/>
+        <record id="1613535307z62gtxpcig" name="Создание_bckp 17-02-21" author="" url="" tags="" ctime="20210217121507" dir="1613535307vs0ftqj8j0" file="text.html" block="1"/>
+        <record id="1617345238rju25m7g7o" name="new" author="" url="" tags="" ctime="20210402143358" dir="1617345238y3setpera8" file="text.html" block="1"/>
        </recordtable>
       </node>
       <node crypt="" id="1593415116ia7rmgmtbv" name="Арендаторы">
@@ -474,6 +555,44 @@
       <node crypt="" id="1600680326ww8v0v7l63" name="Создание ЛС">
        <recordtable>
         <record id="1600680332gjagjziss1" name="Скрипт" author="" url="" tags="" ctime="20200921172532" dir="1600680332oewxqd8xye" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1604912640p7lx3swy4n" name="Удаление дублей">
+       <recordtable>
+        <record id="160491265624331dy1yx" name="Start" author="" url="" tags="" ctime="20201109170416" dir="1604912656gpp1n9tzny" file="text.html"/>
+        <record id="1605123886s2ac6fs8qv" name="Дубли" author="" url="" tags="" ctime="20201112034522" dir="1605123886hvafc6sxda" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1608821798u668nrouzx" name="Объединение контрагентов">
+       <recordtable>
+        <record id="1608821808q4tdrurwpv" name="1" author="" url="" tags="" ctime="20201224225648" dir="1608821808jg855cwt6b" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1611886802n4lju0gox6" name="Загрузка долей">
+       <recordtable>
+        <record id="161188684502d65sgmpm" name="Пример" author="" url="" tags="" ctime="20210129102045" dir="1611886845ay3vxxwel9" file="text.html" block="1"/>
+        <record id="1612255553xacv3ulc4o" name="Тесты" author="" url="" tags="" ctime="20210202164553" dir="1612255553wb8h41l3op" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1611890670xr3gmgeyaf" name="Уведомления">
+       <recordtable>
+        <record id="1611890718v0btm8dv1i" name="Попробовать" author="" url="" tags="" ctime="20210129112518" dir="16118907186pr96eq0c0" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1613110178qzai37l1cm" name="Отчет по МО">
+       <recordtable>
+        <record id="1613110187og22be80ma" name="Скрипт" author="" url="" tags="" ctime="20210212140947" dir="161311018782mi0p5lqy" file="text.html" block="1"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1613707526u68o3a1dom" name="Првиедение в соответствие с выгрузкой">
+       <recordtable>
+        <record id="1613707664io7jedmjax" name="Чек" author="" url="" tags="" ctime="20210219120744" dir="1613707664ha3pyngg04" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="16154322412igr9hn859" name="Удалить дубли объектов недвижимости">
+       <recordtable>
+        <record id="1615432261rzp4t9vnvk" name="С переносоу у НО контрагента" author="" url="" tags="" ctime="20210311111101" dir="1615432261c7e9fnq2vb" file="text.html" block="1"/>
+        <record id="1615798839mu5khdj8oj" name="Скрипт удаления" author="" url="" tags="" ctime="20210315170039" dir="1615798839ydi7m3z1a0" file="text.html" block="1"/>
        </recordtable>
       </node>
      </node>
@@ -532,10 +651,12 @@
        <record id="1597651788m8zsnvypkb" name="информация по контрагентам с договорами на этапе проверки" author="" url="" tags="" ctime="20200817160948" dir="15976517881nfxn7ek65" file="text.html"/>
        <record id="1598322937haw5otrjcr" name="CRE+CY" author="" url="" tags="" ctime="20200825103537" dir="1598322937f80rsbo7rr" file="text.html"/>
        <record id="1600334499nh91ktkhou" name="По сберу. Превышено кольичество строк для экспорта" author="" url="" tags="" ctime="20200917172139" dir="16003344999b4uncgiaw" file="text.html"/>
-       <record id="16008277217ocinunwqx" name="Юле" author="" url="" tags="" ctime="20200923102201" dir="1600827721akhdnkzvte" file="text.html"/>
+       <record id="16008277217ocinunwqx" name="Юле" author="" url="" tags="" ctime="20200923102201" dir="1600827721akhdnkzvte" file="text.html" block="1"/>
        <record id="1600931956u7732y3v12" name="тарифная" author="" url="" tags="" ctime="20200924151916" dir="1600931956zrhiihlbq0" file="text.html"/>
        <record id="16009338104a166mmjsd" name="тарифная скрипт" author="" url="" tags="" ctime="20200924155010" dir="1600933810brfgqrqtby" file="text.html" block=""/>
        <record id="1601864621ad5vomuh8u" name="ФилиалыPSQL" author="" url="" tags="" ctime="20201005102341" dir="1601864621ws650bk4my" file="text.html"/>
+       <record id="1605167913xkb8og59g3" name="По объктам" author="" url="" tags="" ctime="20201112155833" dir="16051679133m87m3ywmw" file="text.html" block="1"/>
+       <record id="16068415297tf0dh7a7w" name="Задолжности, по билам" author="" url="" tags="" ctime="20201202005209" dir="1606841529o3ddyqjysp" file="text.html"/>
       </recordtable>
       <node crypt="" id="1594009357f8i3ygx5lq" name="УПД">
        <recordtable>
@@ -570,6 +691,10 @@
         <record id="1594353998w1w8845x1j" name="УПД свернутый" author="" url="" tags="" ctime="20200710120638" dir="1594353998lbg303ejig" file="text.html"/>
         <record id="1595049844d5w7patj6r" name="УПД, немного рефакторинга" author="" url="" tags="" ctime="20200718132404" dir="15950498441mh9l9anr7" file="text.html"/>
         <record id="1595305253kb2mr9xouu" name="Специально для 2020 года" author="" url="" tags="" ctime="20200721122053" dir="15953052535elcaliybt" file="text.html"/>
+        <record id="16034615621pu1qk3nrd" name="23-10-20" author="" url="" tags="" ctime="20201023215922" dir="1603461562zl55fhapa8" file="text.html" block="1"/>
+        <record id="160354657316lb3e4ydh" name="24-10-2020" author="" url="" tags="" ctime="20201024213613" dir="1603546573kzfbfousn4" file="text.html" block="1"/>
+        <record id="1603645061co6m0tbv9h" name="1" author="" url="" tags="" ctime="20201026005741" dir="1603645061jonxlp1icc" file="text.html" block="1"/>
+        <record id="1610963336x7h356rrgh" name="Для проверки" author="" url="" tags="" ctime="20210118174856" dir="1610963336xfbkv3nfdo" file="text.html" block="1"/>
        </recordtable>
        <node crypt="" id="1594009357gk41xv3pqv" name="Исключенные">
         <recordtable>
@@ -595,6 +720,16 @@
        </node>
        <node crypt="" id="1595320805o9lplbqjq1" name="выгрузки"/>
       </node>
+      <node crypt="" id="1613640691ruwnyloez8" name="Для судебки">
+       <recordtable>
+        <record id="1613640701ldu5h1q4k0" name="Чек" author="" url="" tags="" ctime="20210218173141" dir="1613640701z55v8jwwyv" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="161378692138w6wjnzaw" name="Выгрузка должников за 19">
+       <recordtable>
+        <record id="1613787018e5m9ugngj2" name="Чек" author="" url="" tags="" ctime="20210220101018" dir="1613787018nt8zzkj2jt" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
      <node crypt="" id="1594009427nlkirpv4rt" name="БЛИЖАЙШИЕ ЗАДАЧИ">
       <recordtable>
@@ -614,6 +749,7 @@
      <node crypt="" id="1599637214yf4sfr6m3u" name="Постановка задач">
       <recordtable>
        <record id="1599637256cf9sd6e13p" name="09-09-20" author="" url="" tags="" ctime="20200909154056" dir="1599637256jngnvvuhiy" file="text.html"/>
+       <record id="16112994472w4coefypy" name="Валидация и распределение объектов при добавлении" author="" url="" tags="" ctime="20210122151047" dir="1611299447wcrhpqztmh" file="text.html"/>
       </recordtable>
      </node>
      <node crypt="" id="1600745357pvu32x50li" name="Аттестации">
@@ -625,6 +761,23 @@
       <recordtable>
        <record id="1602099329dlyeasww0t" name="script_getContragentBills" author="" url="" tags="" ctime="20201008033529" dir="16020993298rdt64njp4" file="text.html"/>
       </recordtable>
+     </node>
+     <node crypt="" id="1606899465ybx8305aqk" name="Accruals">
+      <recordtable>
+       <record id="1606899488h3x5slhscq" name="Создание начислений" author="" url="" tags="" ctime="20201202165808" dir="1606899488rnw4v04hqu" file="text.html"/>
+       <record id="1606899506lyj83b0yu2" name="Создание биллов" author="" url="" tags="" ctime="20201202165826" dir="1606899506sctpx1rf9j" file="text.html"/>
+       <record id="16068995367kbi1dl0u6" name="Создание допа по среднему" author="" url="" tags="" ctime="20201202165856" dir="1606899536915sp9kpne" file="text.html"/>
+       <record id="1606965447ixoib60p77" name="Перерасчет с указанием дат" author="" url="" tags="" ctime="20201203111727" dir="1606965447nsqyqrrc7m" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="16136132605a7igd59m2" name="ЧЕК-ЛИСТЫ">
+      <node crypt="" id="1613613810i517hr5bte" name="На исключение">
+       <recordtable>
+        <record id="1613613276dax9xjlphr" name="Исключенные объекты" author="" url="" tags="" ctime="20210218100338" dir="1613613276fr5m9lgua2" file="text.html"/>
+        <record id="1613613472iqurlxzgmk" name="Ошибочные" author="" url="" tags="" ctime="20210218100342" dir="1613613472iywx2h9rgl" file="text.html"/>
+        <record id="1613613412hhlujjlxvt" name="Общие" author="" url="" tags="" ctime="20210218100344" dir="1613613412y4e7h4vj3e" file="text.html"/>
+       </recordtable>
+      </node>
      </node>
     </node>
     <node crypt="" id="1568942494n24v8vmdtx" name="CUBA">
@@ -684,12 +837,13 @@
        <record id="1574218945ks3bp73xp5" name="Запрос выбирает контрагентов у которых принято хоть одно доп соглашение" author="" url="" tags="" ctime="20191120110225" dir="1574218945po667my76g" file="text.html" block="1"/>
        <record id="1594699187dsn43u5txe" name="Выводит контрагентов с удаленным основным договором" author="" url="" tags="" ctime="20200714115947" dir="1594699187olm0u0yik1" file="text.html"/>
        <record id="1597722259039jrprkn9" name="Исправление начислений" author="" url="" tags="" ctime="20200818114419" dir="15977222599g1pguotmu" file="text.html"/>
+       <record id="16126122913l6oly89ue" name="Сравнение" author="" url="" tags="" ctime="20210206195131" dir="16126122918s2i3zhqpx" file="text.html" block="1"/>
       </recordtable>
      </node>
      <node crypt="1" icon="" id="1570169855n29tj8p4ci" name="UkM1U0lNUAPitU5LVBCJ33LUKzne9H7xBYuUHtiIhHASVyiou7molT/PbRZ++hRD">
       <recordtable>
        <record id="1568179418xjw42jupr9" name="UkM1U0lNUAMrMypSD9pcofQfoyPDpfti5E0ax4WEtLEQ6D5Ff5+/rta50QfE1TQWzxSfzQwOF5I=" author="" url="" tags="" ctime="20191004141744" dir="1568179418z5gbtd572w" file="text.html" crypt="1"/>
-       <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block="1"/>
+       <record id="1568179476eus44c282s" name="UkM1U0lNUANRhxHlg5ils0CYCQSon8LwiAYIJcsahGe7hrestljHCzY7SdAqVHx2uq5YFptyZ/E=" author="" url="" tags="" ctime="20191004141747" dir="15681794767i3dmz5agz" file="text.html" crypt="1" block=""/>
        <record id="1571270955pad8jeo8hx" name="UkM1U0lNUANK4vScHBBno1h36jPmO1Wa4Q4p8tpMS4NPrlpimY1DKBmx4r1C0t0uu3NGVhuLjfP4Rss6CecOcKS4JS2Pv5A7CPAKoCXLPeE=" author="" url="" tags="" ctime="20191017080915" dir="15712709559p3d53t7w0" file="text.html" crypt="1"/>
        <record id="1579599744hmehtjvja2" name="UkM1U0lNUAPVmqSVBgETa1Yaj43kQuDxfzmRYxVTJPI6C4nCK2GKZPR4aHrGDdom" author="" url="" tags="" ctime="20200121174224" dir="1579599744v60ka18xno" file="text.html" crypt="1" block="1"/>
        <record id="1579828602mlm6iwkg89" name="UkM1U0lNUANGzp9n7RTU0gWaeo31iGzVN53js4lAQLR6jXuHW8TdAiB42mcmX6vBe2sk4Jbv6TI=" author="" url="" tags="" ctime="20200124091642" dir="15798286025qmys84vlk" file="text.html" crypt="1" block="1"/>
@@ -759,6 +913,12 @@
      <record id="15914194756c8ozlg204" name="Программирование" author="" url="" tags="" ctime="20200606125755" dir="1591419475gonuct52b3" file="text.html"/>
     </recordtable>
     <node crypt="" id="1591506966ofdy6wqc3o" name="Примеры на память"/>
+    <node crypt="" id="161000631961pxmlb6h1" name="Тайм-менеджмент">
+     <recordtable>
+      <record id="16100063256c5cv5i5o3" name="Заметки" author="" url="" tags="" ctime="20210107155845" dir="1610006325jzy9d0a46r" file="text.html"/>
+      <record id="1610006989sichzpa3ws" name="Свои соображения" author="" url="" tags="" ctime="20210107160949" dir="1610006989fltw0roknl" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="1560944049pdn9ooxbna" name="INPUT">
